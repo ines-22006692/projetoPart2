@@ -1,0 +1,79 @@
+{% extends 'website/base.html' %}
+
+{% block main %}
+    <div class="body-text">
+
+    <section>
+    <h1>Comentários</h1>
+    <br>
+    <br>
+        <p><b>Ajude-nos a perceber o que melhorar!!</b></p>
+        <br>
+        <br>
+            <form>
+                <p>O site encontra-se explicíto relativamente ao assunto que é tratado?
+                    <input type="text" id="Sim" name="simOuNao" maxlength="3" size="18" placeholder="Sim ou Não"></p><br>
+
+                <label for="clareza">Como classifica o nosso website quanto à Clareza?</label>
+                    <input type="radio" id="Pessimo" name="gender" value="Pessimo">
+                <label for="Pessimo">Péssimo</label>
+                    <input type="radio" id="Medio" name="gender" value="Medio">
+                <label for="Medio">Médio</label>
+                    <input type="radio" id="Bom" name="gender" value="Bom">
+                <label for="Bom">Bom</label>
+                    <input type="radio" id="Muito Bom" name="gender" value="Muito Bom">
+                <label for="Muito Bom">Muito Bom</label><br><br>
+
+                <label for="profundidade">Como classifica o nosso website quanto à precisão?</label>
+                <input type="checkbox" id="Avaliar" name="Avaliar" value="Péssimo">
+                <label for="Pessimo">Péssimo</label>
+                <input type="checkbox" id="Avaliar" name="Avaliar" value="Médio">
+                <label for="Medio">Médio</label>
+                <input type="checkbox" id="Avaliar" name="Avaliar" value="Bom">
+                <label for="Bom">Bom</label>
+                <input type="checkbox" id="Avaliar" name="Avaliar" value="Muito Bom">
+                <label for="Muito Bom">Muito Bom</label><br><br>
+
+                <label for="quantity"> Avaliação na originalidade (sendo 1 o pior e 5 o melhor): </label>
+                <input type="number" id="quantity" name="quantity" min="1" max="5" step="1" >
+                <br><br>
+
+                <label for="quantity"> Avaliação no design (sendo 1 o pior e 5 o melhor): </label>
+                <input type="number" id="quantity" name="quantity" min="1" max="5" step="1" >
+                <br><br>
+                <label for="quantity"> Como classifica o nosso website quanto ao rigor (0 a 100)?  </label>
+                <input type="range" min="0" max="100" name="rigor" value="0" oninput="rigorWeb.value = parseInt(rigor.value)">
+                <output name= "rigorWeb" for="rigor">0</output> % <br><br>
+
+                <label>
+                    Como classifica o nosso website quanto à profundidade?
+                    <select name="cultura">
+                        <option value="opiniao1">Fraco</option>
+                        <option value="opiniao2">Suficiente</option>
+                        <option value="opiniao3">Bom</option>
+                        <option value="opiniao4">Excelente</option>
+                    </select>
+                </label>
+                <br><br>
+
+                <label for="quantity"> Como classifica o nosso website quanto à amplitude (0 a 100)?  </label>
+                    <input type="range" min="0" max="100" name="amplitude" value="0" oninput="amplitudeWeb.value = parseInt(amplitude.value)">
+                    <output name= "amplitudeWeb" for="amplitude">0</output> % <br><br>
+
+                <label for="quantity"> Qual a percentagem de facilidade de navegação nas várias páginas do web site?  </label>
+                    <input type="range" min="0" max="100" name="taxa" value="0" oninput="taxaN.value = parseInt(taxa.value)">
+                    <output name= "taxaN" for="taxa">0</output> % <br><br>
+
+                <p>Sugestões de Melhoria:</p>
+                  <textarea name="message" rows="5" cols="50"></textarea><br><br>
+                  <input type="hidden" id="lab3" name="lab3" value="100">
+
+                      <input type="submit" value="Enviar" style="height:25px; width:130px;" onclick="alert('Obrigado pela sua opinião')">
+                      <input type="reset" value="Reset">
+
+                </form>
+                <br>
+                <br>
+        </section>
+    </div>
+{% endblock %}

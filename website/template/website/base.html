@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="imagens/favicon.ico">
+    <meta name="keywords" content="Destinos">
+    <meta name="desciption" content="Descrição sobre uma cidade">
+    <link href="https://www.w3schools.com/icons/bootstrap_icons_glyphicons.asp" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'website/css/base.css' %}">
+
+    <title>Agência de Viagem</title>
+</head>
+<body>
+    <header class="jumbotron text-center">
+
+        <nav>
+            <a class="btn btn-info" href="{% url 'website:home' %}">Home</a>
+            <a class="btn btn-info" href="{% url 'website:quizz' %}">Quizz</a>
+            <a class="btn btn-info" href="{% url 'website:comentario' %}">Comentário</a>
+            <a class="btn btn-info" href="{% url 'website:contacto' %}">Contacto</a>
+        </nav>
+    </header>
+    <article>
+        <main class="col-sm-6">
+            {% block main %}
+            {%  endblock main %}
+        </main>
+        <aside class="col-sm-6">
+           <div class="contato">
+              <h4>Contacto</h4>
+              <br>
+           <p style="font-size:18px"> F: <a  href="tel:+351215123456">+351 215 123 456</a>
+           </p>
+            <br>
+            <p style="font-size:18px">
+              T: <a  href="tel:+351963852741">+351 963 852 741</a>
+              </p>
+              <br>
+              <p>
+                &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                <a class="email" href="mailto:viagemSemReturno@gmail.com">viagemSemReturno@gmail.com</a></p>
+              <br>
+            <a class="url" href="index.html">www.agenciaIdaSemVolta.pt</a>
+            </div>
+
+
+            <div class="inpe">
+
+              <h4>Sobre nós</h4>
+              <br>
+              <section class="letraAside">
+              <a class="blank" style="float:left"  href="informacaoRussia.html">Moscovo</a>
+
+              <a class="blank"   href="informcaoNoruega.html">Lofoten</a>
+              &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+              <a class="blank" href="informacaoCanada.html">Vancouver</a>
+              <br>
+
+              <a class="blank" href="comentario.html">Comenário</a>
+              &nbsp; &nbsp;&nbsp; &nbsp;
+              <a class="blank" href="estiloPagina.html">Estilo Página</a>
+              &nbsp; &nbsp;&nbsp; &nbsp;
+              <a class="blank" href="index.html">Página Principal</a>
+            </section>
+              <br>
+
+
+
+
+
+            </div>
+
+            <div class="menu">
+              <hr>
+              <br><br>
+              <div class="label">Siga-nos</div>
+              <div class="spacer"></div>
+              <div class="item"><span>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instagram</span></div>
+              <div class="item"><span>Instagram</span></div>
+              <div class="item"><span>Facebook</span></div>
+            </div>
+
+
+
+
+
+
+
+        </aside>
+    </article>
+    <br>
+    <footer>
+        <form method="post" action="mailto:anonimo@alunos.ulht.pt" enctype="text/plain">
+
+        <p>
+           <i class="material-icons" style="font-size:34px;color:rgb(141, 217, 236)">email</i>
+                &nbsp;&nbsp;&nbsp;Deseja receber as nossas ultimas ofertas
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Nome: <input type="text" name = "nome" placeholder="nome" autofocus required >
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Insira o seu e-mail" required >
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            */ {% load static %}
+            <input type="image" src="{% static 'website/images/pw1.jpg' %} alt="Submit" width="48" height="50">*/
+        </form>
+    </footer>
+</body>
+</html>
