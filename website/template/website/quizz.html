@@ -2,69 +2,14 @@
 
 {% block main %}
 <h1>Quizz</h1>
-    <section>
-    <form action="mailto:j.lima2001@hotmail.com" method="post">
-                <fieldset>
-                <legend><b>Identificação:</b></legend>
-                <p>Nome: <br> <input type="text" id="nome" name="nome" size="20" maxlength="20" placeholder="insira nome" autofocus required></p>
-                <p>Apelido: <br> <input type="text" id="apelido" name="apelido" size="20" maxlength="20" placeholder="insira apelido" required></p>
-                <p>Email: <br> <input type="email" id="email" name="email" autocomplete="on" placeholder="insira email" required></p>
-                <input type="submit" value="Submit">
-                <input type="reset" value="Reset">
-                </fieldset>
-                <br>
-                <br>
 
-                <fieldset>
-                    <legend><b>Perguntas sobre o nosso website:</b></legend>
+    <form method="POST" action="">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input class = "btn btn-primary" type="submit" value="Enviar Quizz">
+    </form>
 
-                    <label for="checkbox"><b>1.</b>Em que continente é localizado Moscovo?</label><br>
-                        <input type="checkbox" id="cont1" name="cont1" value="America">
-                        <label for="cont1">America</label><br>
-                        <input type="checkbox" id="cont2" name="cont2" value="Europa">
-                        <label for="cont2">Europa</label><br>
-                        <input type="checkbox" id="cont3" name="cont3" value="Asia">
-                        <label for="cont3">Asia</label><br>
-                        <input type="checkbox" id="cont4" name="cont4" value="Oceania">
-                        <label for="cont4">Europa</label>
-                        <input type="checkbox" id="cont5" name="cont5" value="Antártica">
-                        <label for="cont5">Europa</label><br><br>
 
-                    <label for="checkbox"><b>2.</b>Em que continente é localizado Lofeton?</label><br>
-                        <input type="checkbox" id="cont1" name="cont1" value="America">
-                        <label for="cont1">America</label><br>
-                        <input type="checkbox" id="cont2" name="cont2" value="Europa">
-                        <label for="cont2">Europa</label><br>
-                        <input type="checkbox" id="cont3" name="cont3" value="Asia">
-                        <label for="cont3">Asia</label><br>
-                        <input type="checkbox" id="cont4" name="cont4" value="Oceania">
-                        <label for="cont4">Europa</label>
-                        <input type="checkbox" id="cont5" name="cont5" value="Antártica">
-                        <label for="cont5">Europa</label><br><br>
-
-                    <label for="checkbox"><b>3.</b>Em que continente é localizado Vancover?</label><br>
-                        <input type="checkbox" id="cont1" name="cont1" value="America">
-                        <label for="cont1">America</label><br>
-                        <input type="checkbox" id="cont2" name="cont2" value="Europa">
-                        <label for="cont2">Europa</label><br>
-                        <input type="checkbox" id="cont3" name="cont3" value="Asia">
-                        <label for="cont3">Asia</label><br>
-                        <input type="checkbox" id="cont4" name="cont4" value="Oceania">
-                        <label for="cont4">Europa</label>
-                        <input type="checkbox" id="cont5" name="cont5" value="Antártica">
-                        <label for="cont5">Europa</label><br><br>
-
-                    <label for="favcolor"><b>3.</b>Qual a cor predominante da bandeira de Tóquio?</label>
-                    <input type="color" id="favcolor" name="favecolor" value="#ff0000"><br><br>
-
-                    <label for="quantity"> <b>4.</b>Quantas linguas se fala em Vancover?</label>
-                    <input type="number" id="quantity" name="quantity" min="1" max="5" step="1" >
-                <br><br>
-
-                    <label for="text"><b>5.</b>Como se chama o monumento em baixo?</label><br><br>
-                    <label for="fname">Nome:</label>
-                    <input type="text" id="fname" name="fname" maxlength="100" autofocus><br><br>
-                    <input type="image" src="images/senso-ji.jpg" height="155"><br><br>
 
                     <label for="areas"><b>6.</b>Qual é o número de habitantes estimados em Moscovo?</label><br><br>
                     <select id="areas" name="areas">
