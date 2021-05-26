@@ -5,8 +5,8 @@ from django.urls import path
 app_name = "website"
 
 urlpatterns = [
-    path('', views.home_page_view, name=''),
-    path('home', views.home_page_view, name='home'),# para quando abrir a app o default seja esta
+    path('', views.home_page_view, name=''),# para quando abrir a app o default seja esta
+    path('home', views.home_page_view, name='home'),
     path('quizz', views.quizz_page_view, name='quizz'),
     path('quizzResult/<int:id>', views.quizzResultado_page_view, name='quizzResult'),
     path('comentarios', views.comentario_page_view, name='comentarios'),
