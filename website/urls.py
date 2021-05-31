@@ -5,15 +5,10 @@ from django.urls import path
 app_name = "website"
 
 urlpatterns = [
-    path('', views.home_page_view, name=''),# para quando abrir a app o default seja esta
+    path('', views.home_page_view, name=''),  # para quando abrir a app o default seja esta
     path('home', views.home_page_view, name='home'),
     path('quizz', views.quizz_page_view, name='quizz'),
-    path('quizzResult/<int:id>', views.quizzResultado_page_view, name='quizzResult'),
     path('comentarios', views.comentario_page_view, name='comentarios'),
-    path('contacto', views.contacto_page_view, name='contacto'),
-    path('ListaContactos', views.contactoLista_page_view, name='contactoLista'),
-    path('editar/<int:contacto_id>', views.contactoEditar_page_view, name='contactoEdita'),
-    path('apagar/<int:contacto_id>', views.contactoApaga_page_view, name='contactoApaga'),
     path('atividadeLofoten', views.atividade_lofoten_view, name='atividadeLofoten'),
     path('atividadeMoscovo', views.atividade_moscovo_view, name='atividadeMoscovo'),
     path('atividadeVancover', views.atividade_vancover_view, name='atividadeVancover'),
@@ -30,11 +25,5 @@ urlpatterns = [
     path('marcarViagemLofoten', views.marcar_lofoten_view, name='marcarViagemLofoten'),
     path('marcarViagemVancover', views.marcar_vancover_view, name='marcarViagemVancover'),
     path('marcarViagemMoscovo', views.marcar_moscovo_view, name='marcarViagemMoscovo'),
-
-
-
-
-
-
 
 ]
