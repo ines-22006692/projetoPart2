@@ -1,0 +1,206 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+    font-family: 'New Tegomin', serif;
+}
+
+
+
+/*CSS GRID NAMES*/
+header {grid-area: header;}
+nav {grid-area: menu;}
+main {grid-area: main;}
+aside {grid-area: aside;}
+footer {grid-area: footer;}
+
+
+/*PC*/
+@media (min-width: 501px) {
+      body {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-template-rows: 150px 5fr 100px;
+        grid-template-columns: 10fr 10fr 1fr;
+        grid-template-areas:
+        "header main main"
+        "header main main"
+        "footer footer footer"
+        "aside aside aside";
+      }
+      header {
+        grid-area: header;
+        display: flex;
+        align-items: stretch;
+        background-color: #da532c;
+        padding-top: 15%;
+        width: 0%;
+        text-align: center;
+      }
+      main{
+        grid-area: main;
+        grid-column: 1/4;
+        text-align: center;
+        background-color: rgb(180, 204, 248);
+        padding-top: 5%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      nav {
+        grid-area: nav;
+        background-color: #da532c;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      figure {
+        width: 100%;
+        height: 100%;
+        position: relative;
+      }
+      .layout {
+        display: inline-block;
+        flex-direction: row-reverse;
+        justify-content: center;
+      }
+      aside {
+        grid-area: aside;
+        padding-top: 20px;
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: #5292bd;
+        width: 100%;
+        text-align: left;
+        height: 250px;
+      }
+      footer{
+        background-color: #3a6581;
+        color: white;
+        font-weight: bold;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        grid-area: footer;
+        display: flex;
+        justify-content: center;
+      }
+      footer p {
+        font-size: 16px;
+        padding-top: 30px;
+      }
+}
+
+/* Aside */
+.contato {
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.8);
+    display: block;
+}
+.letraAside {
+    font-size: small;
+    display:table-row-group;
+}
+.inpe {
+
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.8);
+    display: block;
+    position: relative;
+    top: 10%;
+    right: -40%;
+    z-index: 1;
+    display:table-row-group;
+  }
+
+
+
+
+/*PHONE */
+
+/*
+Efeito
+
+.rotate:hover
+{
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg);
+}
+#figure {animation-timing-function: linear;
+}
+
+@keyframes mymove {
+from {left: -1000px;}
+to {left: 150px;}
+}
+
+ @keyframes example {
+    25% {
+      font-size: 20px;
+      justify-content: stretch;
+    }
+    100% {
+      font-size: 20px;
+      justify-content: stretch;
+    }
+  }
+
+*/
+
+/*
+Tabelas
+
+table {
+    color: rgb(255, 255, 255);
+
+  }
+
+  table thead {
+    background-image: linear-gradient(to right, rgb(255, 0, 0), brown);
+  }
+
+  table tbody {
+    background-image: linear-gradient(
+      to left,
+      rgb(7, 158, 196),
+      rgb(35, 91, 196)
+    );
+
+.tabelas{
+    font-size:90%;
+    width:40%;
+    border:0px;
+    line-height:120%;
+    margin: auto;
+  }
+
+
+*/
+
+/*
+Não sei o que faz
+
+.hamburger-icon {
+    position: absolute;
+    z-index: 1;
+    top: 5vh;
+    left: 5vw;
+    padding-bottom: 2vh;
+  }
+
+  .hamburger-icon span {
+    height: 5px;
+    width: 40px;
+    background-color: rgb(3, 2, 2);
+    display: block;
+    margin: 5px 0px 5px 0px;
+    transition: 0.7s ease-in-out;
+    transform: none;
+  }
+
+
+ */

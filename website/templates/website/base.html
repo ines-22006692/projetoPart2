@@ -14,27 +14,66 @@
 </head>
 <body>
     <header>
-        <h1>Agência Ida sem Volta &#128519;</h1>
-        <br>
-            <h2>Bem Vindo</h2>
-    </header>
-    <nav>
+         <nav>
         <!--O nav não fica aqui por causa da class Active-->
         {% block nav %}
         {% endblock nav %}
     </nav>
+    </header>
+
      <main class="mainDisplayFlex">
         {% block main %}
         {% endblock main %}
     </main>
     <aside>
-        <div style="display: flex; align-items: center; flex-direction: column;">
-            {% if request.user.username %}
-                <h3>Bem-vindo, {{ user.username }}</h3>
-                <a class="btn btn-warning" href="{% url 'website:logout' %}">Logout</a>
-            {% endif %}
-        </div>
-    <br>
+         <div class="contato">
+              <h4>Contacto</h4>
+              <br>
+           <p style="font-size:18px"> F: <a  href="tel:+351215123456">+351 215 123 456</a>
+           </p>
+            <br>
+            <p style="font-size:18px">
+              T: <a  href="tel:+351963852741">+351 963 852 741</a>
+              </p>
+              <br>
+              <p>
+                &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                <a class="email" href="mailto:viagemSemReturno@gmail.com">viagemSemReturno@gmail.com</a></p>
+              <br>
+            <a class="url" href="index.html">www.agenciaIdaSemVolta.pt</a>
+            </div>
+
+
+            <div class="inpe">
+
+              <h4>Sobre nós</h4>
+              <br>
+              <section class="letraAside">
+              <a class="blank" style="float:left"  href="{% url 'website:informacaoMoscover' %}">Moscovo</a>
+
+              <a class="blank"   href="{% url 'website:informacaoLofoten' %}">Lofoten</a>
+              &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+              <a class="blank" href="{% url 'website:informacaoVancover' %}">Vancouver</a>
+              <br>
+
+              <a class="blank" href="{% url 'website:comentario' %}">Comenário</a>
+              &nbsp; &nbsp;&nbsp; &nbsp;
+              <a class="blank" href="{% url 'website:estiloPagina' %}">Estilo Página</a>
+              &nbsp; &nbsp;&nbsp; &nbsp;
+              <a class="blank" href="{% url 'website:home' %}">Página Principal</a>
+            </section>
+              <br>
+            </div>
+
+            <div class="menu">
+              <hr>
+              <br><br>
+              <div class="label">Siga-nos</div>
+              <div class="spacer"></div>
+              <div class="item"><span>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instagram</span></div>
+              <div class="item"><span>Instagram</span></div>
+              <div class="item"><span>Facebook</span></div>
+            </div>
 
     </aside>
     <footer>
