@@ -1,7 +1,14 @@
 {% extends 'website/base.html' %}
 
 {% block main %}
-    <h3>Página 1</h3>
-    <p>Esta é a página número 1</p>
-    <p>Teste 1</p>
+
+    <h3>Contacto</h3>
+    <form method="POST" action="">
+        {% csrf_token %}
+        {{ form.as_p }}
+    <input class="btn btn-primary" type="submit" value="Submit">
+    </form>
+    <br>
+    <a class="btn btn-primary" href="{% url 'website:contactoLista' %}">View all contacts</a>
+
 {% endblock %}

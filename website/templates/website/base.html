@@ -1,10 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+     <meta name="viewport" content="width=device-width,0<initial-scale<1.0">
+    <meta name="keywords" content="Destinos">
+    <meta name="desciption" content="Site turístico sobre 3 cidades">
+    <link href="https://www.w3schools.com/icons/bootstrap_icons_glyphicons.asp" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta charset="UTF-8">
-    <title>Title</title>
+    {% load static %}
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'website/images/favicon.ico' %}"/>
+    <link rel="stylesheet" href="{% static 'website/css/base.css' %}">
+    <title>Agência de Viagem</title>
 </head>
 <body>
+    <header>
+        <h1>Agência Ida sem Volta &#128519;</h1>
+        <br>
+            <h2>Bem Vindo</h2>
+    </header>
+    <nav>
+        <!--O nav não fica aqui por causa da class Active-->
+        {% block nav %}
+        {% endblock nav %}
+    </nav>
+     <main class="mainDisplayFlex">
+        {% block main %}
+        {% endblock main %}
+    </main>
+    <aside>
+        <div style="display: flex; align-items: center; flex-direction: column;">
+            {% if request.user.username %}
+                <h3>Bem-vindo, {{ user.username }}</h3>
+                <a class="btn btn-warning" href="{% url 'website:logout' %}">Logout</a>
+            {% endif %}
+        </div>
+    <br>
 
+    </aside>
+    <footer>
+        <form method="post"
+            action="mailto:anonimo@alunos.ulht.pt" enctype="text/plain">
+
+                <p>
+                   <i class="material-icons" style="font-size:34px;color:rgb(141, 217, 236)">email</i>
+                        &nbsp;&nbsp;&nbsp;Deseja receber as nossas ultimas ofertas
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        Nome: <input type="text" name = "nome" placeholder="nome" autofocus required >
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Insira o seu e-mail" required >
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="image" src="{% static 'website/images/123.jpg'%}" alt="Submit" width="48" height="50">
+                </form>
+    </footer>
 </body>
 </html>

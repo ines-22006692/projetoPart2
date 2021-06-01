@@ -1,7 +1,14 @@
 {% extends 'website/base.html' %}
 
 {% block main %}
-    <h3>Página 1</h3>
-    <p>Esta é a página número 1</p>
-    <p>Teste 1</p>
+    <h3>Edit Contact:</h3>
+    <form method="POST" action="{% url 'website:contactoEdita' contacto_id %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+    <a href="{% url 'website:home' %}" class="btn btn-info">Cancel</a>
+    <input class="btn btn-success" type="submit" value="Save">
+    <a href="{% url 'website:contactoApaga' contacto_id %}" class="btn btn-danger">Clean</a>
+    </form>
+    <br>
+    <a class="btn btn-primary" href="{% url 'website:contactoLista' %}">View all contacts</a>
 {% endblock %}
