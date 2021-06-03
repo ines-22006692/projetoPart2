@@ -4,6 +4,21 @@
     <list default="true" id="e3eb14d9-047a-441f-83c3-6c706a1f16a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/static/website/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/atividadeLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/atividadeLofoten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/atividadeMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/atividadeMoscovo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/atividadeVancouver.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/atividadeVancouver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/comentario.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/comentario.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/contacto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/contactoEditar.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/contactoEditar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/estiloPagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/estiloPagina.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/ida_e_voltaLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/ida_e_voltaLofoten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/ida_e_voltaMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/ida_e_voltaMoscovo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/ida_e_voltaVancover.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/ida_e_voltaVancover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/imagensLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/imagensLofoten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/imagensMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/imagensMoscovo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/imagensVancover.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/imagensVancover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -82,7 +97,10 @@
       <workItem from="1622482944676" duration="1927000" />
       <workItem from="1622500252452" duration="62000" />
       <workItem from="1622531244210" duration="12640000" />
-      <workItem from="1622573912376" duration="6269000" />
+      <workItem from="1622573912376" duration="7050000" />
+      <workItem from="1622666129922" duration="2626000" />
+      <workItem from="1622733623675" duration="142000" />
+      <workItem from="1622734448997" duration="6543000" />
     </task>
     <task id="LOCAL-00001" summary="Já compila a parte 2">
       <created>1622500281826</created>
@@ -119,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622578562359</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="tentar fazer o siga-nos do aside">
+      <created>1622583676635</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622583676635</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +155,8 @@
     <MESSAGE value=" compila e corre no servidor" />
     <MESSAGE value="a tentar fazer a base" />
     <MESSAGE value="estrutura do website" />
-    <option name="LAST_COMMIT_MESSAGE" value="estrutura do website" />
+    <MESSAGE value="tentar fazer o siga-nos do aside" />
+    <option name="LAST_COMMIT_MESSAGE" value="tentar fazer o siga-nos do aside" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

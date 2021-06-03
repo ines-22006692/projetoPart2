@@ -14,77 +14,65 @@
 
     {% block nav %}
         <ul class="menu-links">
-                <li><a href="###">Home &dtrif;</a>
-                  <span id="DC-info">
+            <li><a href="###">Home &dtrif;</a>
+                <span id="DC-info">
                     <a href="{% url 'website:home' %}"><i class="material-icons" style="font-size:14px;color:red">home</i> Página principal </a>
-                   </span>
-                  </li>
+                </span>
+            </li>
+        </ul>
+        <p></p>
+        <ul class="menu-links">
+            <li><a href="###">Moscovo &dtrif;</a>
+                <span id="DC-info">
+                    <a href="{% url 'website:marcarViagemMoscovo' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> Marcação da viagem </a>
+                    <p></p>
+                    <a href="{% url 'website:imagensMosvovo' %}"><i class="material-icons" style="font-size:14px;color:rgb(175, 175, 175)">collections</i> Imagens da cidade </a>
+                    <p></p>
+                    <a href="{% url 'website:informacaoMoscover' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Mais informação sobre a cidade</a>
+                    <p></p>
+                    <a href="{% url 'website:atividadeMoscovo' %}"><i class="material-icons" style="font-size:14px;color:red">rowing</i> Actividades/Pontos Turisticos</a>
+                </span>
+            </li>
+        </ul>
+        <p></p>
+        <ul class="menu-links">
+            <li><a href="###">Vancouver &dtrif;</a>
+                <span id="DC-info">
+                    <a href="{% url 'website:marcarViagemVancover' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> Marcação da viagem </a>
+                    <p></p>
+                    <a href="{% url 'website:imagensVancover' %}"><i class="material-icons" style="font-size:14px;color:rgb(175, 175, 175)">collections</i> Imagens da cidade </a>
+                    <p></p>
+                    <a href="{% url 'website:informacaoVancover' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Mais informação sobre a cidade</a>
+                    <p></p>
+                    <a href="{% url 'website:atividadeVancover' %}"><i class="material-icons" style="font-size:14px;color:red">rowing</i> Actividades/Pontos Turisticos</a>
+                </span>
+            </li>
+        </ul>
+        <ul class="menu-links">
+            <li><a href="###">Lofoten &dtrif;</a>
+                <span id="DC-info">
+                    <a href="{% url 'website:marcarViagemLofoten' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> Marcação da viagem </a>
+                    <p></p>
+                    <a href="{% url 'website:imagensLofoten' %}"><i class="material-icons" style="font-size:14px;color:rgb(175, 175, 175)">collections</i> Imagens da cidade </a>
+                    <p></p>
+                    <a href="{% url 'website:informacaoLofoten' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Mais informação sobre a cidade</a>
+                    <p></p>
+                    <a href="{% url 'website:informacaoLofoten' %}"><i class="material-icons" style="font-size:14px;color:red">rowing</i> Actividades/Pontos Turisticos</a>
+                </span>
+            </li>
+        </ul>
+        <ul class="menu-links">
+            <li><a href="###">Sobre nós &dtrif;</a>
+                <span id="DC-info">
+                    <a href="{% url 'website:comentario' %}"><i class="material-icons" style="font-size:14px;color:red">question_answer</i> Comentários </a>
+                    <p></p>
+                    <a href="{% url 'website:estiloPagina' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Estilo do Website </a>
+                    <p></p>
+                    <a href="{% url 'website:quizz' %}"><i class="material-icons" style="font-size:14px;color:red">assessment</i> Quizz </a>
 
-               </ul>
-                <p></p>
-                <ul class="menu-links">
-
-                  <li><a href="###">Moscovo &dtrif;</a>
-                    <span id="DC-info">
-                      <a href="{% url 'website:marcarViagemMoscovo' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> Marcação da viagem </a>
-                      <p></p>
-                      <a href="{% url 'website:imagensMosvovo' %}"><i class="material-icons" style="font-size:14px;color:rgb(175, 175, 175)">collections</i> Imagens da cidade </a>
-                      <p></p>
-                      <a href="{% url 'website:informacaoMoscover' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Mais informação sobre a cidade</a>
-                      <p></p>
-                      <a href="{% url 'website:atividadeMoscovo' %}"><i class="material-icons" style="font-size:14px;color:red">rowing</i> Actividades/Pontos Turisticos</a>
-
-            </span>
-             </li>
-
-     </ul>
-
-     <p></p>
-                 <ul class="menu-links">
-
-                             <li><a href="###">Vancouver &dtrif;</a>
-                               <span id="DC-info">
-                                <a href="{% url 'website:marcarViagemVancover' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> Marcação da viagem </a>
-                                <p></p>
-                                <a href="{% url 'website:imagensVancover' %}"><i class="material-icons" style="font-size:14px;color:rgb(175, 175, 175)">collections</i> Imagens da cidade </a>
-                                <p></p>
-                                <a href="{% url 'website:informacaoVancover' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Mais informação sobre a cidade</a>
-                                <p></p>
-                                <a href="{% url 'website:atividadeVancover' %}"><i class="material-icons" style="font-size:14px;color:red">rowing</i> Actividades/Pontos Turisticos</a>
-
-
-
-                  </span></li>
-
-                </ul>
-
-                <ul class="menu-links">
-
-                  <li><a href="###">Lofoten &dtrif;</a>
-                    <span id="DC-info">
-                      <a href="{% url 'website:marcarViagemLofoten' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> Marcação da viagem </a>
-                      <p></p>
-                      <a href="{% url 'website:imagensLofoten' %}"><i class="material-icons" style="font-size:14px;color:rgb(175, 175, 175)">collections</i> Imagens da cidade </a>
-                      <p></p>
-                      <a href="{% url 'website:informacaoLofoten' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Mais informação sobre a cidade</a>
-                      <p></p>
-                      <a href="{% url 'website:informacaoLofoten' %}"><i class="material-icons" style="font-size:14px;color:red">rowing</i> Actividades/Pontos Turisticos</a>
-
-
-       </span></li>
-     </ul>
-
-     <ul class="menu-links">
-      <li><a href="###">Sobre nós &dtrif;</a>
-        <span id="DC-info">
-            <a href="{% url 'website:comentario' %}"><i class="material-icons" style="font-size:14px;color:red">question_answer</i> Comentários </a>
-            <p></p>
-            <a href="{% url 'website:estiloPagina' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Estilo do Website </a>
-          </span></li>
-  </ul>
-
-
-
+                </span>
+            </li>
+         </ul>
     {% endblock %}
 {% block main %}
 
@@ -93,4 +81,65 @@
 
     <h2>Bem Vindo</h2>
 
+            <audio controls>
+              <source src="musicas/lindo.mp3" type="audio/mpeg">
+            </audio>
+
+            <br><br>
+            <p>A agência dispõe de tres destinos maravilhosos para descobrir.</p>
+            <P>A nossa agência tem como privilegio de dar conhecimento a cidade de Mosvovo, Vancouvere Lofoten. Para cada cidade,
+               escolhemos os melhores hoteis e poderá economizar até 30% na reserva marcado através de nós.
+              </P>
+              <br>
+              <br>
+                <section style="float:left; "><img src="{% static 'website/images/moscovoCapa.jpg'%}" >
+                <figcaption>Cidade de Moscovo</figcaption>
+                </section>
+                <section style="float:right; "><img src="{% static 'website/images/lofotenCapa.jpg'%}">
+                <figcaption>Cidade de Lofoten</figcaption>
+                </section>
+
+                <br>
+
+              <section  style="float:left"><img src="{% static 'website/images/vancouverCapa.jpg'%}" alt>
+              <figcaption>Cidade de Vancouver</figcaption>
+              </section>
+
+              <section>
+              <br>
+              <br>
+              <svg width="500" height="300">
+                <image href="{% static 'website/images/wordcloud.png'%}" width="100%" height="100%">
+                </image>
+                <!--Default-->
+                <a href="style.html">
+                    <ellipse opacity="0.3" cx="250" cy="230" rx="75" ry="17"></ellipse>
+                  </a>
+
+              <a href="informcaoNoruega.html">
+                  <ellipse opacity="0.8" cx="250" cy="60" rx="115" ry="15"></ellipse>
+                  <animate attributeName="rx" values="0;45;0" dur="15s" repeatCount="indefinite"></animate>
+              </a>
+
+              <a href="informacaoCanada.html">
+                  <ellipse opacity="0.3" cx="300" cy="135" rx="60" ry="15"></ellipse>
+              </a>
+
+              <a href="informacaoRussia.html">
+                  <ellipse opacity="0.6" cx="250" cy="200" rx="60" ry="12"></ellipse>
+                  <animate attributeName="rx" values="0;45;0" dur="15s" repeatCount="indefinite" ></animate>
+              </a>
+  <!--
+              <a href="informacaoCanada.html">
+                  <ellipse opacity="0.3" cx="342" cy="150" rx="20" ry="55"/>
+                      <animate attributeName="rx" values="0;90;0" dur="10s" repeatCount="indefinite" />
+                  <ellipse/>
+              </a>
+
+              <a href="index.html">
+                  <polygon opacity="0.3" points="300,95 340,100 300,30 175,157"/>
+              </a>
+              -->
+              </svg>
+              </section>
 {% endblock %}

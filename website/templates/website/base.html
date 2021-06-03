@@ -11,6 +11,10 @@
     <link rel="shortcut icon" type="image/x-icon" href="{% static 'website/images/favicon.ico' %}"/>
     <link rel="stylesheet" href="{% static 'website/css/base.css' %}">
     <title>Agência de Viagem</title>
+    <style>
+        {% block style %}
+        {% endblock style %}
+    </style>
 </head>
 <body>
     <header>
@@ -21,7 +25,7 @@
     </nav>
     </header>
 
-     <main class="mainDisplayFlex">
+     <main>
         {% block main %}
         {% endblock main %}
     </main>
