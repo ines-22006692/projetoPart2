@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3eb14d9-047a-441f-83c3-6c706a1f16a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/atividadeLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/atividadeLofoten.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/atividadeMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/atividadeMoscovo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/atividadeVancouver.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/atividadeVancouver.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="e3eb14d9-047a-441f-83c3-6c706a1f16a4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +83,7 @@
       <workItem from="1622666129922" duration="2626000" />
       <workItem from="1622733623675" duration="142000" />
       <workItem from="1622734448997" duration="7505000" />
-      <workItem from="1622793067897" duration="5020000" />
+      <workItem from="1622793067897" duration="5795000" />
     </task>
     <task id="LOCAL-00001" summary="Já compila a parte 2">
       <created>1622500281826</created>
@@ -148,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622759044483</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="atividades feitas">
+      <created>1622798490125</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1622798490125</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +161,8 @@
     <MESSAGE value="estrutura do website" />
     <MESSAGE value="tentar fazer o siga-nos do aside" />
     <MESSAGE value="mudança na estrutura no base.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="mudança na estrutura no base.css" />
+    <MESSAGE value="atividades feitas" />
+    <option name="LAST_COMMIT_MESSAGE" value="atividades feitas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
