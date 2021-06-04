@@ -1,14 +1,9 @@
 {% extends 'website/base.html' %}
 {% load static %}
     {% block style %}
-        #para o telemóvel
-
-        @media (max-width: 600px) {
-            main > div {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-around;
-            }
+       html{
+            background-image: url({% static 'website/images/fundo1.jpg'%}) ;
+            height: 250%;
         }
     {% endblock %}
 

@@ -1,5 +1,28 @@
 {% extends 'website/base.html' %}
 {% load static %}
+
+{% block style %}
+   html{
+      background-image: url({% static 'website/images/fundo1.jpg'%});
+      height: 650%;
+    }
+      figure {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        animation: mymove 5s ;
+        animation-fill-mode: forwards;
+      }
+
+      #figure {animation-timing-function: linear;
+        }
+
+      @keyframes mymove {
+        from {left: -1000px;}
+        to {left: 150px;}
+      }
+{% endblock style %}
+
 {% block nav %}
         <ul class="menu-links">
             <li><a href="###">Home &dtrif;</a>
@@ -63,7 +86,77 @@
          </ul>
 {% endblock %}
 {% block main %}
-    <h3>Página 1</h3>
-    <p>Esta é a página número 1</p>
-    <p>Teste 1</p>
+    <section class="body-text">
+        <legend align="center" style="font-size:22px;color:rgb(0, 0, 0)">
+            <b>Quando for a Moscovo, ha inumeros lugares fantasticos para conhecer e como a gastronomia local </b></legend>
+        <figure>
+            <img src="{% static 'website/images/restauranreRussia1.jpg'%}" class="atividadeRussia1">
+            <figcaption class="textCanada1">
+                <details>
+                    <summary>
+                        <u><b>Cosmotic Museum</b></u>
+                    </summary>
+                    <p>Vai dar uma voltinha</p>
+                </details>
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="{% static 'website/images/restauranreRussia2.jpg'%}" class="atividadeRussia2">
+        </figure>
+        <figure>
+            <img src="{% static 'website/images/restauranreRussia3.jpg'%}" class="atividadeRussia3">
+        </figure>
+        <figure>
+            <img src="{% static 'website/images/restauranreRussia4.jpg'%}" class="atividadeRussia4">
+        </figure>
+        <figcaption class="texto_atividadeRussia">
+            <i class="material-icons" style="font-size:34px;color:rgb(16, 131, 16)">park</i>
+            &nbsp;&nbsp;
+            Actividades/Pontos Turisticos
+            &nbsp;&nbsp;
+            <i class="material-icons" style="font-size:34px;color:rgb(129, 73, 73)">museum</i>
+        </figcaption>
+        <figure>
+            <img src="{% static 'website/images/cosmonauticsRussia.jpg'%}" class="atividadeRussia5">
+        </figure>
+        <figure>
+            <img src="{% static 'website/images/treno(1).jpg'%}" class="atividadeRussia6">
+            </figure>
+        <figure>
+            <img src="{% static 'website/images/museu(1).jpg'%}" class="atividadeRussia7">
+        </figure>
+        <figure>
+            <img src="{% static 'website/images/tankes(1).jpg'%}" class="atividadeRussia8">
+        </figure>
+        <figure>
+            <img src="{% static 'website/images/Moscou1(1).jpg'%}" class="atividadeRussia9">
+        </figure>
+        <figure>
+            <img src="{% static 'website/images/metroRussiaAtividade.jpg'%}" class="atividadeRussia10">
+        </figure>
+        <figcaption class="texto_mapaCidadeCanada">
+              Mapa da Cidade de Moscovo
+        </figcaption>
+        <svg width="500" height="332">
+            <image href="{% static 'website/images/mapaRussia1.jpg'%}" width="100%" height="100%">
+            </image>
+            galeria
+            <a href="{% static 'website/images/galeriaMoscovo.jpg'%}" target="fotosLink">
+                <circle cx="315" cy="95" r="6" fill="blue"></circle></a>
+            cathedral
+            <a href="{% static 'website/images/CatedralMoscovo.jpg'%}" target="fotosLink">
+                <circle cx="310" cy="110" r="6" fill="yellow"></circle></a>
+            tanke
+            <a href="{% static 'website/images/excursaoMoscovo.jpg'%}" target="fotosLink">
+                <circle cx="285" cy="115" r="6" fill="green"></circle></a>
+            museu espacial russo
+            <a href="{% static 'website/images/cosmonauticsMuseuMoscovo.jpg'%}" target="fotosLink">
+              <circle cx="295" cy="95" r="6" fill="red"></circle></a>
+            </svg>
+            <br>
+            <br>
+            <iframe src="{% static 'website/images/fotoLink.jpg'%}" name="fotosLink" width="750px" height="440px" title="Fotos"></iframe>
+    </section>
+    <br>
+    <br>
 {% endblock %}
