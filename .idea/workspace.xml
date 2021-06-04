@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e3eb14d9-047a-441f-83c3-6c706a1f16a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/comentario.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/comentario.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/contacto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/contactoEditar.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/contactoEditar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/contactoLista.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/contactoLista.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/estiloPagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/estiloPagina.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/atividadeLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/atividadeLofoten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/atividadeMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/atividadeMoscovo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/atividadeVancouver.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/atividadeVancouver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/imagensLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/imagensLofoten.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +91,7 @@
       <workItem from="1622734448997" duration="7505000" />
       <workItem from="1622793067897" duration="7412000" />
       <workItem from="1622832876167" duration="538000" />
-      <workItem from="1622845617726" duration="1130000" />
+      <workItem from="1622845617726" duration="1957000" />
     </task>
     <task id="LOCAL-00001" summary="Já compila a parte 2">
       <created>1622500281826</created>
@@ -179,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622833242897</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="estiloPagina feito">
+      <created>1622846830417</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1622846830417</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +199,8 @@
     <MESSAGE value="mudança na estrutura no base.css" />
     <MESSAGE value="atividades feitas" />
     <MESSAGE value="acabar de fazer imagensLofoten" />
-    <option name="LAST_COMMIT_MESSAGE" value="acabar de fazer imagensLofoten" />
+    <MESSAGE value="estiloPagina feito" />
+    <option name="LAST_COMMIT_MESSAGE" value="estiloPagina feito" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
