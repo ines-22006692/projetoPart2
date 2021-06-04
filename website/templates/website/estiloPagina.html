@@ -1,5 +1,28 @@
 {% extends 'website/base.html' %}
 {% load static %}
+
+{% block style %}
+   html{
+      background-image: url({% static 'website/images/fundo1.jpg'%});
+      height: 500%;
+    }
+    .div3 {
+        padding: 60px 60px;
+    }
+    table tbody {
+      background-image: linear-gradient(
+        to left,
+        rgb(155, 174, 179),
+        rgb(33, 49, 80)
+      );
+    }
+   table th,
+   td {
+        border: 1px solid rgb(0, 0, 0);
+        padding: 10px 19px;
+    }
+{% endblock style %}
+
 {% block nav %}
         <ul class="menu-links">
             <li><a href="###">Home &dtrif;</a>
@@ -63,7 +86,156 @@
          </ul>
 {% endblock %}
 {% block main %}
-    <h3>Página 1</h3>
-    <p>Esta é a página número 1</p>
-    <p>Teste 1</p>
+    <div class="body-text">
+        <h1 style="color:rgb(0, 0, 0)">Estilo do Website </h1>
+        <br>
+        <table class="div3 " style="margin: auto;" >
+            <thead>
+            <tr>
+                <th colspan="40">Inventário</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td >Número de páginas</td>
+              <td>19</td>
+            </tr>
+            <tr>
+              <td >Número de imagens</td>
+              <td>74</td>
+            </tr>
+            <tr>
+              <td >Número de Links</td>
+              <td>Por acabar</td>
+            </tr>
+            <tr>
+              <td >Vídeos</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td >Animações</td>
+              <td>por contar</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <br>
+    <h1 style="color:rgb(0, 0, 0)">Técnicas usadas no Website </h1>
+    <br>
+    <br>
+    <section>
+        <section  class="div3 ">
+            <table>
+                <thead>
+                  <tr>
+                      <th>Carateristicas</th>
+                      <th>Elementos/técnicas</th>
+                      <th>Exemplos</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="2">Layouts</td>
+                    <td>Grid</td>
+                    <td>Foi usado para dividir a página por partes de modo a ter uma organizacao melhor do website </td>
+                </tr>
+                <tr>
+                  <td>FlexBox</td>
+                  <td>Foi usado para centralizar ou posicionar elementos que se encontram dentro do div para poder ter os elementos da pagina da melhor maneira possivel</td>
+                </tr>
+                <tr>
+                  <td rowspan="2">Responsividade</td>
+                  <td>Para o PC
+                      <br>
+                    @media (min-width: 501px) {<br>
+                    body {<br>
+                    display: grid;<br>
+                    width: 100%;<br>
+                    height: 100%;<br>
+                    grid-template-rows: 150px 5fr 280px;<br>
+                    grid-template-columns: 10fr 10fr 1fr;<br>
+                    grid-template-areas:<br>
+                    "header main main"<br>
+                    "header main main"<br>
+                    "footer footer footer"<br>
+                    "aside aside aside";<br>
+                    }
+                  </td>
+                  <td>
+                    <figure>
+                      <img src="imagens/MenuPC.jpeg">
+                    </figure>
+                </tr>
+              <tr>
+                <td>Para o Telefone <br>
+                  @media (max-width: 500px)<br>
+                    header {<br>
+                    grid-area: header;<br>
+                    display: flex;<br>
+                    flex-direction: column;<br>
+                    align-items: stretch;<br>
+                    background-color: #da532c;<br>
+                    position: fixed;<br>
+                    width: 100%;<br>
+                    }
+                </td>
+                <td>
+                    <figure>
+                        <img src="imagens/MenuTelefone.jpeg">
+                    </figure>
+                </td>
+            </tr>
+              <tr>
+                <td rowspan="1">Seletores</td>
+                <td>Para o Website foi usado os seguintes seletores: <br>
+                  <b> universal, tipo, classe pseudo-classe e o pseudo-elemento</b>
+                </td>
+                <td>Foi usado como construção e organização do layout do website</td>
+            </tr>
+            <tr>
+              <td rowspan="1">Etiquetas</td>
+              <td>
+                <ul>
+                  <li>main</li>
+                  <li>header</li>
+                  <li>article</li>
+                  <li>footer</li>
+                  <li>figure</li>
+                  <li>iframe</li>
+                  <li>body</li>
+                  <li>nav</li>
+                  <li>section</li>
+                  <li>article</li>
+                  <li>p,h</li>
+                  <li>table</li>
+                  <li>thead</li>
+                  <li>tbody</li>
+                  <li>form</li>
+                  <li>fieldset</li>
+                  <li>input</li>
+                  <li>label</li>
+                  <li>ul,li,a,aside,svg,image</li>
+                  <li>figcaptio,caption,legend,br</li>
+                  <li>hr</li>
+                  <li>picture</li>
+              </ul>
+              </td>
+              <td>Os elementos foram usados em todas as paginas, conforma a necessidade de cada pagina</td>
+          </tr>
+          <tr>
+            <td rowspan="1">Animações</td>
+            <td>Para algumas paginas do Website,
+              foi usado o Keyframes <br>de modo
+               a dar movimento ao contéudo da pagina
+            </td>
+            <td>Foi usado nas paginas das atvidades de cada destino de modo a que as imagens ao entrar na pagina aparecam</td>
+        </tr>
+                </tbody>
+              </table>
+            </section>
+          </section>
+          <h3> <u> Video do web site</u></h3>
+          <br>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Ct0VGpo1mus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 {% endblock %}
