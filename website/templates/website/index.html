@@ -1,15 +1,12 @@
 {% extends 'website/base.html' %}
 {% load static %}
-    {% block style %}
-       html{
-            background-image: url({% static 'website/images/fundo1.jpg'%}) ;
-            height: 250%;
-        }
-    {% endblock %}
-
-
-
-    {% block nav %}
+{% block style %}
+    html{
+    background-image: url({% static 'website/images/fundo1.jpg'%}) ;
+    height: 250%;
+    }
+{% endblock %}
+{% block nav %}
         <ul class="menu-links">
             <li><a href="###">Home &dtrif;</a>
                 <span id="DC-info">
@@ -17,30 +14,22 @@
                 </span>
             </li>
         </ul>
-        <p></p>
         <ul class="menu-links">
             <li><a href="###">Moscovo &dtrif;</a>
                 <span id="DC-info">
                     <a href="{% url 'website:marcarViagemMoscovo' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> Marcação da viagem </a>
-                    <p></p>
                     <a href="{% url 'website:imagensMosvovo' %}"><i class="material-icons" style="font-size:14px;color:rgb(175, 175, 175)">collections</i> Imagens da cidade </a>
-                    <p></p>
                     <a href="{% url 'website:informacaoMoscover' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Mais informação sobre a cidade</a>
-                    <p></p>
                     <a href="{% url 'website:atividadeMoscovo' %}"><i class="material-icons" style="font-size:14px;color:red">rowing</i> Actividades/Pontos Turisticos</a>
                 </span>
             </li>
         </ul>
-        <p></p>
         <ul class="menu-links">
             <li><a href="###">Vancouver &dtrif;</a>
                 <span id="DC-info">
                     <a href="{% url 'website:marcarViagemVancover' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> Marcação da viagem </a>
-                    <p></p>
                     <a href="{% url 'website:imagensVancover' %}"><i class="material-icons" style="font-size:14px;color:rgb(175, 175, 175)">collections</i> Imagens da cidade </a>
-                    <p></p>
                     <a href="{% url 'website:informacaoVancover' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Mais informação sobre a cidade</a>
-                    <p></p>
                     <a href="{% url 'website:atividadeVancover' %}"><i class="material-icons" style="font-size:14px;color:red">rowing</i> Actividades/Pontos Turisticos</a>
                 </span>
             </li>
@@ -49,11 +38,8 @@
             <li><a href="###">Lofoten &dtrif;</a>
                 <span id="DC-info">
                     <a href="{% url 'website:marcarViagemLofoten' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> Marcação da viagem </a>
-                    <p></p>
                     <a href="{% url 'website:imagensLofoten' %}"><i class="material-icons" style="font-size:14px;color:rgb(175, 175, 175)">collections</i> Imagens da cidade </a>
-                    <p></p>
                     <a href="{% url 'website:informacaoLofoten' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Mais informação sobre a cidade</a>
-                    <p></p>
                     <a href="{% url 'website:informacaoLofoten' %}"><i class="material-icons" style="font-size:14px;color:red">rowing</i> Actividades/Pontos Turisticos</a>
                 </span>
             </li>
@@ -62,15 +48,12 @@
             <li><a href="###">Sobre nós &dtrif;</a>
                 <span id="DC-info">
                     <a href="{% url 'website:comentario' %}"><i class="material-icons" style="font-size:14px;color:red">question_answer</i> Comentários </a>
-                    <p></p>
                     <a href="{% url 'website:estiloPagina' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Estilo do Website </a>
-                    <p></p>
                     <a href="{% url 'website:quizz' %}"><i class="material-icons" style="font-size:14px;color:red">assessment</i> Quizz </a>
-
                 </span>
             </li>
          </ul>
-    {% endblock %}
+{% endblock %}
 {% block main %}
     <h1>Agência Ida sem Volta &#128519;</h1>
     <br>
