@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3eb14d9-047a-441f-83c3-6c706a1f16a4" name="Default Changelist" comment="Feito:&#10;Informção(3 destinos)&#10;Imagens(3 destinos)-Por rever alinhamento das imagens&#10;Marcação Viagem(3 destinos)- Por rever alinhamento das imagens&#10;Parte menu, falta reduzir para a barra">
+    <list default="true" id="e3eb14d9-047a-441f-83c3-6c706a1f16a4" name="Default Changelist" comment="Feito:&#10;Informção(3 destinos)&#10;Imagens(3 destinos)-Por rever alinhamento das imagens&#10;Marcação Viagem(3 destinos)- Por rever alinhamento das imagens&#10;Parte menu, falta reduzir para a barra&#10;Adicionado imagem de fundo">
       <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/LICENSE.d273d63619c9.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/LICENSE.d273d63619c9.txt.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/LICENSE.txt" afterDir="false" />
@@ -55,253 +55,11 @@
       <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-arrowright.bbfb788a849e.svg.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-arrowright.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-arrowright.svg.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/1.5967ca7a62c4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/123.d257912d0f5b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/123.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/2.cef28ede090f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/3.36d9f68dea17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/CatedralMoscovo.93710d398fc6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/CatedralMoscovo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/CatedralRussia.1c90ae13e1f5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/CatedralRussia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/ChristmasVancouver(1).d3459a7ffce1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/ChristmasVancouver(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/ChristmasVancouver.d3459a7ffce1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/ChristmasVancouver.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/MenuPC.a2ec9d0a8968.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/MenuPC.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/MenuTelefone.f06d9ba9850f.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/MenuTelefone.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou1(1).aa595bd0a5ea.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou1(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou1.9ee9f75e5030.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou2(1).bbeb44488a3b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou2(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou2.87bd83218523.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou3(1).f3eeabcadf4d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou3(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou3.bb5a68343427.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou4(1).2ac81846b249.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou4(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou4.ba96541bffac.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou5(1).fe0ff0ecc7b5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou5(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou5.69f10da21af2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou6(1).f9dddacb3c13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou6(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou6.c42b9f6a0d50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou7(1).a6bb2c797a34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou7(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou7.7a61b65a58a9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou8(1).6190b5680a60.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou8(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou8.6190b5680a60.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou9(1).41b488650fbb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou9(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou9.41b488650fbb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/Moscou9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/alfaHotelMoscou.9ffd665602ee.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/alfaHotelMoscou.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/alfaHotelMoscou1.367cfa6c3ac4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/alfaHotelMoscou1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/aquariumCanada(1).96ee8fc5f150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/aquariumCanada(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/aquariumCanada(50px).d93aff4902c1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/aquariumCanada(50px).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/aquariumCanada.ea30eb347901.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/aquariumCanada.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/aquariumVancouver.eaa3598b2385.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/aquariumVancouver.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/atividadeNoruega1.3afd3e2e03b1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/atividadeNoruega1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/atividadeNoruega2.d94190061051.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/atividadeNoruega2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/atividadeNoruega3.7e307537eb16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/atividadeNoruega3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/atividadeNoruega4.8dd42532b5b1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/atividadeNoruega4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/atividadeNoruega5.819e877e88fb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/atividadeNoruega5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/atividadeNoruega6.84c99e1eabbf.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/atividadeNoruega6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/azimutHotemMoscou.de85bfe7f177.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/azimutHotemMoscou.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/azimutHotemMoscou1.cb2e0ebc1b3a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/azimutHotemMoscou1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/belmontHotelCanada(1).303d1a280736.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/belmontHotelCanada(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/belmontHotelCanada.e7d8dd7ce38b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/belmontHotelCanada.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/blackAndBlueCanada(1).317706e8ae32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/blackAndBlueCanada(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/blackAndBlueCanada(50px).d31c255d9f17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/blackAndBlueCanada(50px).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/blackAndBlueCanada.7af153ab7dd0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/blackAndBlueCanada.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/blueHotelCanada(1).c1e48502d004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/blueHotelCanada(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/blueHotelCanada.2a524f9adea0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/blueHotelCanada.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/blueWaterCafeCanada.7ea623b07ba1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/blueWaterCafeCanada.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/breathtakingCanada(1).5ea053cf845b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/breathtakingCanada(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/breathtakingCanada(50px).1ec9b924623b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/breathtakingCanada(50px).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/breathtakingCanada.587271cafeae.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/breathtakingCanada.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/capilanoCanada(1).34ad2e3f6b5a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/capilanoCanada(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/capilanoCanada(50px).7015c8afa17e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/capilanoCanada(50px).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/capilanoCanada.f78e7db4eb42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/capilanoCanada.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/capilanoVancouver.88c927996167.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/capilanoVancouver.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/christmasVancouverNatal(1).c8676ae7200d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/christmasVancouverNatal(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/christmasVancouverNatal.c8676ae7200d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/christmasVancouverNatal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/cityCanada(1).b69242553569.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/cityCanada(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/cityCanada(50px).6a1d95c3edb2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/cityCanada(50px).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/cityCanada.8531ba3d14cb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/cityCanada.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/cityCenterCanada.63f62d682298.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/cityCenterCanada.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/cosmonauticsMuseuMoscovo.236359346c0b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/cosmonauticsMuseuMoscovo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/cosmonauticsMuseuRussia.6f9b82a84a74.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/cosmonauticsMuseuRussia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/cosmonauticsRussia.c3c608ea5329.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/cosmonauticsRussia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/deepCove.0de42c3bf284.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/deepCove.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/deepCoveVancouver.513d24e58449.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/deepCoveVancouver.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/email.77b48e9eddee.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/email.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/europcar.c8f5a7f55e83.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/europcar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/excursaoMoscovo.43bb029ecb95.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/excursaoMoscovo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/excursaoRussia.579e17db2b43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/excursaoRussia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/favicon.966d5828643f.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/favicon.966d5828643f.ico.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/favicon.ico.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/fotoLink.0c926b27198a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/fotoLink.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/fundo0.fa3895a6b22c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/fundo0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/fundo1.8d4d7c4c8c10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/fundo1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/fundo2.51d5c1184984.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/fundo2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/gageTowersHotelCanada(1).cd5d6e89df9c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/gageTowersHotelCanada(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/gageTowersHotelCanada.fd5219d8d19a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/gageTowersHotelCanada.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/galeriaMoscovo.14167a47bef1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/galeriaMoscovo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/galeriaRussia.59d8d223d2ab.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/galeriaRussia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/gammaHotelMoscou.ff33bb101973.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/gammaHotelMoscou.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/gammaHotelMoscou1.42a549c3ca9d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/gammaHotelMoscou1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/goldcar.cbaf05c1435c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/goldcar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hertz.f6de6fd8719e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hertz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/horizonCanada.2a524f9adea0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/horizonCanada.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hotelMoscovo1.499daecc0644.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hotelMoscovo1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hotelMoscovo2.809bcc0012ea.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hotelMoscovo2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hotelMoscovo3.2ca295193b44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hotelMoscovo3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hotelMoscovo4.809d8592bc87.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hotelMoscovo4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hotelMoscovo5.04f3eb13523a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hotelMoscovo5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hotelMoscovo6.01bc23216749.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hotelMoscovo6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hotelNoruega1.f48cb1757e4e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hotelNoruega1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hotelNoruega2.fd06e9d7667f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hotelNoruega2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hotelNoruega3.d53c5c835669.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hotelNoruega3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hotelNoruega4.adf3734a9f1b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hotelNoruega4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hotelNoruega5.debeb1826f55.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hotelNoruega5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hotelNoruega6.f41afbe2f8f1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/hotelNoruega6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/imagemAside.3a9599801a35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/imagemAside.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega1.5d9a2c63df1d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega2.532637d966a9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega3.4d3460c6d8ce.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega4.831b440c7864.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega5.cc4535ef9eae.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega6.31ae89e2f4cb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega7.fc4758b512d5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/lofotenCapa.10312c7eda77.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/lofotenCapa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/mapaCanada.b09bbfccc119.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/mapaCanada.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/mapaNoruega.717901c57a5b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/mapaNoruega.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/mapaRussia1.2e54fff5f566.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/mapaRussia1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/mapaRussia1png.2e54fff5f566.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/mapaRussia1png.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/marriotsHotelMoscou.c3f1f2bea397.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/marriotsHotelMoscou.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/marriotsHotelMoscou1.098b4abe115c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/marriotsHotelMoscou1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/metroRussia.6da0656dbc02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/metroRussia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/metroRussiaAtividade.edafd11910ae.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/metroRussiaAtividade.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal(1).272ae9278b9e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal.62c68a3c290f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal1(1).c8237f320c58.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal1(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal1.0bafc352bf01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal2(1).00a61148c6e9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal2(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal2.ef97c015cbc7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal3(1).88092fcf8fb8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal3(1).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/ida_e_voltaMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/ida_e_voltaMoscovo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/ida_e_voltaVancover.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/ida_e_voltaVancover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/imagensLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/imagensLofoten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/imagensMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/imagensMoscovo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -386,7 +144,7 @@
       <workItem from="1622734448997" duration="7505000" />
       <workItem from="1622793067897" duration="7365000" />
       <workItem from="1622887905623" duration="243000" />
-      <workItem from="1622888197505" duration="10168000" />
+      <workItem from="1622888197505" duration="10497000" />
     </task>
     <task id="LOCAL-00001" summary="Já compila a parte 2">
       <created>1622500281826</created>
@@ -493,7 +251,28 @@
       <option name="project" value="LOCAL" />
       <updated>1622897098430</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Feito:&#10;Informção(3 destinos)&#10;Imagens(3 destinos)-Por rever alinhamento das imagens&#10;Marcação Viagem(3 destinos)- Por rever alinhamento das imagens&#10;Parte menu, falta reduzir para a barra&#10;Adicionado imagem de fundo">
+      <created>1622904776145</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1622904776145</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Feito:&#10;Informção(3 destinos)&#10;Imagens(3 destinos)-Por rever alinhamento das imagens&#10;Marcação Viagem(3 destinos)- Por rever alinhamento das imagens&#10;Parte menu, falta reduzir para a barra&#10;Adicionado imagem de fundo">
+      <created>1622904847219</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1622904847219</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Feito:&#10;Informção(3 destinos)&#10;Imagens(3 destinos)-Por rever alinhamento das imagens&#10;Marcação Viagem(3 destinos)- Por rever alinhamento das imagens&#10;Parte menu, falta reduzir para a barra&#10;Adicionado imagem de fundo">
+      <created>1622904915776</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1622904915776</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -508,7 +287,8 @@
     <MESSAGE value="mudança na estrutura no base.css" />
     <MESSAGE value="atividades feitas" />
     <MESSAGE value="Feito:&#10;Informção(3 destinos)&#10;Imagens(3 destinos)-Por rever alinhamento das imagens&#10;Marcação Viagem(3 destinos)- Por rever alinhamento das imagens&#10;Parte menu, falta reduzir para a barra" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feito:&#10;Informção(3 destinos)&#10;Imagens(3 destinos)-Por rever alinhamento das imagens&#10;Marcação Viagem(3 destinos)- Por rever alinhamento das imagens&#10;Parte menu, falta reduzir para a barra" />
+    <MESSAGE value="Feito:&#10;Informção(3 destinos)&#10;Imagens(3 destinos)-Por rever alinhamento das imagens&#10;Marcação Viagem(3 destinos)- Por rever alinhamento das imagens&#10;Parte menu, falta reduzir para a barra&#10;Adicionado imagem de fundo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feito:&#10;Informção(3 destinos)&#10;Imagens(3 destinos)-Por rever alinhamento das imagens&#10;Marcação Viagem(3 destinos)- Por rever alinhamento das imagens&#10;Parte menu, falta reduzir para a barra&#10;Adicionado imagem de fundo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
