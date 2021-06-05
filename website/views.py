@@ -103,7 +103,7 @@ def comentario_page_view(request):
         }
     else:
         context = {'form': form}
-    return render(request, 'website/comentarios.html', context)
+    return render(request, 'website/comentario.html', context)
 
 def contacto_page_view(request):
     form = ContactoForm(request.POST or None)

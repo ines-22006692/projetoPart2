@@ -163,12 +163,12 @@
                   </td>
                   <td>
                     <figure>
-                      <img src="imagens/MenuPC.jpeg">
+                      <img src="{% static 'website/images/MenuPC.jpeg'%}" alt="">
                     </figure>
-                </tr>
-              <tr>
-                <td>Para o Telefone <br>
-                  @media (max-width: 500px)<br>
+                  </tr>
+                  <tr>
+                    <td>Para o Telefone <br>
+                    @media (max-width: 500px)<br>
                     header {<br>
                     grid-area: header;<br>
                     display: flex;<br>
@@ -178,64 +178,63 @@
                     position: fixed;<br>
                     width: 100%;<br>
                     }
-                </td>
-                <td>
+                    </td>
+                    <td>
                     <figure>
-                        <img src="imagens/MenuTelefone.jpeg">
+                        <img src="{% static 'website/images/MenuTelefone.jpeg'%}" alt="">
                     </figure>
-                </td>
-            </tr>
-              <tr>
+                    </td>
+                </tr>
+                <tr>
                 <td rowspan="1">Seletores</td>
                 <td>Para o Website foi usado os seguintes seletores: <br>
-                  <b> universal, tipo, classe pseudo-classe e o pseudo-elemento</b>
+                    <b> universal, tipo, classe pseudo-classe e o pseudo-elemento</b>
                 </td>
                 <td>Foi usado como construção e organização do layout do website</td>
+                </tr>
+                <tr>
+                <td rowspan="1">Etiquetas</td>
+                <td>
+                <ul>
+                    <li>main</li>
+                    <li>header</li>
+                    <li>article</li>
+                    <li>footer</li>
+                    <li>figure</li>
+                    <li>iframe</li>
+                    <li>body</li>
+                    <li>nav</li>
+                    <li>section</li>
+                    <li>article</li>
+                    <li>p,h</li>
+                    <li>table</li>
+                    <li>thead</li>
+                    <li>tbody</li>
+                    <li>form</li>
+                    <li>fieldset</li>
+                    <li>input</li>
+                    <li>label</li>
+                    <li>ul,li,a,aside,svg,image</li>
+                    <li>figcaptio,caption,legend,br</li>
+                    <li>hr</li>
+                    <li>picture</li>
+                </ul>
+                </td>
+                <td>Os elementos foram usados em todas as paginas, conforma a necessidade de cada pagina</td>
             </tr>
             <tr>
-              <td rowspan="1">Etiquetas</td>
-              <td>
-                <ul>
-                  <li>main</li>
-                  <li>header</li>
-                  <li>article</li>
-                  <li>footer</li>
-                  <li>figure</li>
-                  <li>iframe</li>
-                  <li>body</li>
-                  <li>nav</li>
-                  <li>section</li>
-                  <li>article</li>
-                  <li>p,h</li>
-                  <li>table</li>
-                  <li>thead</li>
-                  <li>tbody</li>
-                  <li>form</li>
-                  <li>fieldset</li>
-                  <li>input</li>
-                  <li>label</li>
-                  <li>ul,li,a,aside,svg,image</li>
-                  <li>figcaptio,caption,legend,br</li>
-                  <li>hr</li>
-                  <li>picture</li>
-              </ul>
-              </td>
-              <td>Os elementos foram usados em todas as paginas, conforma a necessidade de cada pagina</td>
-          </tr>
-          <tr>
             <td rowspan="1">Animações</td>
             <td>Para algumas paginas do Website,
-              foi usado o Keyframes <br>de modo
-               a dar movimento ao contéudo da pagina
+                foi usado o Keyframes <br>de modo
+                a dar movimento ao contéudo da pagina
             </td>
             <td>Foi usado nas paginas das atvidades de cada destino de modo a que as imagens ao entrar na pagina aparecam</td>
-        </tr>
-                </tbody>
-              </table>
-            </section>
-          </section>
-          <h3> <u> Video do web site</u></h3>
-          <br>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/Ct0VGpo1mus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+            </tr>
+        </tbody>
+    </table>
+    </section>
+    </section>
+    <h3> <u> Video do web site</u></h3>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ct0VGpo1mus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {% endblock %}
