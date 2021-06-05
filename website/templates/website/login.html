@@ -1,5 +1,11 @@
 {% extends 'website/base.html' %}
 {% load static %}
+{% block style %}
+   html{
+      background-image: url({% static 'website/images/fundo1.jpg'%});
+      height: 690%;
+    }
+{% endblock style %}
 {% block nav %}
         <ul class="menu-links">
             <li><a href="###">Home &dtrif;</a>
