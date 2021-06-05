@@ -2,64 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3eb14d9-047a-441f-83c3-6c706a1f16a4" name="Default Changelist" comment="Feito:&#10;Informção(3 destinos)&#10;Imagens(3 destinos)-Por rever alinhamento das imagens&#10;Marcação Viagem(3 destinos)- Por rever alinhamento das imagens&#10;Parte menu, falta reduzir para a barra&#10;Adicionado imagem de fundo">
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/LICENSE.d273d63619c9.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/LICENSE.d273d63619c9.txt.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/LICENSE.txt.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/README.ab99e6b541ea.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/README.ab99e6b541ea.txt.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/README.txt.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Bold-webfont.50d75e48e0a3.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Bold-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Light-webfont.c73eb1ceba33.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Light-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Regular-webfont.35b07eb2f871.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/LICENSE.2c54f4e1ca1c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/LICENSE.2c54f4e1ca1c.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/LICENSE.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/README.a70711a38d87.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/README.a70711a38d87.txt.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/README.txt.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-viewlink.41eb31f7826e.svg.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-viewlink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-viewlink.svg.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-yes.d2f9f035226a.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-yes.d2f9f035226a.svg.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-yes.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/icon-yes.svg.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/inline-delete.fec1b761f254.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/inline-delete.fec1b761f254.svg.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/inline-delete.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/inline-delete.svg.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/search.7cf54ff789c6.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/search.7cf54ff789c6.svg.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/search.svg.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/selector-icons.b4555096cea2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/selector-icons.b4555096cea2.svg.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/selector-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/selector-icons.svg.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/sorting-icons.3a097b59f104.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/sorting-icons.3a097b59f104.svg.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/sorting-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/sorting-icons.svg.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-add.e59d620a9742.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-add.e59d620a9742.svg.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-add.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-add.svg.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-arrowright.bbfb788a849e.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-arrowright.bbfb788a849e.svg.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-arrowright.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-arrowright.svg.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/ida_e_voltaMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/ida_e_voltaMoscovo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/ida_e_voltaVancover.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/ida_e_voltaVancover.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/imagensLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/imagensLofoten.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/imagensMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/imagensMoscovo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/informacaoLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/informacaoLofoten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/quizz.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/quizz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/quizzResultado.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/quizzResultado.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Pictures/projetoPart2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -145,6 +92,7 @@
       <workItem from="1622793067897" duration="7365000" />
       <workItem from="1622887905623" duration="243000" />
       <workItem from="1622888197505" duration="10497000" />
+      <workItem from="1622909727694" duration="3485000" />
     </task>
     <task id="LOCAL-00001" summary="Já compila a parte 2">
       <created>1622500281826</created>
