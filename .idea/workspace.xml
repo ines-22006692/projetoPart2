@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3eb14d9-047a-441f-83c3-6c706a1f16a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/imagensLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/imagensLofoten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/imagensMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/imagensMoscovo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +88,7 @@
       <workItem from="1622793067897" duration="7365000" />
       <workItem from="1622887905623" duration="243000" />
       <workItem from="1622888197505" duration="10497000" />
-      <workItem from="1622909727694" duration="7482000" />
+      <workItem from="1622909727694" duration="8239000" />
     </task>
     <task id="LOCAL-00001" summary="Já compila a parte 2">
       <created>1622500281826</created>
@@ -245,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622915268444</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Feito">
+      <created>1622918128974</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1622918128974</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,9 +268,9 @@
     <MESSAGE value="Feito:&#10;Informção(3 destinos)&#10;Imagens(3 destinos)-Por rever alinhamento das imagens&#10;Marcação Viagem(3 destinos)- Por rever alinhamento das imagens&#10;Parte menu, falta reduzir para a barra" />
     <MESSAGE value="Feito:&#10;Informção(3 destinos)&#10;Imagens(3 destinos)-Por rever alinhamento das imagens&#10;Marcação Viagem(3 destinos)- Por rever alinhamento das imagens&#10;Parte menu, falta reduzir para a barra&#10;Adicionado imagem de fundo" />
     <MESSAGE value="navegação feita" />
-    <MESSAGE value="Feito" />
     <MESSAGE value="Feito exceto o mapa do website" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feito exceto o mapa do website" />
+    <MESSAGE value="Feito" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feito" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
