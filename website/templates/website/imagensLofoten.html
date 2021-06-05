@@ -49,133 +49,121 @@
          </ul>
 {% endblock %}
 {% block main %}
-
-             <section class="body-text">
-            <legend align="center" style="font-size:22px;color:rgb(0, 0, 0)">
-              <big><b>Imagens de Lofoten</b></big></legend>
-              <br>
-              <br>
-              <br>
-                <section class="container">
-
-                <div class="rotate" style="float: left;" >
-                    <figure>
-                      <div class="foo">
-
-                      </div>
-                      <div class="foo bar">
-                        </div>
-                        <section style="float:left; "><img src="{% static 'website/images/noruega.jpg'%}" >
-                    </figure>
-
-
-                </div>
-                <div class="photos flip-3d" style="float: right;">
-                    <figure>
-                        <<img src="{% static 'website/images/noruega1.jpg'%}" >
-                     <figcaption>Paisagem</figcaption>
-                    </figure>
-                </div>
-            </section>
-            <br>
-            <br>
-            <section class="container">
-              <div  class="shake" style="float:right">
-
-                  <figure>
-                      <section style="float:left; "><img src="{% static 'website/images/noruega2.jpg'%}" >
-                  </figure>
-
-              </div>
-              <div class="photos flip-3d" style="float:right">
-
-                  <figure>
-                      <img src="{% static 'website/images/noruega3.jpg'%}" >
-                   <figcaption>Aurora Boreal </figcaption>
-                  </figure>
-              </div>
-            <br>
-            <br>
-          </section>
-          <br>
-          <br>
-          <section class="container">
-            <div  class="photos flip-3d" style="float:right">
-
+    <section class="body-text">
+        <legend align="center" style="font-size:22px;color:rgb(0, 0, 0)">
+            <b>Imagens de Lofoten</b>
+        </legend>
+        <br>
+        <br>
+        <br>
+        <section class="container">
+            <div class="rotate" style="float: left;" >
                 <figure>
-                    <img src="{% static 'website/images/noruega4.jpg'%}" >
-                 <figcaption>Montanhas</figcaption>
-                </figure>
-
-            </div>
-            <div  style="float:right">
-
-                <figure>
-                        <section style="float:left; "><img src="{% static 'website/images/noruega5.jpg'%}" >
+                    <section style="float:left; ">
+                        <img src="{% static 'website/images/noruega.jpg'%}" alt="">
+                    </section>
                 </figure>
             </div>
-          <br>
-          <br>
+            <div class="photos flip-3d" style="float: right;">
+                <figure>
+                    <img src="{% static 'website/images/noruega1.jpg'%}" alt="">
+                    <figcaption>Paisagem</figcaption>
+                </figure>
+            </div>
         </section>
         <br>
         <br>
         <section class="container">
-          <div  class="photos flip-3d" style="float:right">
-              <figure>
-                  <img src="{% static 'website/images/noruega7.jpg'%}" >
-               <figcaption>Rio</figcaption>
-              </figure>
-
-          </div>
-          <div class="zoom" style="float:right">
-
-              <figure>
-                  <section style="float:left; "><img src="{% static 'website/images/noruega6.jpg'%}" >
-
-              </figure>
-
-          </div>
+            <div  class="shake" style="float:right">
+                <figure>
+                    <section style="float:left; ">
+                        <img src="{% static 'website/images/noruega2.jpg'%}"  alt="">
+                    </section>
+                </figure>
+            </div>
+            <div class="photos flip-3d" style="float:right">
+                <figure>
+                    <img src="{% static 'website/images/noruega3.jpg'%}"  alt="">
+                    <figcaption>Aurora Boreal </figcaption>
+                </figure>
+            </div>
+            <br>
+            <br>
+        </section>
         <br>
         <br>
-      </section>
-      <br>
-      <br>
-      <section class="container">
-        <div  style="float:right">
-            <figure>
-                <section style="float:left; "><img src="{% static 'website/images/noruega12.jpg'%}" >
-            </figure>
-        </div>
-        <div class="shake" style="float:center">
-            <figure>
-                <section style="float:left; "><img src="{% static 'website/images/noruega9.jpg'%}" >
-            </figure>
-        </div>
-      <br>
-      <br>
-
-
-
+        <section class="container">
+            <div  class="photos flip-3d" style="float:right">
+                <figure>
+                    <img src="{% static 'website/images/noruega4.jpg'%}"  alt="">
+                    <figcaption>Montanhas</figcaption>
+                </figure>
+            </div>
+            <div  style="float:right">
+                <figure>
+                    <section style="float:left; ">
+                        <img src="{% static 'website/images/noruega5.jpg'%}" alt="">
+                    </section>
+                </figure>
+            </div>
+            <br>
+            <br>
+        </section>
+        <br>
+        <br>
+        <section class="container">
+            <div  class="photos flip-3d" style="float:right">
+                <figure>
+                    <img src="{% static 'website/images/noruega7.jpg'%}"  alt="">
+                    <figcaption>Rio</figcaption>
+                </figure>
+            </div>
+            <div class="zoom" style="float:right">
+                <figure>
+                    <section style="float:left; ">
+                        <img src="{% static 'website/images/noruega6.jpg'%}"  alt="">
+                    </section>
+                </figure>
+            </div>
+            <br>
+            <br>
+        </section>
+        <br>
+        <br>
+        <section class="container">
+            <div  style="float:right">
+                <figure>
+                    <section style="float:left; ">
+                        <img src="{% static 'website/images/noruega12.jpg'%}"  alt="">
+                    </section>
+                </figure>
+            </div>
+            <div class="shake" style="float:none">
+                <figure>
+                    <section style="float:left; ">
+                        <img src="{% static 'website/images/noruega9.jpg'%}"  alt="">
+                    </section>
+                </figure>
+            </div>
+            <br>
+            <br>
+        </section>
+        <section class="container">
+            <div  class="photos flip-3d" style="float:left">
+                <figure>
+                    <img src="{% static 'website/images/noruega10.jpg'%}"  alt="">
+                    <figcaption>Paisagem</figcaption>
+                </figure>
+            </div>
+            <div class="zoom" style="float:none">
+                <figure>
+                    <section style="float:left; ">
+                        <img src="{% static 'website/images/noruega11.jpg'%}"  alt="">
+                    </section>
+                </figure>
+            </div>
+            <br>
+            <br>
+        </section>
     </section>
-    <section class="container">
-      <div  class="photos flip-3d" style="float:left">
-          <figure>
-              <img src="{% static 'website/images/noruega10.jpg'%}" >
-           <figcaption>Paisagem</figcaption>
-          </figure>
-
-      </div>
-      <div class="zoom" style="float:center">
-
-          <figure>
-              <section style="float:left; "><img src="{% static 'website/images/noruega11.jpg'%}" >
-
-
-          </figure>
-
-      </div>
-    <br>
-    <br>
-
-  </section>
 {% endblock %}
