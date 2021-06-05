@@ -1,6 +1,20 @@
 {% extends 'website/base.html' %}
 {% load static %}
 {% block nav %}
+    <div class="menu-container">
+
+          <input type="checkbox" id="openmenu" class="hamburger-checkbox">
+
+
+          <div class="hamburger-icon">
+            <label for="openmenu" >
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+          </div>
+    <div class="menu-pane">
         <ul class="menu-links">
             <li><a href="###">Home &dtrif;</a>
                 <span id="DC-info">
@@ -61,6 +75,7 @@
                 </span>
             </li>
          </ul>
+    </div>
 {% endblock %}
 {% block main %}
     <div class="body-text">
@@ -137,5 +152,6 @@
                 <br>
                 <br>
         </section>
+    </div>
     </div>
 {% endblock %}

@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3eb14d9-047a-441f-83c3-6c706a1f16a4" name="Default Changelist" comment="acabar de fazer imagensLofoten">
+    <list default="true" id="e3eb14d9-047a-441f-83c3-6c706a1f16a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/website/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/css/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/templates/website/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/comentario.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/comentario.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/imagensLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/imagensLofoten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/imagensMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/imagensMoscovo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/imagensVancover.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/imagensVancover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/informacaoLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/informacaoLofoten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/informacaoMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/informacaoMoscovo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/informacaoVancover.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/informacaoVancover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/marcarViagemLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/marcarViagemLofoten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/marcarViagemMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/marcarViagemMoscovo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/marcarViagemVancover.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/marcarViagemVancover.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,8 +99,9 @@
       <workItem from="1622666129922" duration="2626000" />
       <workItem from="1622733623675" duration="142000" />
       <workItem from="1622734448997" duration="7505000" />
-      <workItem from="1622793067897" duration="7412000" />
-      <workItem from="1622832876167" duration="320000" />
+      <workItem from="1622793067897" duration="7365000" />
+      <workItem from="1622887905623" duration="243000" />
+      <workItem from="1622888197505" duration="6695000" />
     </task>
     <task id="LOCAL-00001" summary="Já compila a parte 2">
       <created>1622500281826</created>
@@ -159,14 +173,7 @@
       <option name="project" value="LOCAL" />
       <updated>1622800152651</updated>
     </task>
-    <task id="LOCAL-00011" summary="acabar de fazer imagensLofoten">
-      <created>1622801987266</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1622801987266</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,8 +187,7 @@
     <MESSAGE value="tentar fazer o siga-nos do aside" />
     <MESSAGE value="mudança na estrutura no base.css" />
     <MESSAGE value="atividades feitas" />
-    <MESSAGE value="acabar de fazer imagensLofoten" />
-    <option name="LAST_COMMIT_MESSAGE" value="acabar de fazer imagensLofoten" />
+    <option name="LAST_COMMIT_MESSAGE" value="atividades feitas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

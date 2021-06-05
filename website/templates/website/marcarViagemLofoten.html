@@ -63,7 +63,146 @@
          </ul>
 {% endblock %}
 {% block main %}
-    <h3>Página 1</h3>
-    <p>Esta é a página número 1</p>
-    <p>Teste 1</p>
+ <div class="body-text">
+
+            <h1 style="color:rgb(0, 174, 255)">Marcação de Viagem para Noruega </h1>
+
+            <br>
+            <br>
+          </div>
+
+
+                <legend style="font-size:28px;"><b> Marcação de voo: </b></legend>
+
+
+                <br>
+                <a href="marcarViagemNoruega.html">só ida </a>
+                &nbsp;&nbsp;&nbsp;
+                <a href="ida_e_voltaNoruega.html">Ida e volta</a>
+
+                <br>
+                <br>
+
+                <label for="date"><b>1.</b> Quando é que quer marcar a ida? </label>
+                <input type="date" name="dateInserida" min="2020-05-02"><br><br>
+
+                <label for="checkbox"><b>2.</b> A companhia pelo qual quer viajar?</label>
+                  <select name="viagem">
+                    <option value="Lowcost">Lowcost</option>
+                    <option value="Raynar">Rynair</option>
+                    <option value="SAS">SAS</option>
+                    <option value="Wideroe">Wideroe</option>
+                  </select><br><br>
+
+
+                <label for="areas"><b>3.</b> Quantos adultos são?</label>
+                <select id="viagem" name="viagem">
+                  <option value="adulto0">0</option>
+                  <option value="adulto1">1</option>
+                  <option value="adulto2">2</option>
+                  <option value="adulto3">3</option>
+                  <option value="adulto4">4</option>
+                  <option value="adulto5">5</option>
+                  <option value="adulto6">6</option>
+                  <option value="adulto7">7</option>
+               </select><br><br>
+
+               <label for="areas"><b>4.</b> Quantas crianças são?</label>
+                <select id="viagem" name="viagem">
+                  <option value="crianca0">0</option>
+                  <option value="crianca1">1</option>
+                  <option value="crianca2">2</option>
+                  <option value="crianca3">3</option>
+                  <option value="crianca4">4</option>
+                  <option value="crianca5">5</option>
+               </select><br><br>
+
+               <label for="areas"><b>5.</b> Vai querer carro de alugar?</label>
+                <input type="radio" value="op1" name="op">
+                <label for="op1">sim</label>
+                <input type="radio" value="op2" name="op">
+                <label for="op2">Nao</label>
+                <br>
+                <br>
+                <b><a target="_blank" href="https://www.europcar.pt/pt-pt"><section style="float:left; "><img src="{% static 'website/images/europcar.jpg'%}" ></a></b>
+                &nbsp;&nbsp;&nbsp;
+                <b><a target="_blank" href="https://www.rentalcars.com/pt/"><section style="float:left; "><img src="{% static 'website/images/goldcar.jpg'%}" ></a></b>
+                &nbsp;&nbsp;&nbsp;
+                <b><a target="_blank" href="https://www.hertz.pt/rentacar/reservation/"><section style="float:left; "><img src="{% static 'website/images/hertz.jpg'%}" ></a></b>
+
+                <br>
+                <br>
+                <label for="areas"><b>6.</b> Vai querer voo direto?</label>
+                <input type="radio" value="op1" name="op">
+                <label for="op1">sim</label>
+                <input type="radio" value="op2" name="op">
+                <label for="op2">Nao</label>
+                <br>
+                <br>
+                <label for="areas"><b>7.</b> Em que classe quer viagar</label>
+                <select name="viagem">
+                  <option value="Económica">Económica</option>
+                  <option value="executiva">Executiva</option>
+                  <option value="1° classe">1° classe</option>
+                </select>
+                <p>
+                </p>
+                <br>
+                <label for="areas"><b>8.</b> Onde deseja apanhar o avião?</label>
+                <select name="viagem">
+                  <option value="Aeroporto Sá Carneiro">Aeroporto Sá Carneiro</option>
+                  <option value="Aeroporto Lisboa">Aeroporto Lisboa</option>
+                  <option value="Aeroporto Barcelona">Aeroporto Barcelona</option>
+                  <option value="Aeroporto Paris">Aeroporto Paris</option>
+                  <option value="Aeroporto Zurich">Aeroporto Zurich</option>
+                  <option value="Aeroporto Mulhouse">Aeroporto Mulhouse</option>
+                  <option value="Aeroporto Marselha">Aeroporto Marselha</option>
+                  <br>
+
+                </select>
+
+              <br>
+              <br>
+              <br>
+
+            <div class="body-text"></div>
+
+              <legend style="font-size:28px;"><b> Marcação de Hoteís: </b></legend>
+              <br>
+              <br>
+              <br>
+            </div>
+
+
+            <b><a target="_blank" href="https://www.tripadvisor.pt/Hotel_Review-g227941-d234228-Reviews-Scandic_Svolvaer-Svolvaer_Vagan_Lofoten_Islands_Nordland_Northern_Norway.html"><section style="float:left; "><img src="{% static 'website/images/hotelNoruega4.jpg'%}"style="border-radius: 10px;" ></a></b>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <b><a target="_blank" href="https://www.tripadvisor.pt/Hotel_Review-g227941-d16880972-Reviews-Scandic_Vestfjord_Lofoten-Svolvaer_Vagan_Lofoten_Islands_Nordland_Northern_Norway.html"><section style="float:left; "><img src="{% static 'website/images/hotelNoruega5.jpg'%}"style="border-radius: 10px;" ></a></b>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <b><a target="_blank" href="https://www.tripadvisor.pt/Hotel_Review-g227941-d262347-Reviews-Svinoya_Rorbuer-Svolvaer_Vagan_Lofoten_Islands_Nordland_Northern_Norway.html"><section style="float:left; "><img src="{% static 'website/images/hotelNoruega6.jpg'%}"style="border-radius: 10px;" ></a></b>
+            <p>
+              Scandic Svolvaer    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+              Scandic Vestfjord   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+              Svinoya Rorbuer
+
+            </p>
+
+            <br>
+            <br>
+            <b><a target="_blank" href="https://www.tripadvisor.pt/Hotel_Review-g3733884-d6733494-Reviews-Hattvika_Lodge-Ballstad_Vestvagoy_Lofoten_Islands_Nordland_Northern_Norway.html"><img src="{% static 'website/images/hotelNoruega1.jpg'%}"style="border-radius: 10px;" ></a></b>
+            &nbsp;&nbsp;&nbsp;
+            <b><a target="_blank" href="https://www.tripadvisor.pt/Hotel_Review-g227941-d1238154-Reviews-Thon_Hotel_Lofoten-Svolvaer_Vagan_Lofoten_Islands_Nordland_Northern_Norway.html"><img src="{% static 'website/images/hotelNoruega2.jpg'%}"style="border-radius: 10px;" ></a></b>
+            &nbsp;&nbsp;&nbsp;
+            <b><a target="_blank" href="https://www.tripadvisor.pt/Hotel_Review-g777270-d1494469-Reviews-Nusfjord_Arctic_Resort-Nusfjord_Flakstad_Municipality_Lofoten_Islands_Nordland_Norther.html"><img src="{% static 'website/images/hotelNoruega3.jpg'%}"style="border-radius: 10px;" ></a></b>
+            <p>
+              Hattvika Lodge   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+              Thon Hotel Lofoten     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+              Nusfjord Arctic Resort
+
+            </p>
+            <br>
+
+
+
+
+        </div>
 {% endblock %}

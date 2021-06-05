@@ -63,7 +63,152 @@
          </ul>
 {% endblock %}
 {% block main %}
-    <h3>Página 1</h3>
-    <p>Esta é a página número 1</p>
-    <p>Teste 1</p>
+ <div class="body-text">
+
+            <h1 style="color:rgb(0, 174, 255)">Marcação de Viagem para Moscovo </h1>
+
+            <br>
+            <br>
+          </div>
+
+
+                <legend style="font-size:28px;"><b> Marcação de voo: </b></legend>
+
+
+                <br>
+                <a href="marcarViagemRussia.html">só ida </a>
+                &nbsp;&nbsp;&nbsp;
+                <a href="ida e voltaRussia.html">Ida e volta</a>
+
+                <br>
+                <br>
+
+                <label for="date"><b>1.</b> Quando é que quer marcar a ida? </label>
+                <input type="date" name="dateInserida" min="2020-05-02"><br><br>
+
+
+                <label for="checkbox"><b>2.</b> A companhia pelo qual quer viajar?</label>
+                  <select name="viagem">
+                    <option value="Tap">Tap</option>
+                    <option value="Air France">Air France</option>
+                    <option value="Avianca">Avianca</option>
+                    <option value="Easyjet">Easyjet</option>
+                    <option value="Raynair">Raynair</option>
+                    <option value="Air Canada">Air Canada</option>
+                    <option value="Emirates">Emirates</option>
+                    <option value="Qatar">Qatar</option>
+                  </select><br><br>
+
+
+                <label for="areas"><b>3.</b> Quantos adultos são?</label>
+                <select id="viagem" name="viagem">
+                  <option value="adulto0">0</option>
+                  <option value="adulto1">1</option>
+                  <option value="adulto2">2</option>
+                  <option value="adulto3">3</option>
+                  <option value="adulto4">4</option>
+                  <option value="adulto5">5</option>
+                  <option value="adulto6">6</option>
+                  <option value="adulto7">7</option>
+               </select><br><br>
+
+               <label for="areas"><b>4.</b> Quantas crianças são?</label>
+                <select id="viagem" name="viagem">
+                  <option value="crianca0">0</option>
+                  <option value="crianca1">1</option>
+                  <option value="crianca2">2</option>
+                  <option value="crianca3">3</option>
+                  <option value="crianca4">4</option>
+                  <option value="crianca5">5</option>
+               </select><br><br>
+
+               <label for="areas"><b>5.</b> Vai querer carro de alugar?</label>
+                <input type="radio" value="op1" name="op">
+                <label for="op1">sim</label>
+                <input type="radio" value="op2" name="op">
+                <label for="op2">Nao</label>
+                <br>
+                <br>
+                <b><a target="_blank" href="https://www.europcar.pt/pt-pt"><img src="{% static 'website/images/europcar.jpg'%}"></a></b>
+                &nbsp;&nbsp;&nbsp;
+                <b><a target="_blank" href="https://www.rentalcars.com/pt/"><img src="{% static 'website/images/goldcar.jpg'%}" ></a></b>
+                &nbsp;&nbsp;&nbsp;
+                <b><a target="_blank" href="https://www.hertz.pt/rentacar/reservation/"><img src="{% static 'website/images/hertz.jpg'%}"></a></b>
+                <br>
+                <br>
+                <label for="areas"><b>6.</b> Vai querer voo direto?</label>
+                <input type="radio" value="op1" name="op">
+                <label for="op1">sim</label>
+                <input type="radio" value="op2" name="op">
+                <label for="op2">Nao</label>
+                <br>
+                <br>
+                <label for="areas"><b>7.</b> Em que classe quer viagar</label>
+                <select name="viagem">
+                  <option value="Económica">Económica</option>
+                  <option value="executiva">Executiva</option>
+                  <option value="1° classe">1° classe</option>
+                </select>
+                <p>
+                </p>
+                <br>
+                <label for="areas"><b>8.</b> Onde deseja apanhar o avião?</label>
+                <select name="viagem">
+                  <option value="Aeroporto Sá Carneiro">Aeroporto Sá Carneiro</option>
+                  <option value="Aeroporto Lisboa">Aeroporto Lisboa</option>
+                  <option value="Aeroporto Barcelona">Aeroporto Barcelona</option>
+                  <option value="Aeroporto Paris">Aeroporto Paris</option>
+                  <option value="Aeroporto Zurich">Aeroporto Zurich</option>
+                  <option value="Aeroporto Mulhouse">Aeroporto Mulhouse</option>
+                  <option value="Aeroporto Marselha">Aeroporto Marselha</option>
+                  <br>
+
+                </select>
+
+              <br>
+              <br>
+              <br>
+
+              <div class="body-text"></div>
+
+              <legend style="font-size:28px;"><b> Marcação de Hoteís: </b></legend>
+              <br>
+              <br>
+              <br>
+            </div>
+
+
+            <b><a target="_blank" href="https://www.tripadvisor.pt/Hotel_Review-g298484-d11835847-Reviews-AZIMUT_Hotel_Smolenskaya_Moscow-Moscow_Central_Russia.html">
+                <img src="{% static 'website/images/hotelMoscovo1.jpg'%}" style="border-radius: 10px;"></a></b>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <b><a target="_blank" href="https://www.tripadvisor.pt/Hotel_Review-g298484-d299974-Reviews-Vega_Izmailovo_Hotel-Moscow_Central_Russia.html">
+                  <img src="{% static 'website/images/hotelMoscovo2.jpg'%}" style="border-radius: 10px;"></a></b>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <b><a target="_blank" href="https://www.tripadvisor.pt/Hotel_Review-g298484-d299869-Reviews-Hotel_Metropol_Moscow-Moscow_Central_Russia.html">
+                  <img src="{% static 'website/images/hotelMoscovo3.jpg'%}" style="border-radius: 10px;"></a></b>
+              <p>
+                Smolenskaya Moscow     &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                Vega Izmailovo      &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                Metropol Moscow
+
+              </p>
+
+              <br>
+              <br>
+              <b><a target="_blank" href="https://www.tripadvisor.pt/Hotel_Review-g298484-d299815-Reviews-AZIMUT_Hotel_Olympic_Moscow-Moscow_Central_Russia.html">
+                  <img src="{% static 'website/images/hotelMoscovo4.jpg'%}" style="border-radius: 10px;"></a></b>
+              &nbsp;&nbsp;&nbsp;
+              <b><a target="_blank" href="https://www.tripadvisor.pt/Hotel_Review-g298484-d10627843-Reviews-Novotel_Moscow_Kievskaya-Moscow_Central_Russia.html">
+                  <img src="{% static 'website/images/hotelMoscovo5.jpg'%}" style="border-radius: 10px;"></a></b>
+              &nbsp;&nbsp;&nbsp;
+              <b><a target="_blank" href="https://www.tripadvisor.pt/Hotel_Review-g298484-d299889-Reviews-Radisson_Slavyanskaya_Hotel_Business_Centre_Moscow-Moscow_Central_Russia.html">
+                  <img src="{% static 'website/images/hotelMoscovo6.jpg'%}" style="border-radius: 10px;"></a></b>
+              <p>
+                Olympic Moscow     &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                Moscow Kievskaya      &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                Radisson Slavyanskaya
+
+              </p>
+              <br>
+    </div>
 {% endblock %}
