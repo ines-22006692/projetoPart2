@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3eb14d9-047a-441f-83c3-6c706a1f16a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/informacaoLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/informacaoLofoten.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/informacaoVancover.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/informacaoVancover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/ida_e_voltaLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/ida_e_voltaLofoten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/ida_e_voltaMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/ida_e_voltaMoscovo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/ida_e_voltaVancover.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/ida_e_voltaVancover.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,7 @@
       <workItem from="1623153365223" duration="2159000" />
       <workItem from="1623622491996" duration="1981000" />
       <workItem from="1623682310799" duration="3482000" />
-      <workItem from="1624657532604" duration="6976000" />
+      <workItem from="1624657532604" duration="7276000" />
     </task>
     <task id="LOCAL-00001" summary="Já compila a parte 2">
       <created>1622500281826</created>
@@ -312,7 +312,35 @@
       <option name="project" value="LOCAL" />
       <updated>1624662282793</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="feito">
+      <created>1624664630621</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1624664630621</updated>
+    </task>
+    <task id="LOCAL-00031" summary="falta fazer o worldcloud">
+      <created>1624664700902</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1624664700902</updated>
+    </task>
+    <task id="LOCAL-00032" summary="falta fazer">
+      <created>1624664804524</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1624664804524</updated>
+    </task>
+    <task id="LOCAL-00033" summary="falta fazer">
+      <created>1624664876764</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1624664876764</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +361,9 @@
     <MESSAGE value="Feito" />
     <MESSAGE value="já move as imagens" />
     <MESSAGE value="feito" />
-    <option name="LAST_COMMIT_MESSAGE" value="feito" />
+    <MESSAGE value="falta fazer o worldcloud" />
+    <MESSAGE value="falta fazer" />
+    <option name="LAST_COMMIT_MESSAGE" value="falta fazer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
