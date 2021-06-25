@@ -4,8 +4,11 @@
     <list default="true" id="e3eb14d9-047a-441f-83c3-6c706a1f16a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/static/website/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/atividadeMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/atividadeMoscovo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/templates/website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/marcarViagemLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/marcarViagemLofoten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/marcarViagemMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/marcarViagemMoscovo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/marcarViagemVancover.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/marcarViagemVancover.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../pw-projeto-pedro-ricardo-parte-2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -105,7 +108,10 @@
       <workItem from="1623140769765" duration="700000" />
       <workItem from="1623141533492" duration="531000" />
       <workItem from="1623142110064" duration="1029000" />
-      <workItem from="1623153365223" duration="1371000" />
+      <workItem from="1623153365223" duration="2159000" />
+      <workItem from="1623622491996" duration="1981000" />
+      <workItem from="1623682310799" duration="3482000" />
+      <workItem from="1624657532604" duration="4414000" />
     </task>
     <task id="LOCAL-00001" summary="Já compila a parte 2">
       <created>1622500281826</created>
@@ -296,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622921776313</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="já move as imagens">
+      <created>1623154883553</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1623154883553</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +328,8 @@
     <MESSAGE value="navegação feita" />
     <MESSAGE value="Feito exceto o mapa do website" />
     <MESSAGE value="Feito" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feito" />
+    <MESSAGE value="já move as imagens" />
+    <option name="LAST_COMMIT_MESSAGE" value="já move as imagens" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

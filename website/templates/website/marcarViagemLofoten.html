@@ -51,7 +51,7 @@
 {% block main %}
  <div class="body-text">
 
-            <h1 style="color:rgb(0, 174, 255)">Marcação de Viagem para Noruega </h1>
+            <h1 style="color:rgb(0,25,62)">Marcação de Viagem para Lofoten </h1>
 
             <br>
             <br>
@@ -62,9 +62,9 @@
 
 
                 <br>
-                <a href="marcarViagemNoruega.html">só ida </a>
+                <a href="marcarViagemLofoten.html">só ida </a>
                 &nbsp;&nbsp;&nbsp;
-                <a href="ida_e_voltaNoruega.html">Ida e volta</a>
+                <a href="ida_e_voltaLofoten.html">Ida e volta</a>
 
                 <br>
                 <br>
@@ -110,12 +110,11 @@
                 <label for="op2">Nao</label>
                 <br>
                 <br>
-                <b><a target="_blank" href="https://www.europcar.pt/pt-pt"><section style="float:left; "><img src="{% static 'website/images/europcar.jpg'%}" ></a></b>
+                <b><a target="_blank" href="https://www.europcar.pt/pt-pt"><img src="{% static 'website/images/europcar.jpg'%}"></a></b>
                 &nbsp;&nbsp;&nbsp;
-                <b><a target="_blank" href="https://www.rentalcars.com/pt/"><section style="float:left; "><img src="{% static 'website/images/goldcar.jpg'%}" ></a></b>
+                <b><a target="_blank" href="https://www.rentalcars.com/pt/"><img src="{% static 'website/images/goldcar.jpg'%}" ></a></b>
                 &nbsp;&nbsp;&nbsp;
-                <b><a target="_blank" href="https://www.hertz.pt/rentacar/reservation/"><section style="float:left; "><img src="{% static 'website/images/hertz.jpg'%}" ></a></b>
-
+                <b><a target="_blank" href="https://www.hertz.pt/rentacar/reservation/"><img src="{% static 'website/images/hertz.jpg'%}"></a></b>
                 <br>
                 <br>
                 <label for="areas"><b>6.</b> Vai querer voo direto?</label>
@@ -126,32 +125,35 @@
                 <br>
                 <br>
                 <label for="areas"><b>7.</b> Em que classe quer viagar</label>
-                <select name="viagem">
-                  <option value="Económica">Económica</option>
-                  <option value="executiva">Executiva</option>
-                  <option value="1° classe">1° classe</option>
-                </select>
+                <label>
+                    <select name="viagem">
+                      <option value="Económica">Económica</option>
+                      <option value="executiva">Executiva</option>
+                      <option value="1° classe">1° classe</option>
+                    </select>
+                </label>
                 <p>
                 </p>
                 <br>
                 <label for="areas"><b>8.</b> Onde deseja apanhar o avião?</label>
-                <select name="viagem">
-                  <option value="Aeroporto Sá Carneiro">Aeroporto Sá Carneiro</option>
-                  <option value="Aeroporto Lisboa">Aeroporto Lisboa</option>
-                  <option value="Aeroporto Barcelona">Aeroporto Barcelona</option>
-                  <option value="Aeroporto Paris">Aeroporto Paris</option>
-                  <option value="Aeroporto Zurich">Aeroporto Zurich</option>
-                  <option value="Aeroporto Mulhouse">Aeroporto Mulhouse</option>
-                  <option value="Aeroporto Marselha">Aeroporto Marselha</option>
-                  <br>
+                <label>
+                    <select name="viagem">
+                      <option value="Aeroporto Sá Carneiro">Aeroporto Sá Carneiro</option>
+                      <option value="Aeroporto Lisboa">Aeroporto Lisboa</option>
+                      <option value="Aeroporto Barcelona">Aeroporto Barcelona</option>
+                      <option value="Aeroporto Paris">Aeroporto Paris</option>
+                      <option value="Aeroporto Zurich">Aeroporto Zurich</option>
+                      <option value="Aeroporto Mulhouse">Aeroporto Mulhouse</option>
+                      <option value="Aeroporto Marselha">Aeroporto Marselha</option>
 
-                </select>
+                    </select>
+                </label>
 
+                <br>
               <br>
               <br>
-              <br>
 
-            <div class="body-text"></div>
+             <div class="body-text">
 
               <legend style="font-size:28px;"><b> Marcação de Hoteís: </b></legend>
               <br>
@@ -160,14 +162,17 @@
             </div>
 
 
-            <b><a target="_blank" href="https://www.tripadvisor.pt/Hotel_Review-g227941-d234228-Reviews-Scandic_Svolvaer-Svolvaer_Vagan_Lofoten_Islands_Nordland_Northern_Norway.html"><section style="float:left; "><img src="{% static 'website/images/hotelNoruega4.jpg'%}"style="border-radius: 10px;" ></a></b>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <b><a target="_blank" href="https://www.tripadvisor.pt/Hotel_Review-g227941-d16880972-Reviews-Scandic_Vestfjord_Lofoten-Svolvaer_Vagan_Lofoten_Islands_Nordland_Northern_Norway.html"><section style="float:left; "><img src="{% static 'website/images/hotelNoruega5.jpg'%}"style="border-radius: 10px;" ></a></b>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <b><a target="_blank" href="https://www.tripadvisor.pt/Hotel_Review-g227941-d262347-Reviews-Svinoya_Rorbuer-Svolvaer_Vagan_Lofoten_Islands_Nordland_Northern_Norway.html"><section style="float:left; "><img src="{% static 'website/images/hotelNoruega6.jpg'%}"style="border-radius: 10px;" ></a></b>
+            <b><a target="_blank" href="https://www.tripadvisor.pt/Hotel_Review-g227941-d234228-Reviews-Scandic_Svolvaer-Svolvaer_Vagan_Lofoten_Islands_Nordland_Northern_Norway.html">
+                <img src="{% static 'website/images/hotelNoruega4.jpg'%}" style="border-radius: 10px;" alt=""></a></b>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <b><a target="_blank" href="https://www.tripadvisor.pt/Hotel_Review-g227941-d16880972-Reviews-Scandic_Vestfjord_Lofoten-Svolvaer_Vagan_Lofoten_Islands_Nordland_Northern_Norway.html">
+                <img src="{% static 'website/images/hotelNoruega5.jpg'%}" style="border-radius: 10px;" alt=""></a></b>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <b><a target="_blank" href="https://www.tripadvisor.pt/Hotel_Review-g227941-d262347-Reviews-Svinoya_Rorbuer-Svolvaer_Vagan_Lofoten_Islands_Nordland_Northern_Norway.html">
+                <img src="{% static 'website/images/hotelNoruega6.jpg'%}"style="border-radius: 10px;" alt=""></a></b>
             <p>
-              Scandic Svolvaer    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-              Scandic Vestfjord   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+              Scandic Svolvaer   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              Scandic Vestfjord   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               Svinoya Rorbuer
 
 
@@ -190,5 +195,5 @@
 
 
 
-        </div>
+
 {% endblock %}

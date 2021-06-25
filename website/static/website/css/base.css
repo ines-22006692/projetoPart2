@@ -566,11 +566,22 @@ table tbody {
     line-height:120%;
     margin: auto;
 }
+img.wordcloud{
+    position: relative;
+    top: 100px;
+    right: -10px;
+
+}
 /*Vancouver*/
 img.index{
     position: relative;
-    top: 90px;
+    top: 40px;
     right: -200px;
+}
+figcaption.indexCaption{
+    position: relative;
+    top: -640px;
+    right: -10px;
 }
 img.atividadeCanada1 {
   position: relative;
@@ -641,11 +652,10 @@ figcaption.texto_GastronomiaLocalCanada {
   width: 350px;
   color: rgb(0, 0, 0);
 }
-
 figcaption.texto_mapaCidadeCanada {
   font-size: 30px;
   position: relative;
-  top: -200px;
+  top: -300px;
   right: 0px;
   color: rgb(0, 0, 0);
 }
@@ -752,6 +762,14 @@ img.atividadeNoruega10 {
   border: 3px solid rgb(131, 170, 230);
 }
 /*Moscovo*/
+img.mapaRussia{
+     position: relative;
+    top: 800px;
+    right: -400px;
+    width: 300px;
+    height: 300px;
+}
+
 figcaption.texto_atividadeRussia {
   font-size: 25px;
   position: relative;
@@ -1436,13 +1454,6 @@ figcaption.texto_GastronomiaLocalCanada {
   top: 100px;
   right: -350px;
   width: 350px;
-  color: rgb(0, 0, 0);
-}
-figcaption.texto_mapaCidadeCanada {
-  font-size: 15px;
-  position: relative;
-  top: -200px;
-  right: 0px;
   color: rgb(0, 0, 0);
 }
 figcaption.texto_atividadeCidadeCanada {
