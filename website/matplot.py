@@ -5,6 +5,7 @@ from matplotlib import pyplot as plt
 
 from .models import Comentario, Quizz
 
+
 #falta fazer
 def comentariosGraficoCircular():
     comentario = Comentario.objects.all()

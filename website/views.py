@@ -8,6 +8,7 @@ from .forms import ContactoForm, ComentarioForm, QuizzForm
 
 from .models import Contacto, Pessoa
 
+
 # Create your views here.
 def home_page_view(request):
 

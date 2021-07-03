@@ -4,6 +4,7 @@ from . import views
 
 app_name = "website"
 
+
 urlpatterns = [
     path('', views.home_page_view, name=''),  # para quando abrir a app o default seja esta
     path('home', views.home_page_view, name='home'),

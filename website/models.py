@@ -15,6 +15,7 @@ class Contacto(models.Model):
         return str(self.id)
 
 
+
 class Comentario(models.Model):
     id = models.AutoField(primary_key=True)
     nome = models.CharField(max_length=30, default="", verbose_name="O seu Nome ")

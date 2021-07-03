@@ -11,6 +11,7 @@ class ContactoForm(ModelForm):
         model = Contacto
         fields = '__all__'
 
+
 #feito
 class ComentarioForm(ModelForm):
     class Meta:
