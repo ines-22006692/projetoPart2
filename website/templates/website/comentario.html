@@ -4,7 +4,7 @@
 {% block style %}
    html{
       background-image: url({% static 'website/images/fundo1.jpg'%});
-      height: 200%;
+      height: 230%;
    }
    h1 {
         text-shadow: 1px 1px 2px black, 0 0 20px rgb(201, 4, 4), 0 0 5px rgb(0, 139, 19);
@@ -15,9 +15,13 @@
 {% endblock style %}
 
 {% block main %}
-<h3>Dê-nos a sua opinião sobre o Website</h3>
+<h1>Comentário</h1>
     <form method="POST" action="">
-        <p>&#x2139; Para os 3 primeiros critérios escolha um valor de 1 a 5 sendo 1 Péssimo e 5 Muito Bom. Para os outros escolha o que acha que o Website teve em conta.</p>
+        <br>
+        <br>
+        <p>Ajude-nos a perceber o que melhorar!!</p>
+        <br>
+        <br>
         {% csrf_token %}
         {{ form.as_p }}
         <input class = "btn btn-primary" type="submit" value="Enviar Comentários">
@@ -25,7 +29,7 @@
     <div class="centerIframeOrSvg">
         {{ graphCir|safe }}
     </div>
-    <div class="centerIframeOrSvg">
+    <div class="centerIframeOrSvgs">
         {{ graphBar|safe }}
     </div>
-{% endblock %}
+{% endblock main %}

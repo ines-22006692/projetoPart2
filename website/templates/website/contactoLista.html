@@ -15,7 +15,15 @@
 
 
 {% block main %}
-    <h3>Página 1</h3>
-    <p>Esta é a página número 1</p>
-    <p>Teste 1</p>
-{% endblock %}
+    <h3>Lista de Contactos:</h3>
+    {% for contacto in contactos %}
+        <p>
+            ({{ contacto.dataCriacao.day }}/{{ contacto.dataCriacao.month }})
+            -
+            {{ contacto.nome }}
+            {{ contacto.apelido }}
+            <a href="{% url 'website:contactoApaga' contacto.id %}" class="btn btn-danger" style="float: right">Apagar</a>
+            <a href="{% url 'website:contactoEdita' contacto.id %}" class="btn btn-warning" style="float: right">Editar</a>
+        </p>
+    {% endfor %}
+{% endblock main%}

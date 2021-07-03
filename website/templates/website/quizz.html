@@ -15,10 +15,10 @@
 {% endblock style %}
 
 {% block main %}
-    <h3>Quizz</h3>
+    <h3>Quizz:</h3>
     <form method="POST" action="">
         {% csrf_token %}
         {{ form.as_p }}
-        <input class = "btn btn-primary" type="submit" value="Send Quizz">
+        <input class = "btn btn-primary" type="submit" value="Enviar Quizz">
     </form>
-{% endblock %}
+{% endblock main%}

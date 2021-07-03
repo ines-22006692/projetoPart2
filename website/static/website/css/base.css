@@ -19,7 +19,7 @@ h2{
 h3{
   /*font: size 10px;*/
   color:rgb(0, 0, 0);
-
+    size:100px ;
   text-align: center;
 }
 h4{
@@ -921,7 +921,13 @@ table tbody {
   transform: scale(1.5);
 }
 .centerIframeOrSvg {
-    display: block;
+    display: inline-flex;
+    margin: auto;
+    top: 0px;
+    right: 300px;
+}
+.centerIframeOrSvgs {
+    display: inline-grid;
     margin: auto;
 }
 

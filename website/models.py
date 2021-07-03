@@ -30,7 +30,7 @@ class Comentario(models.Model):
 
     def __str__(self):
         return str(self.id)
-#Rever
+
 class Quizz(models.Model):
     quantidade = [
         (1, 1),

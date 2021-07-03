@@ -8,13 +8,13 @@ from .models import Comentario, Quizz
 
 #falta fazer
 def comentariosGraficoCircular():
-    comentario = Comentario.objects.all()
-    listKeys = ['Rigor', 'Clareza', 'Precisao']
+    comentarios = Comentario.objects.all()
+    listaKeys = ['Rigor', 'Clareza', 'Precisao']
     rigor = 0
     clareza = 0
     precisao = 0
     listaValues = []
-    for coment in comentario:
+    for coment in comentarios:
         rigor += int(coment.rigor)
         clareza += int(coment.clareza)
         precisao += int(coment.precisao)
@@ -23,7 +23,7 @@ def comentariosGraficoCircular():
     listaValues.append(precisao)
 
     fig = plt.figure()
-    plt.pie(listaValues, labels=listKeys, autopct='%1.0f%%')
+    plt.pie(listaValues, labels=listaKeys, autopct='%1.0f%%')
     plt.title("Gráfico Critérios de Avaliação")
     fig.set_facecolor((0.921, 0.921, 0.921))
     fig.set_size_inches(4, 2.666)

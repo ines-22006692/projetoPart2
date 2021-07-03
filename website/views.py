@@ -1,3 +1,4 @@
+import time
 from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponseRedirect, JsonResponse
 from django.shortcuts import render
@@ -82,13 +83,12 @@ def quizz_page_view(request):
         pessoa = Pessoa.objects.get(nome=quizz.nome)
         pessoa.quizz = quizz
         pessoa.save()
-        return HttpResponseRedirect(reverse('website:quizzResult', args=(quizz.id,)))
+        return HttpResponseRedirect(reverse('website:quizzResultado', args=(quizz.id,)))
 
     context = {
         'form': form,
     }
     return render(request, 'website/quizz.html', context)
-
 
 def comentarios_page_view(request):
     form = ComentarioForm(request.POST or None)
@@ -109,49 +109,49 @@ def comentarios_page_view(request):
     return render(request, 'website/comentario.html', context)
 
 def contacto_page_view(request):
-    form = ContactoForm(request.POST or None)
-    if form.is_valid():
-        contacto = form.save()
-        Pessoa.objects.get_or_create(nome=contacto.nome)
-        pessoa = Pessoa.objects.get(nome=contacto.nome)
-        pessoa.contacto = contacto
-        pessoa.save()
+    forms = ContactoForm(request.POST or None)
+    if forms.is_valid():
+        contactos = forms.save()
+        Pessoa.objects.get_or_create(nome=contactos.nome)
+        people = Pessoa.objects.get(nome=contactos.nome)
+        people.contactos = contactos
+        people.save()
         return HttpResponseRedirect(reverse('website:home'))
 
-    context = {'form': form}
+    contexts = {'form': forms}
 
-    return render(request, 'website/contacto.html', context)
+    return render(request, 'website/contacto.html', contexts)
 
 def contactoLista_page_view(request):
-    context = {'contactos': sorted(Contacto.objects.all(), key=lambda objeto: objeto.id)}
+    contexts = {'contactos': sorted(Contacto.objects.all(), key=lambda objeto: objeto.id)}
     if not request.user.is_authenticated:
         return HttpResponseRedirect(reverse('website:login'))
 
-    return render(request, 'website/contactoLista.html', context)
+    return render(request, 'website/contactoLista.html', contexts)
 
 def contactoEditar_page_view(request, contacto_id):
     if not request.user.is_authenticated:
         return HttpResponseRedirect(reverse('website:login'))
 
-    contacto = Contacto.objects.get(pk=contacto_id)
-    form = ContactoForm(request.POST or None, instance=contacto)
+    contactos = Contacto.objects.get(pk=contacto_id)
+    form = ContactoForm(request.POST or None, instance=contactos)
     if form.is_valid():
         form.save()
-        return HttpResponseRedirect(reverse('website:home'))
+        return HttpResponseRedirect(reverse('website:contactoLista'))
 
-    context = {'form': form, 'contacto_id': contacto_id}
-    return render(request, 'website/contactoEditar.html', context)
+    contexts = {'form': form, 'contacto_id': contacto_id}
+    return render(request, 'website/contactoEditar.html', contexts)
 
 def contactoApaga_page_view(request, contacto_id):
     Contacto.objects.get(pk=contacto_id).delete()
-    return HttpResponseRedirect(reverse('website:home'))
+    return HttpResponseRedirect(reverse('website:contactoLista'))
 
 def quizzResult_page_view(request, id):
     context = {
         'graphPessoal': quizzPessoal(id),
         'graphGrupo': quizzGrupo(id),
     }
-    return render(request, 'website/quizzResult.html', context)
+    return render(request, 'website/quizzResultado.html', context)
 
 def login_view(request):
     if request.method == "POST":
@@ -162,7 +162,7 @@ def login_view(request):
                             password=password)
         if user is not None:
             login(request, user)
-            return render(request, 'website/index.html')
+            return render(request, 'website/contactoLista.html')
         else:
             return render(request, 'website/login.html', {
                 'Mensagem': "Credenciais Inválidas"
@@ -173,3 +173,17 @@ def logout_view(request):
     logout(request)
     return render(request, 'website/index.html', {
         'Mensagem': 'Terminou Sessão'})
+
+def seccoes(request):
+    starts = int(request.GET.get("starts") or 0)
+    ends = int(request.GET.get("ends") or (starts + 12))
+
+    date = []
+    for j in range(starts, ends + 1):
+        date.append(f"{j}")
+
+    time.sleep(0.5)
+
+    return JsonResponse({
+        "seccao": date
+    })

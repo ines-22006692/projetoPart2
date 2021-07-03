@@ -2,7 +2,7 @@ from django import forms
 from django.forms import ModelForm
 from .models import Contacto, Comentario, Quizz, Pessoa
 
-#por rever
+
 class ContactoForm(ModelForm):
     formatacao = ["%d/%m/%Y"]
     dataNascimento = forms.DateField(input_formats=formatacao, label="Data de Nascimento")
@@ -12,7 +12,7 @@ class ContactoForm(ModelForm):
         fields = '__all__'
 
 
-#feito
+
 class ComentarioForm(ModelForm):
     class Meta:
         model = Comentario
@@ -30,7 +30,7 @@ class ComentarioForm(ModelForm):
             'precisao': forms.RadioSelect(choices=opcoes),
         }
 
-#feito
+
 class QuizzForm(ModelForm):
     class Meta:
         model = Quizz
