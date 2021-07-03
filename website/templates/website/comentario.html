@@ -13,129 +13,18 @@
    }
 {% endblock style %}
 
-{% block nav %}
-        <ul class="menu-links">
-            <li><a href="###">Home &dtrif;</a>
-                <span id="DC-info">
-                    <a href="{% url 'website:home' %}"><i class="material-icons" style="font-size:14px;color:red">home</i> Página principal </a>
-                </span>
-            </li>
-        </ul>
-        <ul class="menu-links">
-            <li><a href="###">Moscovo &dtrif;</a>
-                <span id="DC-info">
-                    <a href="{% url 'website:marcarViagemMoscovo' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> Marcação da viagem </a>
-                    <a href="{% url 'website:imagensMosvovo' %}"><i class="material-icons" style="font-size:14px;color:rgb(175, 175, 175)">collections</i> Imagens da cidade </a>
-                    <a href="{% url 'website:informacaoMoscover' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Mais informação sobre a cidade</a>
-                    <a href="{% url 'website:atividadeMoscovo' %}"><i class="material-icons" style="font-size:14px;color:red">rowing</i> Actividades/Pontos Turisticos</a>
-                </span>
-            </li>
-        </ul>
-        <ul class="menu-links">
-            <li><a href="###">Vancouver &dtrif;</a>
-                <span id="DC-info">
-                    <a href="{% url 'website:marcarViagemVancover' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> Marcação da viagem </a>
-                    <a href="{% url 'website:imagensVancover' %}"><i class="material-icons" style="font-size:14px;color:rgb(175, 175, 175)">collections</i> Imagens da cidade </a>
-                    <a href="{% url 'website:informacaoVancover' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Mais informação sobre a cidade</a>
-                    <a href="{% url 'website:atividadeVancover' %}"><i class="material-icons" style="font-size:14px;color:red">rowing</i> Actividades/Pontos Turisticos</a>
-                </span>
-            </li>
-        </ul>
-        <ul class="menu-links">
-            <li><a href="###">Lofoten &dtrif;</a>
-                <span id="DC-info">
-                    <a href="{% url 'website:marcarViagemLofoten' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> Marcação da viagem </a>
-                    <a href="{% url 'website:imagensLofoten' %}"><i class="material-icons" style="font-size:14px;color:rgb(175, 175, 175)">collections</i> Imagens da cidade </a>
-                    <a href="{% url 'website:informacaoLofoten' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Mais informação sobre a cidade</a>
-                    <a href="{% url 'website:informacaoLofoten' %}"><i class="material-icons" style="font-size:14px;color:red">rowing</i> Actividades/Pontos Turisticos</a>
-                </span>
-            </li>
-        </ul>
-        <ul class="menu-links">
-            <li><a href="###">Sobre nós &dtrif;</a>
-                <span id="DC-info">
-                    <a href="{% url 'website:comentario' %}"><i class="material-icons" style="font-size:14px;color:red">question_answer</i> Comentários </a>
-                    <a href="{% url 'website:estiloPagina' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Estilo do Website </a>
-                    <a href="{% url 'website:quizz' %}"><i class="material-icons" style="font-size:14px;color:red">assessment</i> Quizz </a>
-                </span>
-            </li>
-         </ul>
-{% endblock %}
 {% block main %}
-    <div class="body-text">
-
-    <section>
-    <h1>Comentários</h1>
-    <br>
-    <br>
-        <p><b>Ajude-nos a perceber o que melhorar!!</b></p>
-        <br>
-        <br>
-            <form>
-                <p>O site encontra-se explicíto relativamente ao assunto que é tratado?
-                    <input type="text" id="Sim" name="simOuNao" maxlength="3" size="18" placeholder="Sim ou Não"></p><br>
-
-                <label for="clareza">Como classifica o nosso website quanto à Clareza?</label>
-                    <input type="radio" id="Pessimo" name="gender" value="Pessimo">
-                <label for="Pessimo">Péssimo</label>
-                    <input type="radio" id="Medio" name="gender" value="Medio">
-                <label for="Medio">Médio</label>
-                    <input type="radio" id="Bom" name="gender" value="Bom">
-                <label for="Bom">Bom</label>
-                    <input type="radio" id="Muito Bom" name="gender" value="Muito Bom">
-                <label for="Muito Bom">Muito Bom</label><br><br>
-
-                <label for="profundidade">Como classifica o nosso website quanto à precisão?</label>
-                <input type="checkbox" id="Avaliar" name="Avaliar" value="Péssimo">
-                <label for="Pessimo">Péssimo</label>
-                <input type="checkbox" id="Avaliar" name="Avaliar" value="Médio">
-                <label for="Medio">Médio</label>
-                <input type="checkbox" id="Avaliar" name="Avaliar" value="Bom">
-                <label for="Bom">Bom</label>
-                <input type="checkbox" id="Avaliar" name="Avaliar" value="Muito Bom">
-                <label for="Muito Bom">Muito Bom</label><br><br>
-
-                <label for="quantity"> Avaliação na originalidade (sendo 1 o pior e 5 o melhor): </label>
-                <input type="number" id="quantity" name="quantity" min="1" max="5" step="1" >
-                <br><br>
-
-                <label for="quantity"> Avaliação no design (sendo 1 o pior e 5 o melhor): </label>
-                <input type="number" id="quantity" name="quantity" min="1" max="5" step="1" >
-                <br><br>
-                <label for="quantity"> Como classifica o nosso website quanto ao rigor (0 a 100)?  </label>
-                <input type="range" min="0" max="100" name="rigor" value="0" oninput="rigorWeb.value = parseInt(rigor.value)">
-                <output name= "rigorWeb" for="rigor">0</output> % <br><br>
-
-                <label>
-                    Como classifica o nosso website quanto à profundidade?
-                    <select name="cultura">
-                        <option value="opiniao1">Fraco</option>
-                        <option value="opiniao2">Suficiente</option>
-                        <option value="opiniao3">Bom</option>
-                        <option value="opiniao4">Excelente</option>
-                    </select>
-                </label>
-                <br><br>
-
-                <label for="quantity"> Como classifica o nosso website quanto à amplitude (0 a 100)?  </label>
-                    <input type="range" min="0" max="100" name="amplitude" value="0" oninput="amplitudeWeb.value = parseInt(amplitude.value)">
-                    <output name= "amplitudeWeb" for="amplitude">0</output> % <br><br>
-
-                <label for="quantity"> Qual a percentagem de facilidade de navegação nas várias páginas do web site?  </label>
-                    <input type="range" min="0" max="100" name="taxa" value="0" oninput="taxaN.value = parseInt(taxa.value)">
-                    <output name= "taxaN" for="taxa">0</output> % <br><br>
-
-                <p>Sugestões de Melhoria:</p>
-                  <textarea name="message" rows="5" cols="50"></textarea><br><br>
-                  <input type="hidden" id="lab3" name="lab3" value="100">
-
-                      <input type="submit" value="Enviar" style="height:25px; width:130px;" onclick="alert('Obrigado pela sua opinião')">
-                      <input type="reset" value="Reset">
-
-                </form>
-                <br>
-                <br>
-        </section>
+<h3>Dê-nos a sua opinião sobre o Website</h3>
+    <form method="POST" action="">
+        <p>&#x2139; Para os 3 primeiros critérios escolha um valor de 1 a 5 sendo 1 Péssimo e 5 Muito Bom. Para os outros escolha o que acha que o Website teve em conta.</p>
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input class = "btn btn-primary" type="submit" value="Enviar Comentários">
+    </form>
+    <div class="centerIframeOrSvg">
+        {{ graphCir|safe }}
     </div>
+    <div class="centerIframeOrSvg">
+        {{ graphBar|safe }}
     </div>
 {% endblock %}

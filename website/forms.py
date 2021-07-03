@@ -24,21 +24,9 @@ class ComentarioForm(ModelForm):
             (5, 5)
         ]
         widgets = {
-            'campo4': forms.RadioSelect(choices=opcoes),
-            'campo5': forms.RadioSelect(choices=opcoes),
+            'clareza': forms.RadioSelect(choices=opcoes),
             'rigor': forms.RadioSelect(choices=opcoes),
             'precisao': forms.RadioSelect(choices=opcoes),
-        }
-        labels = {
-            'campo1': "O site encontra-se explicíto relativamente ao assunto que é tratado?",
-            'campo2': "Avaliação no design (sendo 1 o pior e 5 o melhor):",
-            'campo3': "Como classifica o nosso website quanto à Clareza?",
-            'campo4': "Como classifica o nosso website quanto à precisão?",
-            'campo5': "Avaliação na originalidade (sendo 1 o pior e 5 o melhor):",
-            'campo6': " Como classifica o nosso website quanto ao rigor (0 a 100)?",
-            'campo7': "Como classifica o nosso website quanto à profundidade?",
-            'campo8': " Qual a percentagem de facilidade de navegação nas várias páginas do web site??",
-            'campo9': "Sugestões de Melhoria:"
         }
 
 #feito

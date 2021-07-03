@@ -1,10 +1,289 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3eb14d9-047a-441f-83c3-6c706a1f16a4" name="Default Changelist" comment="">
+    <list default="true" id="e3eb14d9-047a-441f-83c3-6c706a1f16a4" name="Default Changelist" comment="falta fazer">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/css/base.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/css/base.fdf1e1083824.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/css/base.fdf1e1083824.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/1.5967ca7a62c4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/123.d257912d0f5b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/123.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/2.cef28ede090f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/3.36d9f68dea17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/CatedralMoscovo.93710d398fc6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/CatedralMoscovo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/CatedralRussia.1c90ae13e1f5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/CatedralRussia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/ChristmasVancouver(1).d3459a7ffce1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/ChristmasVancouver(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/ChristmasVancouver.d3459a7ffce1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/ChristmasVancouver.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/MenuPC.a2ec9d0a8968.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/MenuPC.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/MenuTelefone.f06d9ba9850f.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/MenuTelefone.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou1(1).aa595bd0a5ea.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou1(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou1.9ee9f75e5030.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou2(1).bbeb44488a3b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou2(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou2.87bd83218523.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou3(1).f3eeabcadf4d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou3(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou3.bb5a68343427.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou4(1).2ac81846b249.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou4(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou4.ba96541bffac.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou5(1).fe0ff0ecc7b5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou5(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou5.69f10da21af2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou6(1).f9dddacb3c13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou6(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou6.c42b9f6a0d50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou7(1).a6bb2c797a34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou7(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou7.7a61b65a58a9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou8(1).6190b5680a60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou8(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou8.6190b5680a60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou9(1).41b488650fbb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou9(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou9.41b488650fbb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/Moscou9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/alfaHotelMoscou.9ffd665602ee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/alfaHotelMoscou.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/alfaHotelMoscou1.367cfa6c3ac4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/alfaHotelMoscou1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/aquariumCanada(1).96ee8fc5f150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/aquariumCanada(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/aquariumCanada(50px).d93aff4902c1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/aquariumCanada(50px).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/aquariumCanada.ea30eb347901.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/aquariumCanada.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/aquariumVancouver.eaa3598b2385.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/aquariumVancouver.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/atividadeNoruega1.3afd3e2e03b1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/atividadeNoruega1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/atividadeNoruega2.d94190061051.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/atividadeNoruega2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/atividadeNoruega3.7e307537eb16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/atividadeNoruega3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/atividadeNoruega4.8dd42532b5b1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/atividadeNoruega4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/atividadeNoruega5.819e877e88fb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/atividadeNoruega5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/atividadeNoruega6.84c99e1eabbf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/atividadeNoruega6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/azimutHotemMoscou.de85bfe7f177.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/azimutHotemMoscou.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/azimutHotemMoscou1.cb2e0ebc1b3a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/azimutHotemMoscou1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/belmontHotelCanada(1).303d1a280736.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/belmontHotelCanada(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/belmontHotelCanada.e7d8dd7ce38b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/belmontHotelCanada.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/blackAndBlueCanada(1).317706e8ae32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/blackAndBlueCanada(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/blackAndBlueCanada(50px).d31c255d9f17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/blackAndBlueCanada(50px).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/blackAndBlueCanada.7af153ab7dd0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/blackAndBlueCanada.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/blueHotelCanada(1).c1e48502d004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/blueHotelCanada(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/blueHotelCanada.2a524f9adea0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/blueHotelCanada.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/blueWaterCafeCanada.7ea623b07ba1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/blueWaterCafeCanada.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/breathtakingCanada(1).5ea053cf845b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/breathtakingCanada(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/breathtakingCanada(50px).1ec9b924623b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/breathtakingCanada(50px).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/breathtakingCanada.587271cafeae.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/breathtakingCanada.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/capilanoCanada(1).34ad2e3f6b5a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/capilanoCanada(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/capilanoCanada(50px).7015c8afa17e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/capilanoCanada(50px).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/capilanoCanada.f78e7db4eb42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/capilanoCanada.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/capilanoVancouver.88c927996167.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/capilanoVancouver.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/christmasVancouverNatal(1).c8676ae7200d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/christmasVancouverNatal(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/christmasVancouverNatal.c8676ae7200d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/christmasVancouverNatal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/cityCanada(1).b69242553569.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/cityCanada(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/cityCanada(50px).6a1d95c3edb2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/cityCanada(50px).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/cityCanada.8531ba3d14cb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/cityCanada.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/cityCenterCanada.63f62d682298.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/cityCenterCanada.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/cosmonauticsMuseuMoscovo.236359346c0b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/cosmonauticsMuseuMoscovo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/cosmonauticsMuseuRussia.6f9b82a84a74.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/cosmonauticsMuseuRussia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/cosmonauticsRussia.c3c608ea5329.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/cosmonauticsRussia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/deepCove.0de42c3bf284.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/deepCove.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/deepCoveVancouver.513d24e58449.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/deepCoveVancouver.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/email.77b48e9eddee.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/email.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/europcar.c8f5a7f55e83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/europcar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/excursaoMoscovo.43bb029ecb95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/excursaoMoscovo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/excursaoRussia.579e17db2b43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/excursaoRussia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/favicon.966d5828643f.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/favicon.966d5828643f.ico.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/favicon.ico.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/fotoLink.0c926b27198a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/fotoLink.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/fundo0.fa3895a6b22c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/fundo0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/fundo1.8d4d7c4c8c10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/fundo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/fundo2.51d5c1184984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/fundo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/gageTowersHotelCanada(1).cd5d6e89df9c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/gageTowersHotelCanada(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/gageTowersHotelCanada.fd5219d8d19a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/gageTowersHotelCanada.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/galeriaMoscovo.14167a47bef1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/galeriaMoscovo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/galeriaRussia.59d8d223d2ab.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/galeriaRussia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/gammaHotelMoscou.ff33bb101973.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/gammaHotelMoscou.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/gammaHotelMoscou1.42a549c3ca9d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/gammaHotelMoscou1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/goldcar.cbaf05c1435c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/goldcar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hertz.f6de6fd8719e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hertz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/horizonCanada.2a524f9adea0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/horizonCanada.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hotelMoscovo1.499daecc0644.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hotelMoscovo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hotelMoscovo2.809bcc0012ea.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hotelMoscovo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hotelMoscovo3.2ca295193b44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hotelMoscovo3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hotelMoscovo4.809d8592bc87.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hotelMoscovo4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hotelMoscovo5.04f3eb13523a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hotelMoscovo5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hotelMoscovo6.01bc23216749.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hotelMoscovo6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hotelNoruega1.f48cb1757e4e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hotelNoruega1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hotelNoruega2.fd06e9d7667f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hotelNoruega2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hotelNoruega3.d53c5c835669.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hotelNoruega3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hotelNoruega4.adf3734a9f1b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hotelNoruega4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hotelNoruega5.debeb1826f55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hotelNoruega5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hotelNoruega6.f41afbe2f8f1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/hotelNoruega6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/imagemAside.3a9599801a35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/imagemAside.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega1.5d9a2c63df1d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega2.532637d966a9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega3.4d3460c6d8ce.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega4.831b440c7864.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega5.cc4535ef9eae.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega6.31ae89e2f4cb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega7.fc4758b512d5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/imperlinkNoruega7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/lofotenCapa.10312c7eda77.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/lofotenCapa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/mapaCanada.b09bbfccc119.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/mapaCanada.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/mapaNoruega.717901c57a5b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/mapaNoruega.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/mapaRussia1.2e54fff5f566.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/mapaRussia1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/mapaRussia1png.2e54fff5f566.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/mapaRussia1png.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/marriotsHotelMoscou.c3f1f2bea397.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/marriotsHotelMoscou.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/marriotsHotelMoscou1.098b4abe115c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/marriotsHotelMoscou1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/metroRussia.6da0656dbc02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/metroRussia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/metroRussiaAtividade.edafd11910ae.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/metroRussiaAtividade.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal(1).272ae9278b9e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal.62c68a3c290f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal1(1).c8237f320c58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal1(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal1.0bafc352bf01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal2(1).00a61148c6e9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal2(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal2.ef97c015cbc7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal3(1).88092fcf8fb8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website/images/moscouNatal3(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/website/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/atividadeLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/atividadeLofoten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/atividadeMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/atividadeMoscovo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/atividadeVancouver.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/atividadeVancouver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/comentario.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/comentario.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/contacto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/contactoEditar.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/contactoEditar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/contactoLista.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/contactoLista.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/estiloPagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/estiloPagina.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/templates/website/ida_e_voltaLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/ida_e_voltaLofoten.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/templates/website/ida_e_voltaMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/ida_e_voltaMoscovo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/templates/website/ida_e_voltaVancover.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/ida_e_voltaVancover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/imagensLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/imagensLofoten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/imagensMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/imagensMoscovo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/imagensVancover.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/imagensVancover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/informacaoLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/informacaoLofoten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/informacaoMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/informacaoMoscovo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/informacaoVancover.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/informacaoVancover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/marcarViagemLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/marcarViagemLofoten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/marcarViagemMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/marcarViagemMoscovo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/marcarViagemVancover.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/marcarViagemVancover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/quizz.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/quizz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/quizzResultado.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/quizzResultado.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +321,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../pw-projeto-pedro-ricardo-parte-2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../projeto_pw_parte2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -108,6 +387,10 @@
       <workItem from="1623622491996" duration="1981000" />
       <workItem from="1623682310799" duration="3482000" />
       <workItem from="1624657532604" duration="7276000" />
+      <workItem from="1625007032517" duration="7461000" />
+      <workItem from="1625047765311" duration="12416000" />
+      <workItem from="1625180802487" duration="4541000" />
+      <workItem from="1625220201836" duration="24214000" />
     </task>
     <task id="LOCAL-00001" summary="Já compila a parte 2">
       <created>1622500281826</created>
@@ -364,16 +647,5 @@
     <MESSAGE value="falta fazer o worldcloud" />
     <MESSAGE value="falta fazer" />
     <option name="LAST_COMMIT_MESSAGE" value="falta fazer" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/website/forms.py</url>
-          <line>44</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

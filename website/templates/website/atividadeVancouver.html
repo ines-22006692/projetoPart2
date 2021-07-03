@@ -4,7 +4,7 @@
 {% block style %}
     html{
       background-image: url({% static 'website/images/fundo1.jpg'%})
-      height: 690%;
+      height: 580%;
     }
       figure {
         width: 100%;
@@ -22,57 +22,6 @@
         to {left: 150px;}
       }
 {% endblock style %}
-
-
-
-{% block nav %}
-        <ul class="menu-links">
-            <li><a href="###">Home &dtrif;</a>
-                <span id="DC-info">
-                    <a href="{% url 'website:home' %}"><i class="material-icons" style="font-size:14px;color:red">home</i> Página principal </a>
-                </span>
-            </li>
-        </ul>
-        <ul class="menu-links">
-            <li><a href="###">Moscovo &dtrif;</a>
-                <span id="DC-info">
-                    <a href="{% url 'website:marcarViagemMoscovo' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> Marcação da viagem </a>
-                    <a href="{% url 'website:imagensMosvovo' %}"><i class="material-icons" style="font-size:14px;color:rgb(175, 175, 175)">collections</i> Imagens da cidade </a>
-                    <a href="{% url 'website:informacaoMoscover' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Mais informação sobre a cidade</a>
-                    <a href="{% url 'website:atividadeMoscovo' %}"><i class="material-icons" style="font-size:14px;color:red">rowing</i> Actividades/Pontos Turisticos</a>
-                </span>
-            </li>
-        </ul>
-        <ul class="menu-links">
-            <li><a href="###">Vancouver &dtrif;</a>
-                <span id="DC-info">
-                    <a href="{% url 'website:marcarViagemVancover' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> Marcação da viagem </a>
-                    <a href="{% url 'website:imagensVancover' %}"><i class="material-icons" style="font-size:14px;color:rgb(175, 175, 175)">collections</i> Imagens da cidade </a>
-                    <a href="{% url 'website:informacaoVancover' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Mais informação sobre a cidade</a>
-                    <a href="{% url 'website:atividadeVancover' %}"><i class="material-icons" style="font-size:14px;color:red">rowing</i> Actividades/Pontos Turisticos</a>
-                </span>
-            </li>
-        </ul>
-        <ul class="menu-links">
-            <li><a href="###">Lofoten &dtrif;</a>
-                <span id="DC-info">
-                    <a href="{% url 'website:marcarViagemLofoten' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> Marcação da viagem </a>
-                    <a href="{% url 'website:imagensLofoten' %}"><i class="material-icons" style="font-size:14px;color:rgb(175, 175, 175)">collections</i> Imagens da cidade </a>
-                    <a href="{% url 'website:informacaoLofoten' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Mais informação sobre a cidade</a>
-                    <a href="{% url 'website:informacaoLofoten' %}"><i class="material-icons" style="font-size:14px;color:red">rowing</i> Actividades/Pontos Turisticos</a>
-                </span>
-            </li>
-        </ul>
-        <ul class="menu-links">
-            <li><a href="###">Sobre nós &dtrif;</a>
-                <span id="DC-info">
-                    <a href="{% url 'website:comentario' %}"><i class="material-icons" style="font-size:14px;color:red">question_answer</i> Comentários </a>
-                    <a href="{% url 'website:estiloPagina' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Estilo do Website </a>
-                    <a href="{% url 'website:quizz' %}"><i class="material-icons" style="font-size:14px;color:red">assessment</i> Quizz </a>
-                </span>
-            </li>
-         </ul>
-{% endblock %}
 {% block main %}
     <section class="body-text">
         <h1>Actividades/Pontos Turisticos &#128519;</h1>
@@ -128,27 +77,9 @@
         <figcaption class="texto_mapaCidadeCanada">
             Mapa da Cidade de Vancouver
         </figcaption>
-        <svg width="500" height="332">
-            <image href="{% static 'website/images/mapaCanada.jpg'%}" width="100%" height="100%"></image>
-            galeria
-            <a href="{% static 'website/images/deepCoveVancouver.jpg'%}" target="fotosLink">
-                <circle cx="370" cy="110" r="6" fill="blue"></circle>
-            </a>
-            cathedral
-            <a href="{% static 'website/images/parqueVancouver.jpg'%}" target="fotosLink">
-                <circle cx="242" cy="128" r="6" fill="yellow"></circle>
-            </a>
-            tanke
-            <a href="{% static 'website/images/aquariumVancouver.jpg'%}" target="fotosLink">
-                <circle cx="258" cy="130" r="6" fill="green"></circle>
-            </a>
-            museu espacial russo
-            <a href="{% static 'website/images/capilanoVancouver.jpg'%}" target="fotosLink">
-                <circle cx="260" cy="85" r="6" fill="red"></circle></a>
-        </svg>
-        <br>
+           <figure>
+            <img src="{% static 'website/images/mapaCanada.jpg'%}" class="mapaCanada" alt="">
+        </figure>
 
-        <br>
-        <iframe src="{% static 'website/images/capilanoVancouver.jpg'%}" name="fotosLink" width="750px" height="440px" title="Fotos"></iframe>
     </section>
 {% endblock %}

@@ -1,56 +1,149 @@
 {% extends 'website/base.html' %}
 {% load static %}
-{% block nav %}
-        <ul class="menu-links">
-            <li><a href="###">Home &dtrif;</a>
-                <span id="DC-info">
-                    <a href="{% url 'website:home' %}"><i class="material-icons" style="font-size:14px;color:red">home</i> Página principal </a>
-                </span>
-            </li>
-        </ul>
-        <ul class="menu-links">
-            <li><a href="###">Moscovo &dtrif;</a>
-                <span id="DC-info">
-                    <a href="{% url 'website:marcarViagemMoscovo' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> Marcação da viagem </a>
-                    <a href="{% url 'website:imagensMosvovo' %}"><i class="material-icons" style="font-size:14px;color:rgb(175, 175, 175)">collections</i> Imagens da cidade </a>
-                    <a href="{% url 'website:informacaoMoscover' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Mais informação sobre a cidade</a>
-                    <a href="{% url 'website:atividadeMoscovo' %}"><i class="material-icons" style="font-size:14px;color:red">rowing</i> Actividades/Pontos Turisticos</a>
-                </span>
-            </li>
-        </ul>
-        <ul class="menu-links">
-            <li><a href="###">Vancouver &dtrif;</a>
-                <span id="DC-info">
-                    <a href="{% url 'website:marcarViagemVancover' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> Marcação da viagem </a>
-                    <a href="{% url 'website:imagensVancover' %}"><i class="material-icons" style="font-size:14px;color:rgb(175, 175, 175)">collections</i> Imagens da cidade </a>
-                    <a href="{% url 'website:informacaoVancover' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Mais informação sobre a cidade</a>
-                    <a href="{% url 'website:atividadeVancover' %}"><i class="material-icons" style="font-size:14px;color:red">rowing</i> Actividades/Pontos Turisticos</a>
-                </span>
-            </li>
-        </ul>
-        <ul class="menu-links">
-            <li><a href="###">Lofoten &dtrif;</a>
-                <span id="DC-info">
-                    <a href="{% url 'website:marcarViagemLofoten' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> Marcação da viagem </a>
-                    <a href="{% url 'website:imagensLofoten' %}"><i class="material-icons" style="font-size:14px;color:rgb(175, 175, 175)">collections</i> Imagens da cidade </a>
-                    <a href="{% url 'website:informacaoLofoten' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Mais informação sobre a cidade</a>
-                    <a href="{% url 'website:informacaoLofoten' %}"><i class="material-icons" style="font-size:14px;color:red">rowing</i> Actividades/Pontos Turisticos</a>
-                </span>
-            </li>
-        </ul>
-        <ul class="menu-links">
-            <li><a href="###">Sobre nós &dtrif;</a>
-                <span id="DC-info">
-                    <a href="{% url 'website:comentario' %}"><i class="material-icons" style="font-size:14px;color:red">question_answer</i> Comentários </a>
-                    <a href="{% url 'website:estiloPagina' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Estilo do Website </a>
-                    <a href="{% url 'website:quizz' %}"><i class="material-icons" style="font-size:14px;color:red">assessment</i> Quizz </a>
-                </span>
-            </li>
-         </ul>
-{% endblock %}
 {% block main %}
-    <h3>Página 1</h3>
+     <div class="body-text">
 
-    <p>Esta é a página número 1</p>
-    <p>Teste 1</p>
+            <h1 style="color:rgb(0,25,62)">Marcação de Viagem para Vancouver </h1>
+
+            <br>
+            <br>
+          </div>
+
+
+                <legend style="font-size:28px;"><b> Marcação de voo: </b></legend>
+
+
+                <br>
+                <a href="{% url 'website:marcarViagemVancover' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> só ida </a>
+                &nbsp;&nbsp;&nbsp;
+                <a href="{% url 'website:ida_e_voltaVancover' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> Ida e volta </a>
+
+                <br>
+                <br>
+
+               <label for="date"><b>1.</b> Quando é que quer marcar a ida? </label>
+                <input type="date" name="dateInserida" min="2020-05-02"><br><br>
+                <label for="date"><b>2.</b> Quando é que quer marcar a vinda? </label>
+                <input type="date" name="dateInserida" min="2020-05-02">
+                <br><br>
+
+                <label for="checkbox"><b>3.</b> A companhia pelo qual quer viajar?</label>
+                  <select name="viagem">
+                    <option value="Tap">Tap</option>
+                    <option value="Air France">Air France</option>
+                    <option value="Avianca">Avianca</option>
+                    <option value="Easyjet">Easyjet</option>
+                    <option value="Raynair">Raynair</option>
+                    <option value="Air Canada">Air Canada</option>
+                    <option value="Emirates">Emirates</option>
+                    <option value="Qatar">Qatar</option>
+                  </select><br><br>
+
+
+                <label for="areas"><b>4.</b> Quantos adultos são?</label>
+                <select id="viagem" name="viagem">
+                  <option value="adulto0">0</option>
+                  <option value="adulto1">1</option>
+                  <option value="adulto2">2</option>
+                  <option value="adulto3">3</option>
+                  <option value="adulto4">4</option>
+                  <option value="adulto5">5</option>
+                  <option value="adulto6">6</option>
+                  <option value="adulto7">7</option>
+               </select><br><br>
+
+               <label for="areas"><b>5.</b> Quantas crianças são?</label>
+                <select id="viagem" name="viagem">
+                  <option value="crianca0">0</option>
+                  <option value="crianca1">1</option>
+                  <option value="crianca2">2</option>
+                  <option value="crianca3">3</option>
+                  <option value="crianca4">4</option>
+                  <option value="crianca5">5</option>
+               </select><br><br>
+               <label for="areas"><b>6.</b> Vai querer carro de alugar?</label>
+                <input type="radio" value="op1" name="op">
+                <label for="op1">sim</label>
+                <input type="radio" value="op2" name="op">
+                <label for="op2">Nao</label>
+                <br>
+                <br>
+                <b><a target="_blank" href="https://www.europcar.pt/pt-pt"><img src="{% static 'website/images/europcar.jpg'%}"></a></b>
+                &nbsp;&nbsp;&nbsp;
+                <b><a target="_blank" href="https://www.rentalcars.com/pt/"><img src="{% static 'website/images/goldcar.jpg'%}" ></a></b>
+                &nbsp;&nbsp;&nbsp;
+                <b><a target="_blank" href="https://www.hertz.pt/rentacar/reservation/"><img src="{% static 'website/images/hertz.jpg'%}"></a></b>
+                <br>
+                <br>
+                <label for="areas"><b>7.</b> Vai querer voo direto?</label>
+                <input type="radio" value="op1" name="op">
+                <label for="op1">sim</label>
+                <input type="radio" value="op2" name="op">
+                <label for="op2">Nao</label>
+                <br>
+                <br>
+                <label for="areas"><b>8.</b> Em que classe quer viagar</label>
+                <select name="viagem">
+                  <option value="Económica">Económica</option>
+                  <option value="executiva">Executiva</option>
+                  <option value="1° classe">1° classe</option>
+                </select>
+                <p>
+                </p>
+                <br>
+                <label for="areas"><b>9.</b> Onde deseja apanhar o avião?</label>
+                <select name="viagem">
+                  <option value="Aeroporto Sá Carneiro">Aeroporto Sá Carneiro</option>
+                  <option value="Aeroporto Lisboa">Aeroporto Lisboa</option>
+                  <option value="Aeroporto Barcelona">Aeroporto Barcelona</option>
+                  <option value="Aeroporto Paris">Aeroporto Paris</option>
+                  <option value="Aeroporto Zurich">Aeroporto Zurich</option>
+                  <option value="Aeroporto Mulhouse">Aeroporto Mulhouse</option>
+                  <option value="Aeroporto Marselha">Aeroporto Marselha</option>
+
+
+                </select>
+
+              <br>
+              <br>
+              <br>
+
+            <div class="body-text">
+
+              <legend style="font-size:28px;"><b> Marcação de Hoteís: </b></legend>
+              <br>
+              <br>
+              <br>
+            </div>
+
+            <b><a target="_blank" href="https://www.booking.com/hotel/ca/blue-horizon-hotel.pt-pt.html?aid=304085;label=moscow-VNgpw0FcyTq%2AEF6xnh3lnwS390163480041%3Apl%3Ata%3Ap12660%3Ap2%E2%82%AC4%3Aac%3Aap%3Aneg%3Afi%3Atiaud-1110454565467%3Akwd-169400284%3Alp20880%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YV19IumoQ3O5By_26qC5hM4;sid=82617558422f5b6cd933eddbcdf961e4;all_sr_blocks=36016901_308187532_2_0_0;checkin=2021-05-04;checkout=2021-05-06;dest_id=-575268;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=2;highlighted_blocks=36016901_308187532_2_0_0;hpos=2;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=36016901_308187532_2_0_0__37365;srepoch=1617363661;srpvid=47f45226a487012c;type=total;ucfs=1&#hotelTmpl">
+                <img src="{% static 'website/images/blueHotelCanada(1).jpg'%}"  style="border-radius: 10px;" alt=""></a></b>
+            &nbsp;&nbsp;&nbsp;
+            <b><a target="_blank" href="https://www.booking.com/hotel/ca/ci-downtown-vancouver.pt-pt.html?aid=304085;label=moscow-VNgpw0FcyTq%2AEF6xnh3lnwS390163480041%3Apl%3Ata%3Ap12660%3Ap2%E2%82%AC4%3Aac%3Aap%3Aneg%3Afi%3Atiaud-1110454565467%3Akwd-169400284%3Alp20880%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YV19IumoQ3O5By_26qC5hM4;sid=82617558422f5b6cd933eddbcdf961e4;all_sr_blocks=7620003_215623628_2_0_0;checkin=2021-05-04;checkout=2021-05-06;dest_id=-575268;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=3;highlighted_blocks=7620003_215623628_2_0_0;hpos=3;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=7620003_215623628_2_0_0__30777;srepoch=1617363661;srpvid=47f45226a487012c;type=total;ucfs=1&#hotelTmpl">
+                <img src="{% static 'website/images/belmontHotelCanada(1).jpg'%}" style="border-radius: 10px;" alt=""></a></b>
+            &nbsp;&nbsp;&nbsp;
+            <b><a target="_blank" href="https://www.booking.com/hotel/ca/vancouver-times-square-suites.pt-pt.html?aid=304085;label=moscow-VNgpw0FcyTq%2AEF6xnh3lnwS390163480041%3Apl%3Ata%3Ap12660%3Ap2%E2%82%AC4%3Aac%3Aap%3Aneg%3Afi%3Atiaud-1110454565467%3Akwd-169400284%3Alp20880%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YV19IumoQ3O5By_26qC5hM4;sid=82617558422f5b6cd933eddbcdf961e4;all_sr_blocks=2237609_285390841_0_0_0;checkin=2021-05-04;checkout=2021-05-06;dest_id=-575268;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=7;highlighted_blocks=2237609_285390841_0_0_0;hpos=7;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=2237609_285390841_0_0_0__40778;srepoch=1617363661;srpvid=47f45226a487012c;type=total;ucfs=1&#hotelTmpl">
+                <img src="{% static 'website/images/timesSquareSuitesHotelCanada(1).jpg'%}" style="border-radius: 10px;" alt=""></a></b>
+            <p>
+              Blue Horizon   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+              Belmont Vancouver   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+              Times Square Suites
+
+
+            </p>
+
+            <br>
+
+            <b><a target="_blank" href="https://www.booking.com/hotel/ca/sheraton-vancouver-wall-centre.pt-pt.html?aid=304085;label=moscow-VNgpw0FcyTq%2AEF6xnh3lnwS390163480041%3Apl%3Ata%3Ap12660%3Ap2%E2%82%AC4%3Aac%3Aap%3Aneg%3Afi%3Atiaud-1110454565467%3Akwd-169400284%3Alp20880%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YV19IumoQ3O5By_26qC5hM4;sid=82617558422f5b6cd933eddbcdf961e4;all_sr_blocks=19109033_244785038_0_42_0;checkin=2021-05-04;checkout=2021-05-06;dest_id=-575268;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=9;highlighted_blocks=19109033_244785038_0_42_0;hpos=9;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=19109033_244785038_0_42_0__46794;srepoch=1617363661;srpvid=47f45226a487012c;type=total;ucfs=1&#hotelTmpl"><img src="{% static 'website/images/sheratonHotelCanada(1).jpg'%}" style="border-radius: 10px;"></a></b>
+            &nbsp;&nbsp;&nbsp;
+            <b><a target="_blank" href="https://www.booking.com/hotel/ca/ywca.pt-pt.html?aid=304085;label=moscow-VNgpw0FcyTq%2AEF6xnh3lnwS390163480041%3Apl%3Ata%3Ap12660%3Ap2%E2%82%AC4%3Aac%3Aap%3Aneg%3Afi%3Atiaud-1110454565467%3Akwd-169400284%3Alp20880%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YV19IumoQ3O5By_26qC5hM4;sid=82617558422f5b6cd933eddbcdf961e4;all_sr_blocks=29068506_158413564_2_0_0;checkin=2021-05-04;checkout=2021-05-06;dest_id=-575268;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=25;highlighted_blocks=29068506_158413564_2_0_0;hpos=25;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=29068506_158413564_2_0_0__29025;srepoch=1617363661;srpvid=47f45226a487012c;type=total;ucfs=1&#hotelTmpl"><img src="{% static 'website/images/YWCAHotelCanada(1).jpg'%}" style="border-radius: 10px;"></a></b>
+            &nbsp;&nbsp;&nbsp;
+            <b><a target="_blank" href="https://www.booking.com/hotel/ca/gage-apartment-at-ubc.pt-pt.html?aid=304085;label=moscow-VNgpw0FcyTq%2AEF6xnh3lnwS390163480041%3Apl%3Ata%3Ap12660%3Ap2%E2%82%AC4%3Aac%3Aap%3Aneg%3Afi%3Atiaud-1110454565467%3Akwd-169400284%3Alp20880%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YV19IumoQ3O5By_26qC5hM4;sid=82617558422f5b6cd933eddbcdf961e4;all_sr_blocks=37231101_264015874_2_0_0;checkin=2021-05-04;checkout=2021-05-06;dest_id=-575268;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=70;highlighted_blocks=37231101_264015874_2_0_0;hpos=20;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=37231101_264015874_2_0_0__32832;srepoch=1617387928;srpvid=b46d818be1d401ef;type=total;ucfs=1&#hotelTmpl"><img src="{% static 'website/images/gageTowersHotelCanada(1).jpg'%}" style="border-radius: 10px;"></a></b>
+            <p>
+              Sheraton Vancouver Wall Centre   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+              YWCA Hotel   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+              Gage Apartments at UBC
+            </p>
+
+        <br>
 {% endblock %}

@@ -11,6 +11,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="{% static 'website/images/favicon.ico' %}"/>
     <link rel="stylesheet" href="{% static 'website/css/base.css' %}">
     <title>Agência de Viagem</title>
+
     <style>
         {% block style %}
         {% endblock style %}
@@ -18,25 +19,95 @@
 </head>
 <body>
     <header>
-         <nav>
-         <div class="hamburger-icon">
-            <label for="openmenu" >
-                <label for="openmenu" >
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </label>
-            </label>
-            </div>
-        <!--O nav não fica aqui por causa da class Active-->
-        {% block nav %}
-        {% endblock nav %}
-    </nav>
+
+    <nav>
+      <ul>
+                <li>
+                    <a class="categoria" href="{% url 'website:home' %}" >Página principal </a>
+                </li>
+          <br>
+                <li>
+                    <a>
+                        Moscovo </a>
+                    <ul>
+                        <li>
+                        <a href="{% url 'website:marcarViagemMoscovo' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> Marcação da viagem </a>
+                        </li>
+
+                        <li>
+                        <a href="{% url 'website:imagensMosvovo' %}"><i class="material-icons" style="font-size:14px;color:rgb(175, 175, 175)">collections</i> Imagens da cidade </a>
+                        </li>
+                        <li>
+                        <a href="{% url 'website:informacaoMoscover' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Mais informação sobre a cidade</a>
+                        </li>
+                        <li>
+                        <a href="{% url 'website:atividadeMoscovo' %}"><i class="material-icons" style="font-size:14px;color:red">rowing</i> Actividades/Pontos Turisticos</a>
+                        </li>
+                    </ul>
+                </li>
+          <br>
+               <li>
+                    <a class="marmelo">
+                        Vancouver </a>
+                    <ul>
+                        <li>
+                        <a href="{% url 'website:marcarViagemVancover' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> Marcação da viagem </a>
+                        </li>
+
+                        <li>
+                        <a href="{% url 'website:imagensVancover' %}"><i class="material-icons" style="font-size:14px;color:rgb(175, 175, 175)">collections</i> Imagens da cidade </a>
+                        </li>
+                        <li>
+                    <a href="{% url 'website:informacaoVancover' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Mais informação sobre a cidade</a>
+                        </li>
+                        <li>
+                    <a href="{% url 'website:atividadeVancover' %}"><i class="material-icons" style="font-size:14px;color:red">rowing</i> Actividades/Pontos Turisticos</a>
+                        </li>
+                    </ul>
+                </li>
+          <br>
+                <li>
+                    <a class="categoria">
+
+                        Lofoten </a>
+                   <ul>
+                        <li>
+                        <a href="{% url 'website:marcarViagemLofoten' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> Marcação da viagem </a>
+                        </li>
+
+                        <li>
+                        <a href="{% url 'website:imagensLofoten' %}"><i class="material-icons" style="font-size:14px;color:rgb(175, 175, 175)">collections</i> Imagens da cidade </a>
+                        </li>
+                        <li>
+                    <a href="{% url 'website:informacaoLofoten' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Mais informação sobre a cidade</a>
+                        </li>
+                        <li>
+                    <a href="{% url 'website:atividadeLofoten' %}"><i class="material-icons" style="font-size:14px;color:red">rowing</i> Actividades/Pontos Turisticos</a>
+                        </li>
+                    </ul>
+                </li>
+          <br>
+                 <li>
+                    <a  class="categoria">
+                          <i class="fa fa-newspaper-o" style="font-size:24px;"></i>
+                        Sobre nós </a>
+                    <ul>
+                        <li>
+                            <a href="{% url 'website:comentario' %}"><i class="material-icons" style="font-size:14px;color:red">question_answer</i> Comentários </a>
+                        </li>
+
+                        <li>
+                            <a href="{% url 'website:estiloPagina' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Estilo do Website </a>
+                        </li>
+                        <li>
+                            <a href="{% url 'website:quizz' %}"><i class="material-icons" style="font-size:14px;color:red">assessment</i> Quizz </a>
+                        </li>
+
+                    </ul>
+                 </li>
+              </ul>
+        </nav>
     </header>
-
-
-
      <main>
         {% block main %}
         {% endblock main %}
@@ -72,7 +143,7 @@
               <a class="blank" href="{% url 'website:informacaoVancover' %}">Vancouver</a>
               <br>
 
-              <a class="blank" href="{% url 'website:comentario' %}">Comenário</a>
+              <a class="blank" href="{% url 'website:comentario' %}">Comentário</a>
               &nbsp; &nbsp;&nbsp; &nbsp;
               <a class="blank" href="{% url 'website:estiloPagina' %}">Estilo Página</a>
               &nbsp; &nbsp;&nbsp; &nbsp;

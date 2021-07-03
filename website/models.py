@@ -17,19 +17,18 @@ class Contacto(models.Model):
 
 class Comentario(models.Model):
     id = models.AutoField(primary_key=True)
-    name = models.CharField(max_length=30, default="", verbose_name="Your name: ")
-    campo1 = models.BooleanField(verbose_name="O site encontra-se explicíto relativamente ao assunto que é tratado?", default=False)
-    campo2 = models.CharField(max_length=10, default=3)
-    campo3 = models.CharField(max_length=10, default=3)
-    campo4 = models.CharField(max_length=10, default=3)
-    campo5 = models.CharField(max_length=10, default=3)
-    campo6 = models.CharField(max_length=10, default=3)
-    campo7 = models.CharField(max_length=10, default=3)
-    campo8 = models.CharField(max_length=10, default=3)
-    campo9 = models.CharField(max_length=10, default=3)
+    nome = models.CharField(max_length=30, default="", verbose_name="O seu Nome ")
+    clareza = models.CharField(max_length=10, default=3)
+    rigor = models.CharField(max_length=10, default=3)
+    precisao = models.CharField(max_length=10, default=3)
+    optimizacao = models.BooleanField(verbose_name="Boa optimização para telemóvel", default=False)
+    tempoResposta = models.BooleanField(verbose_name="Tempo de resposta do Website", default=False)
+    facilUsar = models.BooleanField(verbose_name="Fácil de Usar", default=False)
+    facilLer = models.BooleanField(verbose_name="Fácil de Ler", default=False)
+    feedBack = models.TextField(default="")
+
     def __str__(self):
         return str(self.id)
-
 #Rever
 class Quizz(models.Model):
     quantidade = [

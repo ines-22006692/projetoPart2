@@ -1,5 +1,5 @@
 from django.contrib.auth import authenticate, login, logout
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, JsonResponse
 from django.shortcuts import render
 from django.urls import reverse
 
@@ -88,7 +88,8 @@ def quizz_page_view(request):
     }
     return render(request, 'website/quizz.html', context)
 
-def comentario_page_view(request):
+
+def comentarios_page_view(request):
     form = ComentarioForm(request.POST or None)
     if form.is_valid():
         comentario = form.save()
@@ -103,6 +104,7 @@ def comentario_page_view(request):
         }
     else:
         context = {'form': form}
+
     return render(request, 'website/comentario.html', context)
 
 def contacto_page_view(request):

@@ -5,54 +5,24 @@
     background-image: url({% static 'website/images/fundo1.jpg'%}) ;
     height: 250%;
     }
-{% endblock %}
-{% block nav %}
-        <ul class="menu-links">
-            <li><a href="###">Home &dtrif;</a>
-                <span id="DC-info">
-                    <a href="{% url 'website:home' %}"><i class="material-icons" style="font-size:14px;color:red">home</i> Página principal </a>
-                </span>
-            </li>
-        </ul>
-        <ul class="menu-links">
-            <li><a href="###">Moscovo &dtrif;</a>
-                <span id="DC-info">
-                    <a href="{% url 'website:marcarViagemMoscovo' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> Marcação da viagem </a>
-                    <a href="{% url 'website:imagensMosvovo' %}"><i class="material-icons" style="font-size:14px;color:rgb(175, 175, 175)">collections</i> Imagens da cidade </a>
-                    <a href="{% url 'website:informacaoMoscover' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Mais informação sobre a cidade</a>
-                    <a href="{% url 'website:atividadeMoscovo' %}"><i class="material-icons" style="font-size:14px;color:red">rowing</i> Actividades/Pontos Turisticos</a>
-                </span>
-            </li>
-        </ul>
-        <ul class="menu-links">
-            <li><a href="###">Vancouver &dtrif;</a>
-                <span id="DC-info">
-                    <a href="{% url 'website:marcarViagemVancover' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> Marcação da viagem </a>
-                    <a href="{% url 'website:imagensVancover' %}"><i class="material-icons" style="font-size:14px;color:rgb(175, 175, 175)">collections</i> Imagens da cidade </a>
-                    <a href="{% url 'website:informacaoVancover' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Mais informação sobre a cidade</a>
-                    <a href="{% url 'website:atividadeVancover' %}"><i class="material-icons" style="font-size:14px;color:red">rowing</i> Actividades/Pontos Turisticos</a>
-                </span>
-            </li>
-        </ul>
-        <ul class="menu-links">
-            <li><a href="###">Lofoten &dtrif;</a>
-                <span id="DC-info">
-                    <a href="{% url 'website:marcarViagemLofoten' %}"><i class="material-icons" style="font-size:14px;color:red">flight_takeoff</i> Marcação da viagem </a>
-                    <a href="{% url 'website:imagensLofoten' %}"><i class="material-icons" style="font-size:14px;color:rgb(175, 175, 175)">collections</i> Imagens da cidade </a>
-                    <a href="{% url 'website:informacaoLofoten' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Mais informação sobre a cidade</a>
-                    <a href="{% url 'website:informacaoLofoten' %}"><i class="material-icons" style="font-size:14px;color:red">rowing</i> Actividades/Pontos Turisticos</a>
-                </span>
-            </li>
-        </ul>
-        <ul class="menu-links">
-            <li><a href="###">Sobre nós &dtrif;</a>
-                <span id="DC-info">
-                    <a href="{% url 'website:comentario' %}"><i class="material-icons" style="font-size:14px;color:red">question_answer</i> Comentários </a>
-                    <a href="{% url 'website:estiloPagina' %}"><i class="material-icons" style="font-size:14px;color:red">style</i> Estilo do Website </a>
-                    <a href="{% url 'website:quizz' %}"><i class="material-icons" style="font-size:14px;color:red">assessment</i> Quizz </a>
-                </span>
-            </li>
-         </ul>
+    img.noruega {
+  position: relative;
+  top: 0px;
+  right: 50px;
+  border: 3px solid rgb(45, 96, 173);
+}
+    img.russia {
+  position: relative;
+  top: 0px;
+  right: -50px;
+  border: 3px solid rgb(45, 96, 173);
+}
+    img.canada {
+  position: relative;
+  top: 50px;
+  right: -200px;
+  border: 3px solid rgb(45, 96, 173);
+}
 {% endblock %}
 {% block main %}
     <h1>Agência Ida sem Volta &#128519;</h1>
@@ -72,20 +42,21 @@
               <br>
               <br>
 
-                <section style="float:left; "><img src="{% static 'website/images/moscovoCapa.jpg'%}"  alt="">
+                <section style="float:left; "><img src="{% static 'website/images/moscovoCapa.jpg'%}" class="russia" alt="">
                 <figcaption>Cidade de Moscovo</figcaption>
                 </section>
-                <section style="float:right; "><img src="{% static 'website/images/lofotenCapa.jpg'%}" alt="">
+                <section style="float:right; "><img src="{% static 'website/images/lofotenCapa.jpg'%}" class="noruega" alt="">
                 <figcaption>Cidade de Lofoten</figcaption>
                 </section>
 
                 <br>
-            <figure>
-                <img src="{% static 'website/images/vancouverCapa.jpg'%}" class="index" alt="">
-            </figure>
 
-              <figcaption class="indexCaption" >Cidade de Vancouver</figcaption  >
-              <section>
+                <img src="{% static 'website/images/vancouverCapa.jpg'%}" class="canada" alt="">
+<br><br><br><br>
+                <figcaption>Cidade de Vancouver</figcaption  >
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <section>
 
               <svg width="500" height="300">
                 <image href="{% static 'website/images/wordcloud.png'%}" width="100%" height="100%" class="wordcloud">
