@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3eb14d9-047a-441f-83c3-6c706a1f16a4" name="Default Changelist" comment="" />
+    <list default="true" id="e3eb14d9-047a-441f-83c3-6c706a1f16a4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/website/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/atividadeLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/atividadeLofoten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/atividadeMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/atividadeMoscovo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/atividadeVancouver.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/atividadeVancouver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/imagensLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/imagensLofoten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/imagensMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/imagensMoscovo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/imagensVancover.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/imagensVancover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/informacaoMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/informacaoMoscovo.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../projeto_pw_parte2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -108,6 +119,8 @@
       <workItem from="1625047765311" duration="12416000" />
       <workItem from="1625180802487" duration="4541000" />
       <workItem from="1625220201836" duration="24550000" />
+      <workItem from="1625324394792" duration="60000" />
+      <workItem from="1625324459840" duration="2073000" />
     </task>
     <task id="LOCAL-00001" summary="Já compila a parte 2">
       <created>1622500281826</created>

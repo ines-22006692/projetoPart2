@@ -53,7 +53,7 @@ footer {grid-area: footer;}
     color: blue;
   }
 .menu-links li:first-child:hover a {
-    color: blue);
+    color: blue;
     background-color: red;
 }
 .menu-links li:first-child:hover #DC-info {
@@ -127,7 +127,7 @@ to {left: 150px;}
         text-align: center;
         background-color: rgb(180, 204, 248);
         padding-top: 5%;
-        width: 75%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
       }
@@ -826,7 +826,7 @@ table tbody {
 
 .container div.photos {
   position: relative;
-  perspective: 1200px;
+  perspective: 1100px;
   width: 40%;
   display:inline-flex;
   margin: 4.5%;
