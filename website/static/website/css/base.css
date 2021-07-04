@@ -949,532 +949,273 @@ img.mapaCanada {
 
 /*PHONE */
 @media (max-width: 600px) {
+
     img {
-        width: 100px;
-        height: 100px;
+        width: 70%;
+        height: 70%;
     }
-    header {
-    grid-area: header;
-    display: flex;
-    align-items: stretch;
-    background-color: #da532c;
-    padding-top: 15%;
-    width: 0%;
-    text-align: center;
-  }
-    main{
-    grid-area: main;
-    grid-column: 1/4;
-    text-align: center;
-    background-color: rgb(180, 204, 248);
-    padding-top: 5%;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  figure {
-    width: 50%;
-    height: 50%;
-    position: relative;
-  }
-  .layout {
-    display: inline-block;
-    flex-direction: row-reverse;
-    justify-content: center;
-  }
-  nav {
-    grid-area: nav;
-    background-color: #da532c;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-   aside {
-    font-size: 10px;
-    grid-area: aside;
-    padding-top: 20px;
-    display: inline-flex;
-    /*align-items: left;*/
-    background-color: #5292bd;
-    width: 100%;
-    text-align: left;
-    height: 250px;
-  }
-  footer{
-    font-size: 12px;
-    background-color: #3a6581;
-    color: white;
-    font-weight: bold;
-    width: 110%;
-    height: 100%;
-    text-align: center;
-    grid-area: footer;
-    display: flex;
-    justify-content: center;
-  }
-  footer p {
-    font-size: 10px;
-    padding-top: 30px;
-  }
-  table {
-    color: rgb(255, 255, 255);
-  }
-  table thead {
-    background-image: linear-gradient(to right, rgb(255, 0, 0), brown);
-  }
-  table tbody {
-      background-image: linear-gradient(
-              to left,
-              rgb(7, 158, 196),
-              rgb(35, 91, 196)
-      );
-  }
-  iframe {
-    width: 100%;
-    height: 100%;
-  }
-   th {
-    font-size: 12px;
-   }
-  body {
-    display: grid;
-    width: 100%;
-    height: 100%;
-    grid-template-rows: 150px 5fr ;
-    grid-template-columns: 10fr 10fr;
-    grid-template-areas:
-      "header"
-      "main"
-      "main"
-      "footer"
-      "aside";
-  }
-  .tabelas{
-    /*font: 30%;*/
-    width:20px;
-    border:0px;
-    line-height:60%;
-    margin: auto;
-  }
-  .body-text{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-  }
-  main ul {
-    list-style-type: none;
-  }
+   body {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-template-areas:
+        "header"
+        "main"
+        "main"
+        "footer "
+        "aside";
+      }
+      header {
+        grid-area: header;
+        display: flex;
+        align-items: stretch;
+        padding-top: 10%;
+        width: 100%;
+        text-align: center;
+          z-index:1;
+          font-size: 18px;
+      }
+      main{
+        grid-area: main;
+        grid-column: 1/4;
+        text-align: center;
+        background-color: rgb(180, 204, 248);
+        padding-top: 0%;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+          font-size: 10px;
+      }
 
-  section {
+      nav {
+        grid-area: nav;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      figure {
+        width: 50%;
+        height: 50%;
+        position: relative;
+      }
+      .layout {
+        display: inline-block;
+        flex-direction: row-reverse;
+        justify-content: center;
+      }
+      aside {
+        grid-area: aside;
+        padding-top: 20px;
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: #5292bd;
+        width: 85%;
+        text-align: left;
+        height: 350px;
+          font-size: 10px;
+      }
+      .letraAside {
+    font-size: 10px;
+    display:table-row-group;
+}
+      footer{
+        background-color: #3a6581;
+        color: white;
+        font-weight: bold;
+        width: 85%;
+        height: 50%;
+        text-align: center;
+        grid-area: footer;
+        display: flex;
+        justify-content: center;
+          font-size: 10px;
+      }
+      footer p {
+        font-size: 10px;
+        padding-top: 30px;
+      }
+      section {
     /*border-bottom: rgb(175, 4, 4) 1px solid;*/
-    line-height: 20px;
-  }
-
-  main section ul li a {
-    text-decoration: none;
-  }
-
-  main ul li a:link {
-    color: blue;
-  }
-
-  main ul li a:visited {
-    color: blue;
-  }
-
-  main ul li h2:hover {
-    color: #000000;
-    animation-name: example;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-  }
-  aside ul {
-    list-style-type: none;
-    line-height: 20px;
-  }
-  aside ul a {
-    display: inline-block;
-    padding: 15px 10px;
-    width: 100%;
-    text-decoration: none;
-    white-space: nowrap;
-    color: rgb(74, 62, 241);
-    border-top: aqua 2px solid;
-  }
-  aside ul a:hover {
-    background-color: #69c;
-  }
-  .hamburger-icon {
-    position: absolute;
-    z-index: 1;
-    top: 5vh;
-    left: 5vw;
-    padding-bottom: 2vh;
-  }
-
-  .hamburger-icon span {
-    height: 5px;
-    width: 40px;
-    background-color: rgb(3, 2, 2);
-    display: block;
-    margin: 5px 0px 5px 0px;
-    transition: 0.7s ease-in-out;
-    transform: none;
-  }
-  #openmenu:checked ~ .menu-pane {
-    left: -8vw;
-    transform: translateX(-5vw);
-  }
-
-  #openmenu:checked ~ .hamburger-icon span:nth-of-type(2) {
-    transform: translate(0%, 175%) rotate(-45deg);
-    background-color: rgb(2, 1, 1);
-  }
-
-  #openmenu:checked ~ .hamburger-icon span:nth-of-type(3) {
-    transform: rotate(45deg);
-    background-color: rgb(0, 0, 0);
-  }
-
-  #openmenu:checked ~ .hamburger-icon span:nth-of-type(1) {
-    opacity: 0;
-  }
-
-  #openmenu:checked ~ .hamburger-icon span:nth-of-type(4) {
-    opacity: 0;
-  }
-
-  div.menu-pane {
-    background-color: rgb(0, 0, 0);
-    position: absolute;
-    transform: translateX(-105vw);
-    width: 55%;
-    height: 100%;
-    transition: 0.6s ease-in-out;
-    z-index: 1;
-
-  }
-
-  .menu-pane p {
-    color: rgb(189, 189, 189);
-    font-size: 0em;
-  }
-
-  .menu-pane nav {
-    padding: 25%;
-  }
-
-  .menu-links li, a, span {
-        transition: 0.5s ease-in-out;
-  }
-
-  .menu-pane ul {
-    padding: 12%;
-    display: block;
-  }
-
-  .menu-pane li {
-    padding-top: 1px;
-    padding-bottom: 0.7px;
-    margin-left: 1px;
-      font-size: 10px;
-  }
-
-
-  .menu-pane li:first-child {
-    font-size: 20px;
-    margin-left: -10px;
-  }
-
-
-  .menu-links li a {
-    color: blue;
-    text-decoration: none;
-  }
-
-
-  .menu-links li:hover a {
-    color: blue;
-  }
-
-  .menu-links li:first-child:hover a {
-    color: blue;
-    background-color: rgb(235, 190, 107);
-  }
-  .menu-links li:first-child:hover #QC-info {
-  opacity: 1;
-  }
-
-  .menu-links li:first-child:hover #DC-info {
-  opacity: 1;
-  }
-
-  #DC-info {
-    background-color: rgb(235, 190, 107);
-      border: 0.2px solid;
-    border-color: rgb(235, 190, 107);
-  display: block;
-    opacity: 0;
-  }
-
-
-  .menu-links li:first-child a {
-    padding: 1px;
-  }
-
-
-
-  input.hamburger-checkbox {
-    position: absolute;
-    z-index: 3;
-    top: 5vh;
-    left: 5vw;
-    width: 10vw;
-    opacity: 0;
-    height: 6vh;
-
-  }
-  .contato {
-    text-transform: uppercase;
-    color: rgba(0, 0, 0, 0.8);
-    display: block;
-  }
-  .letraAside {
-    font-size: small;
-
-    display:table-row-group;
-  }
-  .inpe {
-
-    text-transform: uppercase;
-    color: rgba(0, 0, 0, 0.8);
-    display: block;
-    position: relative;
-    top: 10%;
-    right: -40%;
-    z-index: 1;
-    display:table-row-group;
-  }
-
-  .menu {
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.8);
-    display: flex;
-    cursor: pointer;
-    pointer-events: none;
-    position: relative;
-    bottom: -60%;
-    right: -6%;
-
-  }
-  .menu:hover {
-    pointer-events: all;
-  }
-  .label {
-    display: inline-block;
-    cursor: pointer;
-    pointer-events: all;
-  }
-  .spacer {
-    display: inline-block;
-    width: 80px;
-    margin-left: 15px;
-    margin-right: 15px;
-    vertical-align: middle;
-    cursor: pointer;
-    position: relative;
-  }
-  .spacer:before {
-    content: "";
-    position: absolute;
-    border-bottom: 1px solid #ffffff;
-    height: 1px;
-    width: 0%;
-    transition: width 0.25s ease;
-    transition-delay: 0.7s;
-  }
-  .item {
-    position: relative;
-    display: inline-block;
-    margin-right: 30px;
-    top: 10px;
-    opacity: 0;
-    transition: opacity 0.5s ease, top 0.5s ease;
-    /*transition-delay: 0;*/
-  }
-  @keyframes example {
-    25% {
-      font-size: 20px;
-      justify-content: stretch;
+        line-height: 20px;
+      }
+    /* não sei o que faz */
+    span {
+        transition: color 0.5s ease;
     }
-    100% {
-      font-size: 20px;
-      justify-content: stretch;
+    /* não sei o que faz */
+    .tooltip {
+        text-decoration:none;
+        position:relative;
     }
-  }
-  main ul li a:active {
-    color: #ff0000;
-  }
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  nav > ul > li ul {
-    display: none;
-  }
-  nav ul li {
-    display: inline;
-    position: relative;
-  }
-  nav a {
-    display: inline-block;
-    padding: 15px 10px;
-    width: 120px;
-    text-decoration: none;
-    white-space: nowrap;
-    color: white;
-    border-top: solid salmon 2px;
-    border-bottom: solid salmon 2px;
-  }
-  nav a:hover {
-    background-color: #69c;
-  }
-  nav > ul li:hover > ul {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column-reverse;
-    position: relative;
-    top: calc(1em + 5px);
-    left: 0;
-    background-color: #1d1d1d;
-  }
-
- /*Vancouver*/
+    .tooltip span {
+      display:none;
+      -moz-border-radius:6px;
+      -webkit-border-radius:6px;
+      border-radius:6px;
+      color:black;
+      background:white;
+    }
+    .tooltip span img {
+      float:left ;
+      width: 33vw;
+      margin:0px 8px 8px 0;
+    }
+    .tooltip:hover span {
+      display:block;
+      position:absolute;
+      bottom: 0;
+      left:0;
+      z-index:1000;
+      max-width:50vw;
+      min-height:20vw;
+      border:1px solid black;
+      margin-bottom:0px;
+      margin-left:0px;
+      overflow:hidden;
+      padding:8px;
+    }
+    input.hamburger-checkbox {
+        position: absolute;
+        z-index: 3;
+        top: 5vh;
+        left: 5vw;
+        width: 10vw;
+        opacity: 0;
+        height: 6vh;
+    }
+    .body-text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+    /*Vancouver*/
 img.atividadeCanada1 {
   position: relative;
   top: 150px;
-  right: -70px;
+  right: 50px;
     height: 50%;
-  width: 50%;
+    width:50%;
   border: 3px solid rgb(0, 0, 0);
 }
 img.atividadeCanada2 {
   position: relative;
   top: -50px;
-  right: 400px;
+  right: 250px;
     height: 50%;
-  width: 50%;
+    width:50%;
   border: 3px solid rgb(45, 96, 173);
 }
 img.atividadeCanada3 {
   position: relative;
-  top: -100px;
-  right: -100px;
+  top: 0px;
+  right: 100px;
     height: 50%;
-  width: 50%;
+    width:50%;
   border: 3px solid rgb(45, 96, 173);
 }
 img.atividadeCanada4 {
   position: relative;
   top: -220px;
-  right: 350px;
+  right: 250px;
     height: 50%;
-  width: 50%;
+    width:50%;
   border: 3px solid rgb(45, 96, 173);
 }
 img.atividadeCanada5 {
   position: relative;
   top: 50px;
-  right: 400px;
+  right: 200px;
     height: 50%;
-  width: 50%;
+    width:50%;
   border: 3px solid rgb(45, 96, 173);
 }
 img.atividadeCanada6 {
   position: relative;
-  top: -50px;
-  right: -120px;
+  top: -150px;
+  right: 100px;
     height: 50%;
-  width: 50%;
+    width:50%;
   border: 3px solid rgb(45, 96, 173);
 }
 img.atividadeCanada7 {
   position: relative;
-  top: -180px;
-  right: 450px;
+  top: -100px;
+  right: 200px;
     height: 50%;
-  width: 50%;
+    width:50%;
   border: 3px solid rgb(0, 0, 0);
 }
 img.atividadeCanada8 {
   position: relative;
-  top: -250px;
-  right: -120px;
+  top: -150px;
+  right: 100px;
     height: 50%;
-  width: 50%;
+    width:50%;
   border: 3px solid rgb(45, 96, 173);
 }
 img.atividadeCanada9 {
   position: relative;
-  top: -300px;
-  right:460px;
+  top: -180px;
+  right:200px;
     height: 50%;
-  width: 50%;
+    width:50%;
   border: 3px solid rgb(7, 83, 7);
 }
 img.atividadeCanada10 {
   position: relative;
   top: -450px;
-  right: -150px;
+  right: 20px;
     height: 50%;
-  width: 50%;
+    width:38%;
   border: 3px solid rgb(131, 170, 230);
 }
 
 figcaption.texto_GastronomiaLocalCanada {
-  font-size: 28px;
+  font-size: 10px;
   position: relative;
   top: 100px;
   right: -350px;
   width: 350px;
   color: rgb(0, 0, 0);
 }
+
 figcaption.texto_mapaCidadeCanada {
-  font-size: 30px;
+  font-size: 18px;
   position: relative;
-  top: -200px;
+  top: -350px;
   right: 0px;
   color: rgb(0, 0, 0);
 }
 figcaption.texto_atividadeCidadeCanada {
-  font-size: 27px;
+  font-size: 15px;
   position: relative;
   top: -100px;
-  right: -300px;
+  right: 60px;
   width: 450px;
   color: rgb(77, 26, 30);
 }
 /*Lofoten*/
 
 figcaption.texto_GastronomiaNoruega {
-  font-size: 28px;
+  font-size: 15px;
   position: relative;
   top: 100px;
   right: -350px;
-  width: 350px;
+
   color: rgb(0, 0, 0);
 }
 figcaption.texto_AtividadeNoruega {
-  font-size: 27px;
+  font-size: 17px;
   position: relative;
   top: -100px;
-  right: -300px;
-  width: 450px;
+  right: 0px;
+
   color: rgb(77, 26, 30);
 }
 figcaption.subtituloNoruega {
-  font-size: 28px;
+  font-size: 15px;
   position: relative;
   top: 130px;
   right: -470px;
@@ -1492,81 +1233,67 @@ figcaption.subtituloNoruega {
 img.atividadeNoruega1 {
   position: relative;
   top: 150px;
-  right: -70px;
+  right: 100px;
     height: 50%;
-  width: 50%;
+    width:35%;
   border: 3px solid rgb(0, 0, 0);
 }
 img.atividadeNoruega2 {
   position: relative;
   top: -50px;
-  right: 400px;
+  right: 150px;
     height: 50%;
-  width: 50%;
+    width:50%;
   border: 3px solid rgb(45, 96, 173);
 }
 img.atividadeNoruega3 {
   position: relative;
-  top: -100px;
+  top: -180px;
   right: -100px;
     height: 50%;
-  width: 50%;
+    width:50%;
   border: 3px solid rgb(45, 96, 173);
 }
 img.atividadeNoruega4 {
   position: relative;
   top: -220px;
   right: 350px;
-    height: 50%;
-  width: 50%;
   border: 3px solid rgb(45, 96, 173);
 }
 img.atividadeNoruega5 {
   position: relative;
   top: 50px;
   right: 400px;
-    height: 50%;
-  width: 50%;
   border: 3px solid rgb(45, 96, 173);
 }
 img.atividadeNoruega6 {
   position: relative;
   top: -50px;
   right: -120px;
-    height: 50%;
-  width: 50%;
   border: 3px solid rgb(45, 96, 173);
 }
 img.atividadeNoruega7 {
   position: relative;
   top: -200px;
   right: 450px;
-    height: 50%;
-  width: 50%;
   border: 3px solid rgb(0, 0, 0);
 }
 img.atividadeNoruega8 {
   position: relative;
   top: -300px;
   right: -120px;
-    height: 50%;
-  width: 50%;
   border: 3px solid rgb(45, 96, 173);
 }
 img.atividadeNoruega9 {
   position: relative;
   top: -300px;
   right:460px;
-    height: 50%;
-  width: 50%;
   border: 3px solid rgb(7, 83, 7);
 }
 img.atividadeNoruega10 {
   position: relative;
   top: -450px;
   right: -150px;
-    height: 50%;
-  width: 50%;
   border: 3px solid rgb(131, 170, 230);
 }
 /*Moscovo*/
@@ -1582,80 +1309,60 @@ img.atividadeRussia1 {
   position: relative;
   top: 150px;
   right: -70px;
-    height: 50%;
-  width: 50%;
   border: 3px solid rgb(0, 0, 0);
 }
 img.atividadeRussia2 {
   position: relative;
   top: -50px;
   right: 400px;
-    height: 50%;
-  width: 50%;
   border: 3px solid rgb(45, 96, 173);
 }
 img.atividadeRussia3 {
   position: relative;
   top: -100px;
   right: -100px;
-    height: 50%;
-  width: 50%;
   border: 3px solid rgb(45, 96, 173);
 }
 img.atividadeRussia4 {
   position: relative;
   top: -220px;
   right: 350px;
-    height: 50%;
-  width: 50%;
   border: 3px solid rgb(45, 96, 173);
 }
 img.atividadeRussia5 {
   position: relative;
   top: 50px;
   right: 400px;
-    height: 50%;
-  width: 50%;
   border: 3px solid rgb(45, 96, 173);
 }
 img.atividadeRussia6 {
   position: relative;
   top: -130px;
   right: -120px;
-    height: 50%;
-  width: 50%;
   border: 3px solid rgb(45, 96, 173);
 }
 img.atividadeRussia7 {
   position: relative;
   top: -100px;
   right: 450px;
-    height: 50%;
-  width: 50%;
   border: 3px solid rgb(0, 0, 0);
 }
 img.atividadeRussia8 {
   position: relative;
   top: -280px;
   right: -120px;
-    height: 50%;
-  width: 50%;
   border: 3px solid rgb(45, 96, 173);
 }
 img.atividadeRussia9 {
   position: relative;
   top: -300px;
   right:460px;
-    height: 50%;
-  width: 50%;
   border: 3px solid rgb(7, 83, 7);
 }
 img.atividadeRussia10 {
   position: relative;
   top: -410px;
   right: -150px;
-    height: 50%;
-  width: 50%;
   border: 3px solid rgb(131, 170, 230);
 }
 figcaption.texto_absolutoRussia {
@@ -1667,119 +1374,6 @@ figcaption.texto_absolutoRussia {
   height: 50px;
   color: rgb(8, 5, 5);
 }
-figcaption.texto_absolutoRussia {
-  font-size: 15px;
-  position: relative;
-  top: 180px;
-  right: -470px;
-  width: 50px;
-  height: 50px;
-  color: rgb(8, 5, 5);
-}
-.container div.photos {
-  position: relative;
-  perspective: 1200px;
-  width: 40%;
-  display:inline-flex;
-  margin: 4.5%;
-}
-.container div.photos figure {
-  position: relative;
-  transform-style: preserve-3d;
-  transition: 1s transform;
-  font-size: 1.6rem;
-}
-.container div.photos figure img {
-  width: 100%;
-  height: auto;
-}
-.container  div.photos.flip-3d figure figcaption {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  transform: rotateY(.5turn) translateZ(1px);
-  background: rgba(255, 255, 255, 0.9);
-  font-size:large;
-  text-align: center;
-  padding-top: 25%;
-  opacity: 0.6;
-  transition: 1s .5s opacity;
-}
-.container div.photos.flip-3d:hover figure {
-  transform: rotateY(.5turn);
-}
-.container  div.photos:hover figure figcaption {
-  opacity: 1;
-}
-.container div.photos figure:after {
-  content: " ";
-  display: inline-flex;
-  height: 10vw;
-  width: 100%;
-  transform: rotateX(90deg);
-  background-image: radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%);
-}
-@media screen and (max-width: 100vw) {
-  .container div#flip-3d {
-    perspective-origin: center top;
-  }
-  .container div#flip-3d figure {
-    display: block;
-    width: 50%;
-    margin: 0 auto;
-    margin-bottom: 12vw;
-  }
-  .container div#flip-3d figure:last-child {
-    display: none;
-  }
-}
-.container .shake img:hover {
-  animation: shake 0.5s;
-  animation-iteration-count: infinite;
-}
-@keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
-.container .flip img:hover {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-}
-.container .flip_over img:hover {
-  border-radius:50%;
-}
-.container .zoom {
-  height: max-content; /* [1.1] Set it as per your need */
-  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
-}
-.container .zoom img {
-  transition: transform .5s ease;
-}
-.container .zoom:hover img {
-  transform: scale(1.5);
-}
-@media screen and (max-width: 100vw) {
-  .container div#flip-3d {
-    perspective-origin: center top;
-  }
-  .container div#flip-3d figure {
-    display: block;
-    width: 50%;
-    margin: 0 auto;
-    margin-bottom: 12vw;
-  }
-  .container div#flip-3d figure:last-child {
-    display: none;
-  }
-}
+
+
 }

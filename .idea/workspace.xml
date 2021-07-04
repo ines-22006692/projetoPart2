@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3eb14d9-047a-441f-83c3-6c706a1f16a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/website/matplot.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/matplot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/quizzResultado.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/quizzResultado.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/website/static/website/javaScript/singlePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/website/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/estiloPagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/estiloPagina.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,7 @@
         <option value="HTML File" />
         <option value="Python Script" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -120,7 +122,7 @@
       <workItem from="1625339848228" duration="481000" />
       <workItem from="1625340747266" duration="10602000" />
       <workItem from="1625389817063" duration="28572000" />
-      <workItem from="1625431248030" duration="4838000" />
+      <workItem from="1625431248030" duration="5846000" />
     </task>
     <task id="LOCAL-00001" summary="Já compila a parte 2">
       <created>1622500281826</created>
