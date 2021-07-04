@@ -4,7 +4,7 @@ from django.http import HttpResponseRedirect, JsonResponse
 from django.shortcuts import render
 from django.urls import reverse
 
-from .matplot import comentGrafC, questionario, quizzMedia
+from .matplot import comentGrafC, questionario, quizzMedia,respostaQuiz
 from .forms import ContactoForm, ComentarioForm, QuizzForm
 
 from .models import Contacto, Pessoa
