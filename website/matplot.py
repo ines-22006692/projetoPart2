@@ -2,7 +2,7 @@ from io import StringIO
 from matplotlib import pyplot as plt
 from .models import Comentario, Quizz
 
-def respostaQuiz(id):
+def respostaQuiz(quizz_id):
 
     aswers = Quizz.objects.get(id=quizz_id)
     n_perguntas = ['P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9', 'P10']
