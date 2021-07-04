@@ -1,9 +1,35 @@
 from io import StringIO
 from matplotlib import pyplot as plt
 from .models import Comentario, Quizz
+def quizzMedia(quizz_id):
+    questionary = Quizz.objects.all()
+    actualList = Quizz.objects.get(id=quizz_id)
+    pontuacao = ["Pontuação Média", "Sua Pontuação"]
+    lista_chave = []
+    media = 0.0
+    usadores = 0.0
+    for i in questionary:
+        media += i.pontos
+        usadores += 1
+
+    media = media / usadores
+    lista_chave.append(media)
+    lista_chave.append(actualList.pontos)
+
+    figura = plt.figure()
+    plt.bar(pontuacao, lista_chave)
+    plt.title("Gráfico Comparação")
+    figura.set_facecolor((0.921, 0.921, 0.921))
+    figura.set_size_inches(3, 5)
+
+    imagemdate = StringIO()
+    figura.savefig(imagemdate, format='svg')
+    imagemdate.seek(0)
+    date = imagemdate.getvalue()
+    return date
 
 def respostaQuiz(quizz_id):
-
+    questionary = Quizz.objects.all()
     aswers = Quizz.objects.get(id=quizz_id)
     n_perguntas = ['P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9', 'P10']
     listChav = []
@@ -93,12 +119,11 @@ def respostaQuiz(quizz_id):
     aswers.point = point
     aswers.save()
 
-
     fig = plt.figure()
-    plt.bar(listaKeys, listChav)
+    plt.bar(n_perguntas, listChav)
     plt.title("Gráfico Critérios Considerados")
     fig.set_facecolor((0.921, 0.921, 0.921))
-    fig.set_size_inches(4, 2.666)
+    fig.set_size_inches(4, 7)
 
     imgdata = StringIO()
     fig.savefig(imgdata, format='svg')
@@ -233,29 +258,4 @@ def questionario(quizz_id):
     date = imagemdate.getvalue()
     return date
 
-def quizzMedia(quizz_id):
-    questionary = Quizz.objects.all()
-    actualList = Quizz.objects.get(id=quizz_id)
-    pontuacao = ["Pontuação Média", "Sua Pontuação"]
-    lista_chave = []
-    media = 0.0
-    usadores = 0.0
-    for i in questionary:
-        media += i.pontos
-        usadores += 1
 
-    media = media / usadores
-    lista_chave.append(media)
-    lista_chave.append(actualList.pontos)
-
-    figura = plt.figure()
-    plt.bar(pontuacao, lista_chave)
-    plt.title("Gráfico Comparação")
-    figura.set_facecolor((0.921, 0.921, 0.921))
-    figura.set_size_inches(3, 5)
-
-    imagemdate = StringIO()
-    figura.savefig(imagemdate, format='svg')
-    imagemdate.seek(0)
-    date = imagemdate.getvalue()
-    return date
