@@ -4,7 +4,7 @@
 {% block style %}
    html{
       background-image: url({% static 'website/images/fundo1.jpg'%});
-      height: 200%;
+      height: 300%;
    }
 
    h1 {
@@ -15,10 +15,16 @@
 {% endblock style %}
 
 {% block main %}
-    <h3>Quizz:</h3>
+    <h1>Quizz</h1>
+    <br>
+    <br>
     <form method="POST" action="">
         {% csrf_token %}
         {{ form.as_p }}
-        <input class = "btn btn-primary" type="submit" value="Enviar Quizz">
+        <br>
+        <input class = "btn btn-primary" type="submit" value="Submeta o Quizz">
     </form>
+    <div style="display: flex; flex-wrap: wrap" class="centerIframeOrSvg">
+
+    </div>
 {% endblock main%}

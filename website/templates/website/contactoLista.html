@@ -15,7 +15,9 @@
 
 
 {% block main %}
-    <h3>Lista de Contactos:</h3>
+    <h1>Lista de Contactos:</h1>
+    <br>
+    <br>
     {% for contacto in contactos %}
         <p>
             ({{ contacto.dataCriacao.day }}/{{ contacto.dataCriacao.month }})
@@ -23,6 +25,7 @@
             {{ contacto.nome }}
             {{ contacto.apelido }}
             <a href="{% url 'website:contactoApaga' contacto.id %}" class="btn btn-danger" style="float: right">Apagar</a>
+            <br>
             <a href="{% url 'website:contactoEdita' contacto.id %}" class="btn btn-warning" style="float: right">Editar</a>
         </p>
     {% endfor %}

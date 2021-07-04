@@ -16,14 +16,18 @@
 
 
 {% block main %}
-  <h3>Editar Contacto:</h3>
+  <h1>Editar Contacto:</h1>
+    <br>
+    <br>
     <form method="POST" action="{% url 'website:contactoEdita' contacto_id %}">
         {% csrf_token %}
         {{ form.as_p }}
+        <br>
     <a href="{% url 'website:home' %}" class="btn btn-info">Cancelar</a>
     <input class="btn btn-success" type="submit" value="Gravar">
+        <br>
     <a href="{% url 'website:contactoApaga' contacto_id %}" class="btn btn-danger">Apagar</a>
     </form>
     <br>
-    <a class="btn btn-primary" href="{% url 'website:contactoLista' %}">Ver Todos os Contactos</a>    <a class="btn btn-primary" href="{% url 'website:contactoLista' %}">View all contacts</a>
+    <a class="btn btn-primary" href="{% url 'website:contactoLista' %}">Ver Todos os Contactos</a>    <a class="btn btn-primary" href="{% url 'website:contactoLista' %}">Ver todos os contactos</a>
 {% endblock main%}

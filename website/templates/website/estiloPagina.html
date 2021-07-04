@@ -4,7 +4,7 @@
 {% block style %}
    html{
       background-image: url({% static 'website/images/fundo1.jpg'%});
-      height: 500%;
+      height: 600%;
     }
     .div3 {
         padding: 60px 60px;
@@ -28,6 +28,11 @@
 
 {% block main %}
     <div class="body-text">
+    <h1 style="color:rgb(0, 0, 0)">Mapa do Website </h1>
+        <br>
+        <a href="{% static 'website/images/mapaWebite.jpeg'%}"  target="_blank"><img src="{% static 'website/images/mapaWebite.jpeg'%}"width="40%" height="40%" ></a>
+        <br>
+        <br>
         <h1 style="color:rgb(0, 0, 0)">Estilo do Website </h1>
         <br>
         <table class="div3 " style="margin: auto;" >
@@ -175,7 +180,7 @@
             </table>
         </section>
     </section>
-    <h3> <u> Video do web site</u></h3>
+    <h3> <u> Video do website</u></h3>
     <br>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Ct0VGpo1mus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {% endblock %}

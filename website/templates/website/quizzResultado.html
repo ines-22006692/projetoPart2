@@ -14,8 +14,10 @@
 {% endblock style %}
 {% block main %}
         <h3>Resultados do Quizz:</h3>
+    <br>
+    <br>
     <div style="display: flex; flex-wrap: wrap" class="centerIframeOrSvg">
-    <div class="centerIframeOrSvg">{{ graphPessoal | safe }}</div>
+    <div class="centerIframeOrSvgs">{{ graphPessoal | safe }}</div>
     <div class="centerIframeOrSvg">{{ graphGrupo | safe }}</div>
     </div>
     

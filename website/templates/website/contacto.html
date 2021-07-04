@@ -4,7 +4,7 @@
 {% block style %}
    html{
       background-image: url({% static 'website/images/fundo1.jpg'%});
-      height: 200%;
+      height: 180%;
    }
    h1 {
         text-shadow: 1px 1px 2px black, 0 0 20px rgb(201, 4, 4), 0 0 5px rgb(0, 139, 19);
@@ -17,11 +17,16 @@
 
 {% block main %}
     <h3>Dê-nos os seus dados para podermos contactá-lo futuramente:</h3>
+    <br>
+    <br>
     <form method="POST" action="">
         {% csrf_token %}
         {{ form.as_p }}
+        <br>
     <input class="btn btn-primary" type="submit" value="Submeter">
     </form>
     <br>
+    <br>
     <a class="btn btn-primary" href="{% url 'website:contactoLista' %}">Ver Todos os Contactos</a>
+
 {% endblock main %}

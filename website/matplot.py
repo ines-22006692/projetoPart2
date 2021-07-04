@@ -6,19 +6,19 @@ from matplotlib import pyplot as plt
 from .models import Comentario, Quizz
 
 
-#falta fazer
+
 def comentariosGraficoCircular():
     comentarios = Comentario.objects.all()
-    listaKeys = ['Rigor', 'Clareza', 'Precisao']
-    rigor = 0
+    listaKeys = ['Originalidade', 'Clareza', 'Precisao']
+    originalidade = 0
     clareza = 0
     precisao = 0
     listaValues = []
     for coment in comentarios:
-        rigor += int(coment.rigor)
+        originalidade += int(coment.rigor)
         clareza += int(coment.clareza)
         precisao += int(coment.precisao)
-    listaValues.append(rigor)
+    listaValues.append(originalidade)
     listaValues.append(clareza)
     listaValues.append(precisao)
 
@@ -34,28 +34,27 @@ def comentariosGraficoCircular():
     data = imgdata.getvalue()
     return data
 
-#falta fazer
 def comentariosGraficoBarras():
     comentarios = Comentario.objects.all()
-    listaKeys = ['F. Ler', 'Boa Opti', 'T. Resposta', 'F. Usar']
-    ler = 0
-    opt = 0
-    tem = 0
-    usar = 0
+    listaKeys = ['Rigor', 'Design', 'Naveg', 'Prof']
+    rigor = 0
+    design = 0
+    navegacao = 0
+    profundidade = 0
     listaValues = []
     for coment in comentarios:
-        if coment.facilLer:
-            ler += 1
-        if coment.optimizacao:
-            opt += 1
-        if coment.tempoResposta:
-            tem += 1
-        if coment.facilUsar:
-            usar += 1
-    listaValues.append(ler)
-    listaValues.append(opt)
-    listaValues.append(tem)
-    listaValues.append(usar)
+        if coment.rigor:
+            rigor += 1
+        if coment.design:
+            design += 1
+        if coment.navegacao:
+            navegacao += 1
+        if coment.profundidade:
+            profundidade += 1
+    listaValues.append(rigor)
+    listaValues.append(design)
+    listaValues.append(navegacao)
+    listaValues.append(profundidade)
 
     fig = plt.figure()
     plt.bar(listaKeys, listaValues)
@@ -69,114 +68,114 @@ def comentariosGraficoBarras():
     data = imgdata.getvalue()
     return data
 
-#falta acabar
+#
 def quizzPessoal(quizz_id):
     quizz = Quizz.objects.get(id=quizz_id)
     listaKeys = ['P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9', 'P10']
     listaValues = []
     pontos = 0.0
     if str(quizz.p1) == "Rússia":
-        pontos += 2
-        listaValues.append(2)
+        pontos += 1
+        listaValues.append(1)
     elif str(quizz.p1) == "Russia":
-        pontos += 1
-        listaValues.append(1)
+        pontos += 0.5
+        listaValues.append(0.5)
     elif str(quizz.p1) == "russia":
-        pontos += 1
-        listaValues.append(1)
+        pontos += 0.5
+        listaValues.append(0.5)
     else:
         listaValues.append(0)
 
     if quizz.p2 == "Noruega":
-        pontos += 2
-        listaValues.append(2)
-    elif str(quizz.p1) == "noruega":
         pontos += 1
         listaValues.append(1)
+    elif str(quizz.p1) == "noruega":
+        pontos += 0.5
+        listaValues.append(0.5)
     else:
         listaValues.append(0)
 
     if quizz.p3 == "Canadá":
-        pontos += 2
-        listaValues.append(2)
+        pontos += 1
+        listaValues.append(1)
     elif quizz.p3 == "Canada":
-        pontos += 1
-        listaValues.append(1)
+        pontos += 0.5
+        listaValues.append(0.5)
     elif quizz.p3 == "canada":
-        pontos += 1
-        listaValues.append(1)
+        pontos += 0.5
+        listaValues.append(0.5)
     else:
         listaValues.append(0)
 
     if str(quizz.p4) == "2":
-        pontos += 2
-        listaValues.append(2)
+        pontos += 1
+        listaValues.append(1)
     else:
         listaValues.append(0)
 
     if quizz.p5 == "11,92":
-        pontos += 2
-        listaValues.append(2)
-    elif quizz.p3 == "11.92":
         pontos += 1
         listaValues.append(1)
+    elif quizz.p3 == "11.92":
+        pontos += 0.5
+        listaValues.append(0.5)
     else:
         listaValues.append(0)
 
     if quizz.p6 == "1227":
-        pontos += 2
-        listaValues.append(2)
+        pontos += 1
+        listaValues.append(1)
     else:
         listaValues.append(0)
 
     if quizz.p7 == "1147":
-        pontos += 2
-        listaValues.append(2)
+        pontos += 1
+        listaValues.append(1)
     else:
         listaValues.append(0)
 
     if str(quizz.p8) == "Não":
-        pontos += 2
-        listaValues.append(2)
+        pontos += 1
+        listaValues.append(1)
     elif quizz.p3 == "Nao":
-        pontos += 1
-        listaValues.append(1)
+        pontos += 0.5
+        listaValues.append(0.5)
     elif quizz.p3 == "não":
-        pontos += 2
-        listaValues.append(2)
-    elif quizz.p3 == "nao":
         pontos += 1
         listaValues.append(1)
+    elif quizz.p3 == "nao":
+        pontos += 0.5
+        listaValues.append(0.5)
     else:
         listaValues.append(0)
 
     if str(quizz.p9) == "Não":
-        pontos += 2
-        listaValues.append(2)
+        pontos += 1
+        listaValues.append(1)
     elif quizz.p9 == "Nao":
-        pontos += 1
-        listaValues.append(1)
+        pontos += 0.5
+        listaValues.append(0.5)
     elif quizz.p9 == "não":
-        pontos += 2
-        listaValues.append(2)
-    elif quizz.p9 == "nao":
         pontos += 1
         listaValues.append(1)
+    elif quizz.p9 == "nao":
+        pontos += 0.5
+        listaValues.append(0.5)
     else:
         listaValues.append(0)
 
     # p10
-    pontos += 2
-    listaValues.append(2)
+    pontos += 1
+    listaValues.append(1)
 
-    # grava pontos na base de dados
+
     quizz.pontos = pontos
     quizz.save()
 
     fig = plt.figure()
     plt.barh(listaKeys, listaValues)
     plt.title(f"Gráfico Pontos Por Perguntas\n"
-              f""f"Total {quizz.pontos} em 20")
+              f""f"Total {quizz.pontos} em 10")
     fig.set_facecolor((0.921, 0.921, 0.921))
     fig.set_size_inches(5, 5)
 
@@ -186,7 +185,7 @@ def quizzPessoal(quizz_id):
     date = imgdate.getvalue()
     return date
 
-#falta fazer
+
 def quizzGrupo(quizz_id):
     quizzes = Quizz.objects.all()
     quizzAtual = Quizz.objects.get(id=quizz_id)

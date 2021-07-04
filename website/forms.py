@@ -26,7 +26,7 @@ class ComentarioForm(ModelForm):
         ]
         widgets = {
             'clareza': forms.RadioSelect(choices=opcoes),
-            'rigor': forms.RadioSelect(choices=opcoes),
+            'originalidade': forms.RadioSelect(choices=opcoes),
             'precisao': forms.RadioSelect(choices=opcoes),
         }
 
@@ -44,10 +44,6 @@ class QuizzForm(ModelForm):
         ]
         widgets = {
             'p4': forms.RadioSelect(choices=quantidade),
-            'p5': forms.RadioSelect(choices=quantidade),
-            'p6': forms.RadioSelect(choices=quantidade),
-            'p7': forms.DateInput(attrs={'placeholder': 'yyyy-mm-dd'}),
-            'p8': forms.RadioSelect(choices=quantidade),
             'pontos': forms.HiddenInput(),
         }
         labels = {
@@ -57,8 +53,8 @@ class QuizzForm(ModelForm):
             'p4': "Quantas linguas se fala em Vancouver? ",
             'p5': "Qual é o número de habitantes estimados em Moscovo?",
             'p6': "Qual é aproximadamente a área da cidade de Lofoten?",
-            'p7': "Quando é que foi fundado a cidade de Moscovo?",
+            'p7': "Em que ano foi fundado a cidade de Moscovo?",
             'p8': "É verdade que a cidade de Lofoten pertence à União Europeia?",
             'p9': "Vancouver situa-se na America do Sul?",
-            'p10': "Quanto é que acha que vai ter neste Quizz (0 a 20)?",
+            'p10': "Quanto é que acha que vai ter neste Quizz (0 a 10)?",
         }

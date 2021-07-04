@@ -3,7 +3,7 @@
 {% block style %}
     html{
     background-image: url({% static 'website/images/fundo1.jpg'%}) ;
-    height: 260%;
+    height: 300%;
     }
     img.noruega {
   position: relative;
@@ -24,6 +24,8 @@
   border: 3px solid rgb(45, 96, 173);
 }
 {% endblock %}
+
+
 {% block main %}
     <h1>Agência Ida sem Volta &#128519;</h1>
     <br>
@@ -59,38 +61,28 @@
     <br><br><br><br>
             <section>
 
-              <svg width="500" height="300">
+             <svg width="500" height="300">
                 <image href="{% static 'website/images/wordcloud.png'%}" width="100%" height="100%" class="wordcloud">
                 </image>
                 <!--Default-->
-                <a href="style.html">
-                    <ellipse opacity="0.3" cx="250" cy="230" rx="75" ry="17"></ellipse>
+                <a  href="{% url 'website:estiloPagina' %}">
+                    <ellipse opacity="0.3" cx="140" cy="195" rx="45" ry="12"></ellipse>
                   </a>
 
-              <a href="informcaoNoruega.html">
-                  <ellipse opacity="0.8" cx="250" cy="60" rx="115" ry="15"></ellipse>
+              <a href="{% url 'website:informacaoVancover' %}">
+                  <ellipse opacity="0.8" cx="140" cy="80" rx="65" ry="15"></ellipse>
                   <animate attributeName="rx" values="0;45;0" dur="15s" repeatCount="indefinite"></animate>
               </a>
 
-              <a href="informacaoCanada.html">
-                  <ellipse opacity="0.3" cx="300" cy="135" rx="60" ry="15"></ellipse>
+              <a href="{% url 'website:informacaoVancover' %}">
+                  <ellipse opacity="0.3" cx="165" cy="135" rx="60" ry="10"></ellipse>
               </a>
 
-              <a href="informacaoRussia.html">
-                  <ellipse opacity="0.6" cx="250" cy="200" rx="60" ry="12"></ellipse>
+              <a href="{% url 'website:informacaoMoscover' %}">
+                  <ellipse opacity="0.6" cx="135" cy="170" rx="50" ry="8"></ellipse>
                   <animate attributeName="rx" values="0;45;0" dur="15s" repeatCount="indefinite" ></animate>
               </a>
-  <!--
-              <a href="informacaoCanada.html">
-                  <ellipse opacity="0.3" cx="342" cy="150" rx="20" ry="55"/>
-                      <animate attributeName="rx" values="0;90;0" dur="10s" repeatCount="indefinite" />
-                  <ellipse/>
-              </a>
 
-              <a href="index.html">
-                  <polygon opacity="0.3" points="300,95 340,100 300,30 175,157"/>
-              </a>
-              -->
               </svg>
               </section>
 {% endblock %}
