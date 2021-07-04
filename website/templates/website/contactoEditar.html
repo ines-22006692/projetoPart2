@@ -4,7 +4,7 @@
 {% block style %}
    html{
       background-image: url({% static 'website/images/fundo1.jpg'%});
-      height: 200%;
+      height: 170%;
    }
    h1 {
         text-shadow: 1px 1px 2px black, 0 0 20px rgb(201, 4, 4), 0 0 5px rgb(0, 139, 19);
@@ -22,12 +22,12 @@
     <form method="POST" action="{% url 'website:contactoEdita' contacto_id %}">
         {% csrf_token %}
         {{ form.as_p }}
-        <br>
+
     <a href="{% url 'website:home' %}" class="btn btn-info">Cancelar</a>
     <input class="btn btn-success" type="submit" value="Gravar">
-        <br>
+
     <a href="{% url 'website:contactoApaga' contacto_id %}" class="btn btn-danger">Apagar</a>
     </form>
     <br>
-    <a class="btn btn-primary" href="{% url 'website:contactoLista' %}">Ver Todos os Contactos</a>    <a class="btn btn-primary" href="{% url 'website:contactoLista' %}">Ver todos os contactos</a>
+    <a class="btn btn-primary" href="{% url 'website:contactoLista' %}">Ver Todos os Contactos</a>
 {% endblock main%}

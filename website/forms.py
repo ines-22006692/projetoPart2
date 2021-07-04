@@ -4,8 +4,7 @@ from .models import Contacto, Comentario, Quizz, Pessoa
 
 
 class ContactoForm(ModelForm):
-    formatacao = ["%d/%m/%Y"]
-    dataNascimento = forms.DateField(input_formats=formatacao, label="Data de Nascimento")
+
 
     class Meta:
         model = Contacto
@@ -43,18 +42,18 @@ class QuizzForm(ModelForm):
             (5, 5)
         ]
         widgets = {
-            'p4': forms.RadioSelect(choices=quantidade),
+            'p8': forms.RadioSelect(choices=quantidade),
             'pontos': forms.HiddenInput(),
         }
         labels = {
             'p1': "Em que país é localizado Moscovo? ",
             'p2': "Em que país é localizado Lofoten? ",
             'p3': "Em que país é localizado Vancouver? ",
-            'p4': "Quantas linguas se fala em Vancouver? ",
+            'p4': "É verdade que a cidade de Lofoten pertence à União Europeia?",
             'p5': "Qual é o número de habitantes estimados em Moscovo?",
             'p6': "Qual é aproximadamente a área da cidade de Lofoten?",
             'p7': "Em que ano foi fundado a cidade de Moscovo?",
-            'p8': "É verdade que a cidade de Lofoten pertence à União Europeia?",
+            'p8': "Quantas linguas se fala em Vancouver? ",
             'p9': "Vancouver situa-se na America do Sul?",
             'p10': "Quanto é que acha que vai ter neste Quizz (0 a 10)?",
         }

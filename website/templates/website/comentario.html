@@ -4,7 +4,7 @@
 {% block style %}
    html{
       background-image: url({% static 'website/images/fundo1.jpg'%});
-      height: 480%;
+      height: 430%;
    }
    h1 {
         text-shadow: 1px 1px 2px black, 0 0 20px rgb(201, 4, 4), 0 0 5px rgb(0, 139, 19);
@@ -26,6 +26,8 @@
         {{ form.as_p }}
         <input class = "btn btn-primary" type="submit" value="Enviar Comentários">
     </form>
+    <br>
+    <br>
     <div class="centerIframeOrSvg">
         {{ graphCir|safe }}
     </div>

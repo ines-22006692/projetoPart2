@@ -5,10 +5,9 @@ from django.db import models
 
 class Contacto(models.Model):
     id = models.AutoField(primary_key=True)
-    nome = models.CharField(max_length=30, default="", verbose_name="O seu Nome ")
+    nome = models.CharField(max_length=30, default="", verbose_name="Your name: ")
     email = models.EmailField()
-    telefone = models.CharField(max_length=17, blank=True)
-    dataNascimento = models.DateField()
+    telefone = models.CharField(max_length=18, blank=True)
     dataCriacao = models.DateField(auto_now_add=True)
 
     def __str__(self):
@@ -32,36 +31,27 @@ class Comentario(models.Model):
             return str(self.id)
 
 class Quizz(models.Model):
-    quantidade = [
-        (1, 1),
-        (2, 2),
-        (3, 3),
-        (4, 4),
-        (5, 5)
-    ]
-    opcoes5 = [
-        ("11,92", "11,92"),
-        ("11,10", "11,10"),
-        ("12,00", "12,00"),
-    ]
-    opcoes6 = [
-        ("1215", "1215"),
-        ("1421", "1421"),
-        ("1227", "1227"),
-    ]
     id = models.AutoField(primary_key=True)
     pontos = models.IntegerField(default=0)
-    name = models.CharField(max_length=30, default="", verbose_name="Your name: ")
-    p1 = models.IntegerField(default=0)
+    nome = models.CharField(max_length=30, default="", verbose_name="Your name: ")
+    p1 = models.CharField(max_length=40, default="")
     p2 = models.CharField(max_length=40, default="")
     p3 = models.CharField(max_length=40, default="")
-    p4 = models.IntegerField(default=0)
-    p5 = models.IntegerField(choices=opcoes5, default=0)
-    p6 = models.IntegerField(choices=opcoes6, default=0)
-    p7 = models.CharField(max_length=40, default="")
-    p8 = models.BooleanField(default=False)
+    quantidade = [
+        ("Sim", "Sim"),
+        ("Não", "Não"),
+    ]
+    p4 = models.CharField(choices=quantidade, default="", max_length=40)
+    opcoes = [
+        ("20,02", "20,02"),
+        ("11,92", "11,92"),
+        ("10,82", "10,82"),
+    ]
+    p5 = models.CharField(choices=opcoes, default="", max_length=40)
+    p6 = models.IntegerField(default=0)
+    p7 = models.IntegerField(default=0)
+    p8 = models.IntegerField(default=0)
     p9 = models.CharField(max_length=40, default="")
-
     opcoesNota = [
         (1, 1),
         (2, 2),
@@ -78,7 +68,6 @@ class Quizz(models.Model):
 
     def __str__(self):
         return str(self.id)
-
 
 
 class Pessoa(models.Model):

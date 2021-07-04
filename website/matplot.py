@@ -68,19 +68,20 @@ def comentariosGraficoBarras():
     data = imgdata.getvalue()
     return data
 
-#
+
+
 def quizzPessoal(quizz_id):
     quizz = Quizz.objects.get(id=quizz_id)
     listaKeys = ['P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9', 'P10']
     listaValues = []
     pontos = 0.0
-    if str(quizz.p1) == "Rússia":
+    if quizz.p1 == "Rússia":
         pontos += 1
         listaValues.append(1)
-    elif str(quizz.p1) == "Russia":
+    elif quizz.p1 == "Russia":
         pontos += 0.5
         listaValues.append(0.5)
-    elif str(quizz.p1) == "russia":
+    elif quizz.p1 == "russia":
         pontos += 0.5
         listaValues.append(0.5)
     else:
@@ -107,7 +108,7 @@ def quizzPessoal(quizz_id):
     else:
         listaValues.append(0)
 
-    if str(quizz.p4) == "2":
+    if quizz.p4 == "Não":
         pontos += 1
         listaValues.append(1)
     else:
@@ -116,40 +117,28 @@ def quizzPessoal(quizz_id):
     if quizz.p5 == "11,92":
         pontos += 1
         listaValues.append(1)
-    elif quizz.p3 == "11.92":
-        pontos += 0.5
-        listaValues.append(0.5)
     else:
         listaValues.append(0)
 
-    if quizz.p6 == "1227":
+    if str(quizz.p6) == "1227":
         pontos += 1
         listaValues.append(1)
     else:
         listaValues.append(0)
 
-    if quizz.p7 == "1147":
+    if str(quizz.p7) == "1147":
         pontos += 1
         listaValues.append(1)
     else:
         listaValues.append(0)
 
-    if str(quizz.p8) == "Não":
+    if str(quizz.p8) == "2":
         pontos += 1
         listaValues.append(1)
-    elif quizz.p3 == "Nao":
-        pontos += 0.5
-        listaValues.append(0.5)
-    elif quizz.p3 == "não":
-        pontos += 1
-        listaValues.append(1)
-    elif quizz.p3 == "nao":
-        pontos += 0.5
-        listaValues.append(0.5)
     else:
         listaValues.append(0)
 
-    if str(quizz.p9) == "Não":
+    if  quizz.p9 == "Não":
         pontos += 1
         listaValues.append(1)
     elif quizz.p9 == "Nao":
@@ -168,22 +157,22 @@ def quizzPessoal(quizz_id):
     pontos += 1
     listaValues.append(1)
 
-
+    # grava pontos na base de dados
     quizz.pontos = pontos
     quizz.save()
 
     fig = plt.figure()
     plt.barh(listaKeys, listaValues)
     plt.title(f"Gráfico Pontos Por Perguntas\n"
-              f""f"Total {quizz.pontos} em 10")
+              f"Total {quizz.pontos} em 10")
     fig.set_facecolor((0.921, 0.921, 0.921))
     fig.set_size_inches(5, 5)
 
-    imgdate = StringIO()
-    fig.savefig(imgdate, format='svg')
-    imgdate.seek(0)
-    date = imgdate.getvalue()
-    return date
+    imgdata = StringIO()
+    fig.savefig(imgdata, format='svg')
+    imgdata.seek(0)
+    data = imgdata.getvalue()
+    return data
 
 
 def quizzGrupo(quizz_id):
