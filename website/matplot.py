@@ -36,85 +36,85 @@ def respostaQuiz(quizz_id):
     point=0
     if aswers.p1 == "Rússia":
         point += 1
-        lista_chav.append(1)
+        listChav.append(1)
     elif aswers.p1 == "Russia":
         point += 0.5
-        lista_chav.append(0.5)
+        listChav.append(0.5)
     elif aswers.p1 == "russia":
         point += 0.5
-        lista_chav.append(0.5)
+        listChav.append(0.5)
     else:
-        lista_chav.append(0)
+        listChav.append(0)
 
     if aswers.p2 == "Noruega":
         point += 1
-        lista_chav.append(1)
+        listChav.append(1)
     elif str(aswers.p1) == "noruega":
         point += 0.5
-        lista_chav.append(0.5)
+        listChav.append(0.5)
     else:
-        lista_chav.append(0)
+        listChav.append(0)
 
     if aswers.p3 == "Canadá":
         point += 1
-        lista_chav.append(1)
+        listChav.append(1)
     elif aswers.p3 == "Canada":
         point += 0.5
-        lista_chav.append(0.5)
+        listChav.append(0.5)
     elif aswers.p3 == "canada":
         point += 0.5
-        lista_chav.append(0.5)
+        listChav.append(0.5)
     else:
-        lista_chav.append(0)
+        listChav.append(0)
 
     if aswers.p4 == "Não":
         point += 1
-        lista_chav.append(1)
+        listChav.append(1)
     else:
-        lista_chav.append(0)
+        listChav.append(0)
 
     if aswers.p5 == "11,92":
         point += 1
-        lista_chav.append(1)
+        listChav.append(1)
     else:
-        lista_chav.append(0)
+        listChav.append(0)
 
     if str(aswers.p6) == "1227":
         point += 1
-        lista_chav.append(1)
+        listChav.append(1)
     else:
-        lista_chav.append(0)
+        listChav.append(0)
 
     if str(aswers.p7) == "1147":
         point += 1
-        lista_chav.append(1)
+        listChav.append(1)
     else:
-        lista_chav.append(0)
+        listChav.append(0)
 
     if str(aswers.p8) == "2":
         point += 1
-        lista_chav.append(1)
+        listChav.append(1)
     else:
-        lista_chav.append(0)
+        listChav.append(0)
 
     if aswers.p9 == "Não":
         point += 1
-        lista_chav.append(1)
+        listChav.append(1)
     elif aswers.p9 == "Nao":
         point += 0.5
-        lista_chav.append(0.5)
+        listChav.append(0.5)
     elif aswers.p9 == "não":
         point += 1
-        lista_chav.append(1)
+        listChav.append(1)
     elif aswers.p9 == "nao":
         point += 0.5
-        lista_chav.append(0.5)
+        listChav.append(0.5)
     else:
-        lista_chav.append(0)
+        listChav.append(0)
 
     # p10
     point += 1
-    lista_chav.append(1)
+    listChav.append(1)
 
     aswers.point = point
     aswers.save()
