@@ -3,83 +3,84 @@ from matplotlib import pyplot as plt
 from .models import Comentario, Quizz
 
 def respostaQuiz(id):
-    aswers = Quizz.objects.all()
+
+    aswers = Quizz.objects.get(id=quizz_id)
     n_perguntas = ['P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9', 'P10']
     listChav = []
     point=0
-    if quest.p1 == "Rússia":
+    if aswers.p1 == "Rússia":
         point += 1
         lista_chav.append(1)
-    elif quest.p1 == "Russia":
+    elif aswers.p1 == "Russia":
         point += 0.5
         lista_chav.append(0.5)
-    elif quest.p1 == "russia":
-        point += 0.5
-        lista_chav.append(0.5)
-    else:
-        lista_chav.append(0)
-
-    if quest.p2 == "Noruega":
-        point += 1
-        lista_chav.append(1)
-    elif str(quest.p1) == "noruega":
+    elif aswers.p1 == "russia":
         point += 0.5
         lista_chav.append(0.5)
     else:
         lista_chav.append(0)
 
-    if quest.p3 == "Canadá":
+    if aswers.p2 == "Noruega":
         point += 1
         lista_chav.append(1)
-    elif quest.p3 == "Canada":
-        point += 0.5
-        lista_chav.append(0.5)
-    elif quest.p3 == "canada":
+    elif str(aswers.p1) == "noruega":
         point += 0.5
         lista_chav.append(0.5)
     else:
         lista_chav.append(0)
 
-    if quest.p4 == "Não":
+    if aswers.p3 == "Canadá":
         point += 1
         lista_chav.append(1)
-    else:
-        lista_chav.append(0)
-
-    if quest.p5 == "11,92":
-        point += 1
-        lista_chav.append(1)
-    else:
-        lista_chav.append(0)
-
-    if str(quest.p6) == "1227":
-        point += 1
-        lista_chav.append(1)
-    else:
-        lista_chav.append(0)
-
-    if str(quest.p7) == "1147":
-        point += 1
-        lista_chav.append(1)
-    else:
-        lista_chav.append(0)
-
-    if str(quest.p8) == "2":
-        point += 1
-        lista_chav.append(1)
-    else:
-        lista_chav.append(0)
-
-    if quest.p9 == "Não":
-        point += 1
-        lista_chav.append(1)
-    elif quest.p9 == "Nao":
+    elif aswers.p3 == "Canada":
         point += 0.5
         lista_chav.append(0.5)
-    elif quest.p9 == "não":
+    elif aswers.p3 == "canada":
+        point += 0.5
+        lista_chav.append(0.5)
+    else:
+        lista_chav.append(0)
+
+    if aswers.p4 == "Não":
         point += 1
         lista_chav.append(1)
-    elif quest.p9 == "nao":
+    else:
+        lista_chav.append(0)
+
+    if aswers.p5 == "11,92":
+        point += 1
+        lista_chav.append(1)
+    else:
+        lista_chav.append(0)
+
+    if str(aswers.p6) == "1227":
+        point += 1
+        lista_chav.append(1)
+    else:
+        lista_chav.append(0)
+
+    if str(aswers.p7) == "1147":
+        point += 1
+        lista_chav.append(1)
+    else:
+        lista_chav.append(0)
+
+    if str(aswers.p8) == "2":
+        point += 1
+        lista_chav.append(1)
+    else:
+        lista_chav.append(0)
+
+    if aswers.p9 == "Não":
+        point += 1
+        lista_chav.append(1)
+    elif aswers.p9 == "Nao":
+        point += 0.5
+        lista_chav.append(0.5)
+    elif aswers.p9 == "não":
+        point += 1
+        lista_chav.append(1)
+    elif aswers.p9 == "nao":
         point += 0.5
         lista_chav.append(0.5)
     else:
@@ -89,8 +90,8 @@ def respostaQuiz(id):
     point += 1
     lista_chav.append(1)
 
-    quest.point = point
-    quest.save()
+    aswers.point = point
+    aswers.save()
 
 
     fig = plt.figure()
