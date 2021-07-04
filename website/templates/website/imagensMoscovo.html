@@ -5,11 +5,16 @@
       background-image: url({% static 'website/images/fundo1.jpg'%});
       height: 600%;
     }
+     h1 {
+        text-shadow: 1px 1px 2px black, 0 0 20px rgb(201, 4, 4), 0 0 5px rgb(0, 139, 19);
+        font-family: "Times New Roman", Times, serif;
+        font-size: 40px;
+   }
 {% endblock style %}
 {% block main %}
     <section class="body-text">
         <legend align="center" style="font-size:22px;color:rgb(0, 0, 0)">
-            <b>Imagens de Moscovo</b>
+            <h1>&#127747; Imagens de Moscovo &#127747;</h1>
         </legend>
         <br>
         <section class="container">
@@ -102,10 +107,10 @@
                     </section>
                 </figure>
             </div>
-            <div class="photos flip-3d" >
+            <div class="shake" >
                 <figure >
                     <img src="{% static 'website/images/moscouNatal(1).jpg'%}"  alt="">
-                    <figcaption>St. Basil's Cathedral</figcaption>
+
                 </figure>
             </div>
             <br>

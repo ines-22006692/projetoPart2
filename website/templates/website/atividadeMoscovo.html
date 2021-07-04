@@ -22,11 +22,16 @@
         from {left: -1000px;}
         to {left: 150px;}
       }
+    h1 {
+        text-shadow: 1px 1px 2px black, 0 0 20px rgb(201, 4, 4), 0 0 5px rgb(0, 139, 19);
+        font-family: "Times New Roman", Times, serif;
+        font-size: 40px;
+   }
 {% endblock style %}
 {% block main %}
     <section class="body-text">
         <legend align="center" style="font-size:22px;color:rgb(0, 0, 0)">
-            <b>Quando for a Moscovo, ha inumeros lugares fantasticos para conhecer e como a gastronomia local </b>
+            <h1>Quando for a Moscovo, ha inumeros lugares fantasticos para conhecer e como a gastronomia local </h1>
         </legend>
         <figure>
             <img src="{% static 'website/images/restauranreRussia1.jpg'%}" class="atividadeRussia1" alt="">

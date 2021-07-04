@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3eb14d9-047a-441f-83c3-6c706a1f16a4" name="Default Changelist" comment="teste">
-      <change afterPath="$PROJECT_DIR$/website/static/website/css/bootstrap.css" afterDir="false" />
+    <list default="true" id="e3eb14d9-047a-441f-83c3-6c706a1f16a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/matplot.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/matplot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/static/website/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/css/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/templates/website/atividadeLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/atividadeLofoten.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/templates/website/atividadeMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/atividadeMoscovo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/atividadeVancouver.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/atividadeVancouver.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/templates/website/comentario.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/comentario.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/templates/website/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/contacto.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/templates/website/contactoEditar.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/contactoEditar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/templates/website/contactoLista.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/contactoLista.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/estiloPagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/estiloPagina.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/ida_e_voltaLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/ida_e_voltaLofoten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/ida_e_voltaMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/ida_e_voltaMoscovo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/ida_e_voltaVancover.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/ida_e_voltaVancover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/imagensLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/imagensLofoten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/imagensMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/imagensMoscovo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/templates/website/imagensVancover.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/imagensVancover.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/templates/website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/templates/website/informacaoLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/informacaoLofoten.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/templates/website/informacaoMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/informacaoMoscovo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/informacaoVancover.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/informacaoVancover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/marcarViagemLofoten.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/marcarViagemLofoten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/marcarViagemMoscovo.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/marcarViagemMoscovo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/marcarViagemVancover.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/marcarViagemVancover.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/templates/website/quizz.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/quizz.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/templates/website/quizzResultado.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/quizzResultado.html" afterDir="false" />
     </list>
@@ -134,7 +136,8 @@
       <workItem from="1625324394792" duration="60000" />
       <workItem from="1625324459840" duration="13025000" />
       <workItem from="1625339848228" duration="481000" />
-      <workItem from="1625340747266" duration="9937000" />
+      <workItem from="1625340747266" duration="10602000" />
+      <workItem from="1625389817063" duration="5484000" />
     </task>
     <task id="LOCAL-00001" summary="Já compila a parte 2">
       <created>1622500281826</created>
@@ -388,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625336241890</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="contacto e login feito">
+      <created>1625358805238</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1625358805238</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,20 +424,16 @@
     <MESSAGE value="Cincluido atvidades/img" />
     <MESSAGE value="corrição" />
     <MESSAGE value="teste" />
-    <option name="LAST_COMMIT_MESSAGE" value="teste" />
+    <MESSAGE value="contacto e login feito" />
+    <option name="LAST_COMMIT_MESSAGE" value="contacto e login feito" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="django-line">
           <url>file://$PROJECT_DIR$/website/templates/website/atividadeMoscovo.html</url>
-          <line>25</line>
+          <line>30</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="django-line">
-          <url>file://$PROJECT_DIR$/website/templates/website/atividadeLofoten.html</url>
-          <line>4</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -3,21 +3,26 @@
 {% block style %}
    html{
       background-image: url({% static 'website/images/fundo1.jpg'%});
-      height: 560%;
+      height: 520%;
     }
+     h1 {
+        text-shadow: 1px 1px 2px black, 0 0 20px rgb(201, 4, 4), 0 0 5px rgb(0, 139, 19);
+        font-family: "Times New Roman", Times, serif;
+        font-size: 40px;
+   }
 {% endblock style %}
 {% block main %}
     <section class="body-text">
         <legend align="center" style="font-size:22px;color:rgb(0, 0, 0)">
-            <b>Imagens de Vancouver </b>
+            <h1>&#127750; Imagens de Vancouver &#127750;</h1>
         </legend>
         <br>
 
         <section class="container">
-            <div  class="photos flip-3d" style="float:none">
+            <div  class="rotate" style="float:left">
                 <figure>
                     <img src="{% static 'website/images/VancouverNatal.jpg'%}"  alt="">
-                    <figcaption>Natal</figcaption>
+
                 </figure>
             </div>
             <div class="shake" style="float:right">
@@ -67,10 +72,10 @@
         </section>
         <br>
         <section class="container">
-            <div  class="photos flip-3d" style="float:left ">
+            <div   style="float:left ">
                 <figure>
                     <img src="{% static 'website/images/Vancouver1.jpg'%}"  alt="">
-                    <figcaption>Museu da Ciência</figcaption>
+
                 </figure>
             </div>
             <div class="zoom" style="float:right" >
@@ -81,8 +86,9 @@
                 </figure>
             </div>
             <br>
-            <br>
+
         </section>
+
         <br>
         <br>
         <section class="container">
@@ -98,11 +104,9 @@
                     <figcaption>Cidade</figcaption>
                 </figure>
             </div>
-            <br>
-            <br>
+
         </section>
-        <br>
-        <br>
+
         <section class="container">
             <div  class="rotate" style="float:none">
                 <figure>
