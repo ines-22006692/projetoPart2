@@ -5,7 +5,6 @@ from .models import Contacto, Comentario, Quizz, Pessoa
 
 class ContactoForm(ModelForm):
 
-
     class Meta:
         model = Contacto
         fields = '__all__'
