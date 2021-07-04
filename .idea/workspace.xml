@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3eb14d9-047a-441f-83c3-6c706a1f16a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/matplot.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/matplot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/website/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/comentario.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/comentario.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/contacto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/contactoEditar.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/contactoEditar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/contactoLista.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/contactoLista.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/estiloPagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/estiloPagina.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/quizz.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/quizz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/quizzResultado.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/quizzResultado.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="e3eb14d9-047a-441f-83c3-6c706a1f16a4" name="Default Changelist" comment="estilo do website feito" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../pw-projeto-pedro-ricardo-parte-2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -128,7 +112,7 @@
       <workItem from="1625324459840" duration="13025000" />
       <workItem from="1625339848228" duration="481000" />
       <workItem from="1625340747266" duration="10602000" />
-      <workItem from="1625389817063" duration="19644000" />
+      <workItem from="1625389817063" duration="20259000" />
     </task>
     <task id="LOCAL-00001" summary="Já compila a parte 2">
       <created>1622500281826</created>
@@ -396,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625400451569</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="estilo do website feito">
+      <created>1625420449481</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1625420449481</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
