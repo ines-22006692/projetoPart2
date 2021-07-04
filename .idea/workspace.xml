@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e3eb14d9-047a-441f-83c3-6c706a1f16a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/matplot.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/matplot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/comentario.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/comentario.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../pw-projeto-pedro-ricardo-parte-2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -125,6 +119,7 @@
       <workItem from="1625339848228" duration="481000" />
       <workItem from="1625340747266" duration="10602000" />
       <workItem from="1625389817063" duration="28572000" />
+      <workItem from="1625431248030" duration="2160000" />
     </task>
     <task id="LOCAL-00001" summary="Já compila a parte 2">
       <created>1622500281826</created>

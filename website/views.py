@@ -147,7 +147,7 @@ def contactoApaga_page_view(request, contacto_id):
 
 def quizzResult_page_view(request, id):
     context = {
-        'graphPessoal': questionario(id),
+        'graphPessoal': respostaQuiz(id),
         'graphGrupo': quizzMedia(id),
     }
     return render(request, 'website/quizzResultado.html', context)
