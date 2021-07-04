@@ -4,7 +4,7 @@ from django.http import HttpResponseRedirect, JsonResponse
 from django.shortcuts import render
 from django.urls import reverse
 
-from .matplot import comentGrafC, questionario, quizzMedia,respostaQuiz
+from .matplot import comentGrafC,respostaQuiz
 from .forms import ContactoForm, ComentarioForm, QuizzForm
 
 from .models import Contacto, Pessoa
@@ -148,7 +148,7 @@ def contactoApaga_page_view(request, contacto_id):
 def quizzResult_page_view(request, id):
     context = {
         'graphPessoal': respostaQuiz(id),
-        'graphGrupo': quizzMedia(id),
+
     }
     return render(request, 'website/quizzResultado.html', context)
 
