@@ -33,5 +33,5 @@ urlpatterns = [
     path('apagar/<int:contacto_id>', views.contactoApaga_page_view, name='contactoApaga'),
     path('login/', views.login_view, name="login"),
     path('logout', views.logout_view, name="logout"),
-    path('seccoes', views.seccoes, name="seccoes"),
+
 ]

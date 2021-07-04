@@ -4,7 +4,7 @@ from django.http import HttpResponseRedirect, JsonResponse
 from django.shortcuts import render
 from django.urls import reverse
 
-from .matplot import comentariosGraficoCircular, comentariosGraficoBarras, quizzPessoal, quizzGrupo
+from .matplot import comentGrafC, questionario, quizzMedia
 from .forms import ContactoForm, ComentarioForm, QuizzForm
 
 from .models import Contacto, Pessoa
@@ -78,12 +78,12 @@ def marcar_moscovo_view(request):
 def quizz_page_view(request):
     form = QuizzForm(request.POST or None)
     if form.is_valid():
-        quizz = form.save()
-        Pessoa.objects.get_or_create(nome=quizz.nome)
-        pessoa = Pessoa.objects.get(nome=quizz.nome)
-        pessoa.quizz = quizz
-        pessoa.save()
-        return HttpResponseRedirect(reverse('website:quizzResultado', args=(quizz.id,)))
+        questionario = form.save()
+        Pessoa.objects.get_or_create(nome=questionario.nome)
+        peopl = Pessoa.objects.get(nome=questionario.nome)
+        peopl.quizz = questionario
+        peopl.save()
+        return HttpResponseRedirect(reverse('website:quizzResultado', args=(questionario.id,)))
 
     context = {
         'form': form,
@@ -100,8 +100,7 @@ def comentarios_page_view(request):
         pessoa.save()
         context = {
             'form': form,
-            'graphCir': comentariosGraficoCircular(),
-            'graphBar': comentariosGraficoBarras()
+            'graficoC': comentGrafC()
         }
     else:
         context = {'form': form}
@@ -123,7 +122,7 @@ def contacto_page_view(request):
     return render(request, 'website/contacto.html', contexts)
 
 def contactoLista_page_view(request):
-    contexts = {'contactos': sorted(Contacto.objects.all(), key=lambda objeto: objeto.id)}
+    contexts = {'contactos': sorted(Contacto.objects.all(), key=lambda i: i.id)}
     if not request.user.is_authenticated:
         return HttpResponseRedirect(reverse('website:login'))
 
@@ -148,42 +147,26 @@ def contactoApaga_page_view(request, contacto_id):
 
 def quizzResult_page_view(request, id):
     context = {
-        'graphPessoal': quizzPessoal(id),
-        'graphGrupo': quizzGrupo(id),
+        'graphPessoal': questionario(id),
+        'graphGrupo': quizzMedia(id),
     }
     return render(request, 'website/quizzResultado.html', context)
 
 def login_view(request):
     if request.method == "POST":
-        username = request.POST['username']
-        password = request.POST['password']
-        user = authenticate(request,
-                            username=username,
-                            password=password)
-        if user is not None:
-            login(request, user)
-            return render(request, 'website/contactoLista.html')
+        user = request.POST['username']
+        passw = request.POST['password']
+        utilizador = authenticate(request, username=user, password=passw)
+        if utilizador is not None:
+            login(request, utilizador)
+            return render(request, 'website/index.html')
         else:
             return render(request, 'website/login.html', {
-                'Mensagem': "Credenciais Inválidas"
+                'mensagem': "Inválido, tente novamente"
             })
     return render(request, 'website/login.html')
 
 def logout_view(request):
     logout(request)
-    return render(request, 'website/index.html', {
-        'Mensagem': 'Terminou Sessão'})
+    return render(request, 'website/index.html')
 
-def seccoes(request):
-    starts = int(request.GET.get("starts") or 0)
-    ends = int(request.GET.get("ends") or (starts + 12))
-
-    date = []
-    for j in range(starts, ends + 1):
-        date.append(f"{j}")
-
-    time.sleep(0.5)
-
-    return JsonResponse({
-        "seccao": date
-    })

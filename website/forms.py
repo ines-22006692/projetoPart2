@@ -9,13 +9,11 @@ class ContactoForm(ModelForm):
         model = Contacto
         fields = '__all__'
 
-
-
 class ComentarioForm(ModelForm):
     class Meta:
         model = Comentario
         fields = '__all__'
-        opcoes = [
+        op = [
             (1, 1),
             (2, 2),
             (3, 3),
@@ -23,17 +21,16 @@ class ComentarioForm(ModelForm):
             (5, 5)
         ]
         widgets = {
-            'clareza': forms.RadioSelect(choices=opcoes),
-            'originalidade': forms.RadioSelect(choices=opcoes),
-            'precisao': forms.RadioSelect(choices=opcoes),
+            'clareza': forms.RadioSelect(choices=op),
+            'originalidade': forms.RadioSelect(choices=op),
+            'precisao': forms.RadioSelect(choices=op),
         }
-
 
 class QuizzForm(ModelForm):
     class Meta:
         model = Quizz
         fields = '__all__'
-        quantidade = [
+        op = [
             (1, 1),
             (2, 2),
             (3, 3),
@@ -41,7 +38,7 @@ class QuizzForm(ModelForm):
             (5, 5)
         ]
         widgets = {
-            'p8': forms.RadioSelect(choices=quantidade),
+            'p8': forms.RadioSelect(choices=op),
             'pontos': forms.HiddenInput(),
         }
         labels = {
