@@ -1,6 +1,2 @@
 # projetoPart2
-
-A fazer: 
-Mapa website
-Responsividade
-Colacar conteudo site
+Link Heroku: https://parte2pw.herokuapp.com/
